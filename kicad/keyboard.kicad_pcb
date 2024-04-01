@@ -2028,7 +2028,7 @@
 		(uuid "0f6d5136-7e21-46a6-94b1-2ce024592a2e")
 		(at 37.375 33.4)
 		(property "Reference" "SW1"
-			(at 0 -3.5 360)
+			(at 0 -3.5 0)
 			(layer "Dwgs.User")
 			(uuid "40f5436c-8817-4d34-b547-0386e28ab41e")
 			(effects
@@ -2039,7 +2039,7 @@
 			)
 		)
 		(property "Value" "Push"
-			(at 0 -7.9375 360)
+			(at 0 -7.9375 0)
 			(layer "Dwgs.User")
 			(uuid "5f06c460-3199-4da4-aacd-e952e9cacce6")
 			(effects
@@ -49982,5 +49982,21 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(segment
+		(start 27.85 38.1625)
+		(end 32.9125 38.1625)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "5d629472-100c-47f7-903b-82ab779bbbef")
+	)
+	(segment
+		(start 32.9125 38.1625)
+		(end 32.975 38.1)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "d9def4e4-1074-44e0-ae12-0638c849af7a")
 	)
 )
