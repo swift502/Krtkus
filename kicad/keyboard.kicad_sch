@@ -4633,7 +4633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 251.46 78.74 0)
 			(effects
 				(font
@@ -4703,7 +4703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 212.725 76.2 0)
 			(effects
 				(font
@@ -4771,7 +4771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 175.26 44.45 0)
 			(effects
 				(font
@@ -4841,7 +4841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 212.725 110.49 0)
 			(effects
 				(font
@@ -4911,7 +4911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 123.825 110.49 0)
 			(effects
 				(font
@@ -4979,7 +4979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 187.96 90.17 0)
 			(effects
 				(font
@@ -5047,7 +5047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 149.86 78.74 0)
 			(effects
 				(font
@@ -5115,7 +5115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 162.56 101.6 0)
 			(effects
 				(font
@@ -5185,7 +5185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 136.525 87.63 0)
 			(effects
 				(font
@@ -5253,7 +5253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 111.76 67.31 0)
 			(effects
 				(font
@@ -5321,7 +5321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 238.76 44.45 0)
 			(effects
 				(font
@@ -5391,7 +5391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 111.125 99.06 0)
 			(effects
 				(font
@@ -5459,7 +5459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 238.76 101.6 0)
 			(effects
 				(font
@@ -5529,7 +5529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 250.825 76.2 0)
 			(effects
 				(font
@@ -5599,7 +5599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 149.225 76.2 0)
 			(effects
 				(font
@@ -5667,7 +5667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 111.76 90.17 0)
 			(effects
 				(font
@@ -5735,7 +5735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 213.36 55.88 0)
 			(effects
 				(font
@@ -5803,7 +5803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 99.06 90.17 0)
 			(effects
 				(font
@@ -5873,7 +5873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 238.125 110.49 0)
 			(effects
 				(font
@@ -5941,7 +5941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 187.96 55.88 0)
 			(effects
 				(font
@@ -6009,7 +6009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 99.06 55.88 0)
 			(effects
 				(font
@@ -6079,7 +6079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 200.025 99.06 0)
 			(effects
 				(font
@@ -6149,7 +6149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 174.625 64.77 0)
 			(effects
 				(font
@@ -6219,7 +6219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 250.825 64.77 0)
 			(effects
 				(font
@@ -6289,7 +6289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 250.825 87.63 0)
 			(effects
 				(font
@@ -6357,7 +6357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 226.06 67.31 0)
 			(effects
 				(font
@@ -6427,7 +6427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 136.525 53.34 0)
 			(effects
 				(font
@@ -6495,7 +6495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 226.06 90.17 0)
 			(effects
 				(font
@@ -6563,7 +6563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 111.76 78.74 0)
 			(effects
 				(font
@@ -6633,7 +6633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 238.125 64.77 0)
 			(effects
 				(font
@@ -6701,7 +6701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 137.16 55.88 0)
 			(effects
 				(font
@@ -6771,7 +6771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 174.625 53.34 0)
 			(effects
 				(font
@@ -6839,7 +6839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 226.06 55.88 0)
 			(effects
 				(font
@@ -6907,7 +6907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 264.16 55.88 0)
 			(effects
 				(font
@@ -7168,7 +7168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 238.125 87.63 0)
 			(effects
 				(font
@@ -7236,7 +7236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 99.06 101.6 0)
 			(effects
 				(font
@@ -7304,7 +7304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 226.06 78.74 0)
 			(effects
 				(font
@@ -7372,7 +7372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 175.26 90.17 0)
 			(effects
 				(font
@@ -7440,7 +7440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 264.16 44.45 0)
 			(effects
 				(font
@@ -7510,7 +7510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 136.525 64.77 0)
 			(effects
 				(font
@@ -7580,7 +7580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 111.125 110.49 0)
 			(effects
 				(font
@@ -7650,7 +7650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 225.425 76.2 0)
 			(effects
 				(font
@@ -7720,7 +7720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 187.325 87.63 0)
 			(effects
 				(font
@@ -7788,7 +7788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 149.86 44.45 0)
 			(effects
 				(font
@@ -7856,7 +7856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 200.66 67.31 0)
 			(effects
 				(font
@@ -7926,7 +7926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 225.425 110.49 0)
 			(effects
 				(font
@@ -7996,7 +7996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 111.125 76.2 0)
 			(effects
 				(font
@@ -8064,7 +8064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 213.36 67.31 0)
 			(effects
 				(font
@@ -8132,7 +8132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 124.46 90.17 0)
 			(effects
 				(font
@@ -8202,7 +8202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 98.425 99.06 0)
 			(effects
 				(font
@@ -8270,7 +8270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 264.16 90.17 0)
 			(effects
 				(font
@@ -8338,7 +8338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 264.16 101.6 0)
 			(effects
 				(font
@@ -8406,7 +8406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 99.06 78.74 0)
 			(effects
 				(font
@@ -8474,7 +8474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 137.16 78.74 0)
 			(effects
 				(font
@@ -8544,7 +8544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 200.025 76.2 0)
 			(effects
 				(font
@@ -8612,7 +8612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 124.46 67.31 0)
 			(effects
 				(font
@@ -8680,7 +8680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 124.46 101.6 0)
 			(effects
 				(font
@@ -8748,7 +8748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 264.16 67.31 0)
 			(effects
 				(font
@@ -8818,7 +8818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 149.225 53.34 0)
 			(effects
 				(font
@@ -8888,7 +8888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 174.625 110.49 0)
 			(effects
 				(font
@@ -8956,7 +8956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 137.16 44.45 0)
 			(effects
 				(font
@@ -9024,7 +9024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 175.26 101.6 0)
 			(effects
 				(font
@@ -9092,7 +9092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 111.76 101.6 0)
 			(effects
 				(font
@@ -9162,7 +9162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 123.825 64.77 0)
 			(effects
 				(font
@@ -9232,7 +9232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 238.125 99.06 0)
 			(effects
 				(font
@@ -9300,7 +9300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 137.16 67.31 0)
 			(effects
 				(font
@@ -9368,7 +9368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 200.66 78.74 0)
 			(effects
 				(font
@@ -9438,7 +9438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 225.425 64.77 0)
 			(effects
 				(font
@@ -9506,7 +9506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 213.36 44.45 0)
 			(effects
 				(font
@@ -9574,7 +9574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 175.26 55.88 0)
 			(effects
 				(font
@@ -9642,7 +9642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 187.96 101.6 0)
 			(effects
 				(font
@@ -9710,7 +9710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 238.76 90.17 0)
 			(effects
 				(font
@@ -9780,7 +9780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 263.525 53.34 0)
 			(effects
 				(font
@@ -9850,7 +9850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 187.325 64.77 0)
 			(effects
 				(font
@@ -9920,7 +9920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 263.525 110.49 0)
 			(effects
 				(font
@@ -9988,7 +9988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 175.26 78.74 0)
 			(effects
 				(font
@@ -10056,7 +10056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 187.96 44.45 0)
 			(effects
 				(font
@@ -10126,7 +10126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 212.725 87.63 0)
 			(effects
 				(font
@@ -10196,7 +10196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 149.225 110.49 0)
 			(effects
 				(font
@@ -10266,7 +10266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 161.925 87.63 0)
 			(effects
 				(font
@@ -10334,7 +10334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 175.26 67.31 0)
 			(effects
 				(font
@@ -10402,7 +10402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 200.66 101.6 0)
 			(effects
 				(font
@@ -10470,7 +10470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 251.46 90.17 0)
 			(effects
 				(font
@@ -10540,7 +10540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 212.725 64.77 0)
 			(effects
 				(font
@@ -10608,7 +10608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 251.46 55.88 0)
 			(effects
 				(font
@@ -10678,7 +10678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 123.825 99.06 0)
 			(effects
 				(font
@@ -10746,7 +10746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 200.66 55.88 0)
 			(effects
 				(font
@@ -10816,7 +10816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 250.825 53.34 0)
 			(effects
 				(font
@@ -10886,7 +10886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 250.825 110.49 0)
 			(effects
 				(font
@@ -10956,7 +10956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 161.925 64.77 0)
 			(effects
 				(font
@@ -11024,7 +11024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 213.36 78.74 0)
 			(effects
 				(font
@@ -11094,7 +11094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 225.425 53.34 0)
 			(effects
 				(font
@@ -11164,7 +11164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 225.425 99.06 0)
 			(effects
 				(font
@@ -11234,7 +11234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 187.325 110.49 0)
 			(effects
 				(font
@@ -11304,7 +11304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 200.025 87.63 0)
 			(effects
 				(font
@@ -11372,7 +11372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 238.76 55.88 0)
 			(effects
 				(font
@@ -11440,7 +11440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 162.56 55.88 0)
 			(effects
 				(font
@@ -11510,7 +11510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 174.625 99.06 0)
 			(effects
 				(font
@@ -11578,7 +11578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 111.76 55.88 0)
 			(effects
 				(font
@@ -11646,7 +11646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 200.66 44.45 0)
 			(effects
 				(font
@@ -11716,7 +11716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 212.725 99.06 0)
 			(effects
 				(font
@@ -11784,7 +11784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 251.46 67.31 0)
 			(effects
 				(font
@@ -11854,7 +11854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 136.525 76.2 0)
 			(effects
 				(font
@@ -11924,7 +11924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 250.825 99.06 0)
 			(effects
 				(font
@@ -11992,7 +11992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 226.06 44.45 0)
 			(effects
 				(font
@@ -12060,7 +12060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 213.36 101.6 0)
 			(effects
 				(font
@@ -12128,7 +12128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 251.46 101.6 0)
 			(effects
 				(font
@@ -12198,7 +12198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 136.525 110.49 0)
 			(effects
 				(font
@@ -12266,7 +12266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 111.76 44.45 0)
 			(effects
 				(font
@@ -12336,7 +12336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 161.925 53.34 0)
 			(effects
 				(font
@@ -12406,7 +12406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 238.125 53.34 0)
 			(effects
 				(font
@@ -12474,7 +12474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 162.56 44.45 0)
 			(effects
 				(font
@@ -12542,7 +12542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 137.16 90.17 0)
 			(effects
 				(font
@@ -12612,7 +12612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 161.925 76.2 0)
 			(effects
 				(font
@@ -12680,7 +12680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 99.06 44.45 0)
 			(effects
 				(font
@@ -12748,7 +12748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 200.66 90.17 0)
 			(effects
 				(font
@@ -12818,7 +12818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 98.425 76.2 0)
 			(effects
 				(font
@@ -12886,7 +12886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 187.96 67.31 0)
 			(effects
 				(font
@@ -12956,7 +12956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 123.825 53.34 0)
 			(effects
 				(font
@@ -13026,7 +13026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 136.525 99.06 0)
 			(effects
 				(font
@@ -13096,7 +13096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 98.425 87.63 0)
 			(effects
 				(font
@@ -13166,7 +13166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 149.225 87.63 0)
 			(effects
 				(font
@@ -13236,7 +13236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 263.525 87.63 0)
 			(effects
 				(font
@@ -13306,7 +13306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 98.425 64.77 0)
 			(effects
 				(font
@@ -13374,7 +13374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 149.86 101.6 0)
 			(effects
 				(font
@@ -13444,7 +13444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 225.425 87.63 0)
 			(effects
 				(font
@@ -13514,7 +13514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 187.325 53.34 0)
 			(effects
 				(font
@@ -13584,7 +13584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 200.025 53.34 0)
 			(effects
 				(font
@@ -13654,7 +13654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 187.325 99.06 0)
 			(effects
 				(font
@@ -13722,7 +13722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 264.16 78.74 0)
 			(effects
 				(font
@@ -13792,7 +13792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 174.625 87.63 0)
 			(effects
 				(font
@@ -13862,7 +13862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 263.525 99.06 0)
 			(effects
 				(font
@@ -13932,7 +13932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 98.425 110.49 0)
 			(effects
 				(font
@@ -14000,7 +14000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 238.76 78.74 0)
 			(effects
 				(font
@@ -14070,7 +14070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 149.225 99.06 0)
 			(effects
 				(font
@@ -14140,7 +14140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 111.125 53.34 0)
 			(effects
 				(font
@@ -14210,7 +14210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 200.025 110.49 0)
 			(effects
 				(font
@@ -14278,7 +14278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 251.46 44.45 0)
 			(effects
 				(font
@@ -14346,7 +14346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 162.56 67.31 0)
 			(effects
 				(font
@@ -14414,7 +14414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 162.56 78.74 0)
 			(effects
 				(font
@@ -14482,7 +14482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 238.76 67.31 0)
 			(effects
 				(font
@@ -14550,7 +14550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 124.46 55.88 0)
 			(effects
 				(font
@@ -14620,7 +14620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 161.925 99.06 0)
 			(effects
 				(font
@@ -14688,7 +14688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 124.46 78.74 0)
 			(effects
 				(font
@@ -14758,7 +14758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 200.025 64.77 0)
 			(effects
 				(font
@@ -14828,7 +14828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 111.125 64.77 0)
 			(effects
 				(font
@@ -14896,7 +14896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 137.16 101.6 0)
 			(effects
 				(font
@@ -14966,7 +14966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 98.425 53.34 0)
 			(effects
 				(font
@@ -15034,7 +15034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 99.06 67.31 0)
 			(effects
 				(font
@@ -15102,7 +15102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 149.86 67.31 0)
 			(effects
 				(font
@@ -15170,7 +15170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 124.46 44.45 0)
 			(effects
 				(font
@@ -15238,7 +15238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 226.06 101.6 0)
 			(effects
 				(font
@@ -15308,7 +15308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 238.125 76.2 0)
 			(effects
 				(font
@@ -15376,7 +15376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 149.86 55.88 0)
 			(effects
 				(font
@@ -15444,7 +15444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 162.56 90.17 0)
 			(effects
 				(font
@@ -15514,7 +15514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 263.525 76.2 0)
 			(effects
 				(font
@@ -15582,7 +15582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 149.86 90.17 0)
 			(effects
 				(font
@@ -15652,7 +15652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 161.925 110.49 0)
 			(effects
 				(font
@@ -15722,7 +15722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 123.825 87.63 0)
 			(effects
 				(font
@@ -15792,7 +15792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 174.625 76.2 0)
 			(effects
 				(font
@@ -15862,7 +15862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 111.125 87.63 0)
 			(effects
 				(font
@@ -15932,7 +15932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 263.525 64.77 0)
 			(effects
 				(font
@@ -16002,7 +16002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 149.225 64.77 0)
 			(effects
 				(font
@@ -16072,7 +16072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 212.725 53.34 0)
 			(effects
 				(font
@@ -16140,7 +16140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 213.36 90.17 0)
 			(effects
 				(font
@@ -16210,7 +16210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 187.325 76.2 0)
 			(effects
 				(font
@@ -16278,7 +16278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:Kailh_socket_PG1350"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
 			(at 187.96 78.74 0)
 			(effects
 				(font
@@ -16348,7 +16348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MyLibrary:D1206"
+		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
 			(at 123.825 76.2 0)
 			(effects
 				(font
