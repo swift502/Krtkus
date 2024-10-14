@@ -1047,12 +1047,6 @@
 		(uuid "4f8c5335-a214-42b2-a094-d4a6b92d7bf3")
 	)
 	(junction
-		(at 233.68 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5262b424-436f-477e-b175-7e76e620612d")
-	)
-	(junction
 		(at 243.84 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1731,16 +1725,6 @@
 			(type default)
 		)
 		(uuid "4cbff541-0a6c-47d8-9214-14cb15b7cf94")
-	)
-	(wire
-		(pts
-			(xy 233.68 49.53) (xy 243.84 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5039ade8-f4fb-4103-b53a-78019f9858ae")
 	)
 	(wire
 		(pts
@@ -5497,7 +5481,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45118aa5-d1ce-4b39-a244-563be89d1b12")
-		(property "Reference" "SW79"
+		(property "Reference" "SW67"
 			(at 238.76 52.07 0)
 			(effects
 				(font
@@ -5550,7 +5534,7 @@
 		(instances
 			(project "keyboard"
 				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "SW79")
+					(reference "SW67")
 					(unit 1)
 				)
 			)
@@ -7357,7 +7341,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7584f70e-2e0c-4ffd-9db4-24c14fb6b4a5")
-		(property "Reference" "D79"
+		(property "Reference" "D67"
 			(at 236.22 55.88 90)
 			(effects
 				(font
@@ -7412,7 +7396,7 @@
 		(instances
 			(project "keyboard"
 				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "D79")
+					(reference "D67")
 					(unit 1)
 				)
 			)
