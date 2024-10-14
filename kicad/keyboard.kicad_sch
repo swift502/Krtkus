@@ -150,7 +150,10 @@
 				)
 			)
 		)
-		(symbol "ScottoKeebs:MCU_Raspberry_Pi_Pico"
+		(symbol "ScottoKeebs:MCU_Arduino_Pro_Micro"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -158,32 +161,32 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "Raspberry_Pi_Pico"
-				(at 0 27.94 0)
+			(property "Value" "Arduino_Pro_Micro"
+				(at 0 -19.05 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "ScottoKeebs_MCU:Raspberry_Pi_Pico"
-				(at 0 30.48 0)
+			(property "Footprint" "ScottoKeebs_MCU:Arduino_Pro_Micro"
+				(at 0 -22.86 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 26.67 -63.5 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 					(hide yes)
 				)
@@ -197,24 +200,24 @@
 					(hide yes)
 				)
 			)
-			(symbol "MCU_Raspberry_Pi_Pico_0_1"
+			(symbol "MCU_Arduino_Pro_Micro_0_1"
 				(rectangle
-					(start -12.7 26.67)
-					(end 12.7 -26.67)
+					(start -10.16 16.51)
+					(end 10.16 -16.51)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 			)
-			(symbol "MCU_Raspberry_Pi_Pico_1_1"
-				(pin bidirectional line
-					(at -15.24 24.13 0)
-					(length 2.54)
-					(name "GPIO0"
+			(symbol "MCU_Arduino_Pro_Micro_1_1"
+				(pin input line
+					(at -15.24 13.97 0)
+					(length 5.08)
+					(name "TX0/PD3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -229,10 +232,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 1.27 0)
-					(length 2.54)
-					(name "GPIO7"
+				(pin input line
+					(at -15.24 -8.89 0)
+					(length 5.08)
+					(name "7/PE6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -247,10 +250,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 -1.27 0)
-					(length 2.54)
-					(name "GPIO8"
+				(pin input line
+					(at -15.24 -11.43 0)
+					(length 5.08)
+					(name "8/PB4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -265,10 +268,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 -3.81 0)
-					(length 2.54)
-					(name "GPIO9"
+				(pin input line
+					(at -15.24 -13.97 0)
+					(length 5.08)
+					(name "9/PB5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -283,10 +286,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -15.24 -6.35 0)
-					(length 2.54)
-					(name "GND"
+				(pin input line
+					(at 15.24 -13.97 180)
+					(length 5.08)
+					(name "10/PB6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -301,10 +304,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 -8.89 0)
-					(length 2.54)
-					(name "GPIO10"
+				(pin input line
+					(at 15.24 -11.43 180)
+					(length 5.08)
+					(name "16/PB2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -319,10 +322,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 -11.43 0)
-					(length 2.54)
-					(name "GPIO11"
+				(pin input line
+					(at 15.24 -8.89 180)
+					(length 5.08)
+					(name "14/PB3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -337,10 +340,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 -13.97 0)
-					(length 2.54)
-					(name "GPIO12"
+				(pin input line
+					(at 15.24 -6.35 180)
+					(length 5.08)
+					(name "15/PB1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -355,10 +358,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 -16.51 0)
-					(length 2.54)
-					(name "GPIO13"
+				(pin input line
+					(at 15.24 -3.81 180)
+					(length 5.08)
+					(name "A0/PF7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -373,10 +376,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -15.24 -19.05 0)
-					(length 2.54)
-					(name "GND"
+				(pin input line
+					(at 15.24 -1.27 180)
+					(length 5.08)
+					(name "A1/PF6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -391,10 +394,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 -21.59 0)
-					(length 2.54)
-					(name "GPIO14"
+				(pin input line
+					(at 15.24 1.27 180)
+					(length 5.08)
+					(name "A2/PF5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -409,10 +412,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 21.59 0)
-					(length 2.54)
-					(name "GPIO1"
+				(pin input line
+					(at -15.24 11.43 0)
+					(length 5.08)
+					(name "RX1/PD2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -427,10 +430,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 -24.13 0)
-					(length 2.54)
-					(name "GPIO15"
+				(pin input line
+					(at 15.24 3.81 180)
+					(length 5.08)
+					(name "A3/PF4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -445,10 +448,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -24.13 180)
-					(length 2.54)
-					(name "GPIO16"
+				(pin input line
+					(at 15.24 6.35 180)
+					(length 5.08)
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -463,10 +466,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -21.59 180)
-					(length 2.54)
-					(name "GPIO17"
+				(pin input line
+					(at 15.24 8.89 180)
+					(length 5.08)
+					(name "RST"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -481,9 +484,9 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 15.24 -19.05 180)
-					(length 2.54)
+				(pin input line
+					(at 15.24 11.43 180)
+					(length 5.08)
 					(name "GND"
 						(effects
 							(font
@@ -499,10 +502,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -16.51 180)
-					(length 2.54)
-					(name "GPIO18"
+				(pin input line
+					(at 15.24 13.97 180)
+					(length 5.08)
+					(name "RAW"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -517,99 +520,9 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 15.24 -13.97 180)
-					(length 2.54)
-					(name "GPIO19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -11.43 180)
-					(length 2.54)
-					(name "GPIO20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -8.89 180)
-					(length 2.54)
-					(name "GPIO21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -6.35 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -3.81 180)
-					(length 2.54)
-					(name "GPIO22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -15.24 19.05 0)
-					(length 2.54)
+				(pin input line
+					(at -15.24 8.89 0)
+					(length 5.08)
 					(name "GND"
 						(effects
 							(font
@@ -626,189 +539,9 @@
 					)
 				)
 				(pin input line
-					(at 15.24 -1.27 180)
-					(length 2.54)
-					(name "RUN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 1.27 180)
-					(length 2.54)
-					(name "GPIO26_ADC0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 3.81 180)
-					(length 2.54)
-					(name "GPIO27_ADC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 6.35 180)
-					(length 2.54)
-					(name "AGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 8.89 180)
-					(length 2.54)
-					(name "GPIO28_ADC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 11.43 180)
-					(length 2.54)
-					(name "ADC_VREF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 13.97 180)
-					(length 2.54)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 16.51 180)
-					(length 2.54)
-					(name "3V3_EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 19.05 180)
-					(length 2.54)
+					(at -15.24 6.35 0)
+					(length 5.08)
 					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 21.59 180)
-					(length 2.54)
-					(name "VSYS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 16.51 0)
-					(length 2.54)
-					(name "GPIO2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -823,82 +556,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 15.24 24.13 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
-					(at -2.54 -29.21 90)
-					(length 2.54)
-					(name "SWCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -29.21 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 2.54 -29.21 90)
-					(length 2.54)
-					(name "SWDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 13.97 0)
-					(length 2.54)
-					(name "GPIO3"
+					(at -15.24 3.81 0)
+					(length 5.08)
+					(name "2/PD1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -913,10 +574,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 11.43 0)
-					(length 2.54)
-					(name "GPIO4"
+				(pin input line
+					(at -15.24 1.27 0)
+					(length 5.08)
+					(name "3/PD0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -931,10 +592,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 8.89 0)
-					(length 2.54)
-					(name "GPIO5"
+				(pin input line
+					(at -15.24 -1.27 0)
+					(length 5.08)
+					(name "4/PD4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -949,10 +610,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -15.24 6.35 0)
-					(length 2.54)
-					(name "GND"
+				(pin input line
+					(at -15.24 -3.81 0)
+					(length 5.08)
+					(name "5/PC6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -967,10 +628,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 3.81 0)
-					(length 2.54)
-					(name "GPIO6"
+				(pin input line
+					(at -15.24 -6.35 0)
+					(length 5.08)
+					(name "6/PD7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1140,12 +801,6 @@
 		(uuid "03c5a4f2-bbd2-4a03-a25c-585e3b505947")
 	)
 	(junction
-		(at 256.54 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05549193-7da1-4650-a089-0f2a74b81d4d")
-	)
-	(junction
 		(at 93.98 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1168,18 +823,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d4aadb2-805b-4185-a07f-1955cbe5cef1")
-	)
-	(junction
-		(at 218.44 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e09e870-6e3d-4ac1-b7be-fda623173ca2")
-	)
-	(junction
-		(at 243.84 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e0ece78-8a65-47fb-8aaa-21bafcd77a80")
 	)
 	(junction
 		(at 104.14 49.53)
@@ -1248,12 +891,6 @@
 		(uuid "218314c0-8291-4b69-bfd5-113c9f86c801")
 	)
 	(junction
-		(at 233.68 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23a152ec-085e-4db1-8938-4b92c18b491d")
-	)
-	(junction
 		(at 193.04 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1282,12 +919,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2923f3cf-17c7-4bb1-9c78-a33fe6505e7b")
-	)
-	(junction
-		(at 233.68 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a8b3e96-c1ec-4d22-9e1d-5091e5b953fa")
 	)
 	(junction
 		(at 154.94 72.39)
@@ -1326,12 +957,6 @@
 		(uuid "30c2e845-56df-4720-a6ee-85217046d863")
 	)
 	(junction
-		(at 205.74 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "322cc9e1-4dc9-4254-845d-de4fcb3d231b")
-	)
-	(junction
 		(at 205.74 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1356,28 +981,10 @@
 		(uuid "3b7e2b90-e6a9-4368-b4d3-cc60c09f5188")
 	)
 	(junction
-		(at 116.84 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3be6ab4c-e4c0-4230-89b3-7cc162981366")
-	)
-	(junction
-		(at 119.38 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d148abb-c566-491c-824e-6638cc9cfd96")
-	)
-	(junction
 		(at 231.14 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d88737b-5440-4df6-881e-3563e7c43775")
-	)
-	(junction
-		(at 246.38 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3dca48ac-df83-40c1-9b12-9f088098fb06")
 	)
 	(junction
 		(at 144.78 114.3)
@@ -1392,18 +999,6 @@
 		(uuid "410fc3c3-c0e5-475c-af1f-14cfe861332e")
 	)
 	(junction
-		(at 193.04 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41b64f18-4519-4aaf-a799-4707d08ae55e")
-	)
-	(junction
-		(at 167.64 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4295943b-04d1-4474-9a5e-4addc4cad3fa")
-	)
-	(junction
 		(at 132.08 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1414,18 +1009,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4309d85b-ea12-4ba1-bece-84e03a5b09bc")
-	)
-	(junction
-		(at 233.68 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4513d304-eeaf-4551-b12d-1619491b0ac5")
-	)
-	(junction
-		(at 157.48 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4556aa42-0448-4c0a-981a-9bd8d70e6a61")
 	)
 	(junction
 		(at 167.64 83.82)
@@ -1446,12 +1029,6 @@
 		(uuid "48059940-c20c-482d-b305-3d5f0e2d91d5")
 	)
 	(junction
-		(at 246.38 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ab94f26-6a81-41fb-a929-1e83d1462c36")
-	)
-	(junction
 		(at 144.78 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1470,16 +1047,16 @@
 		(uuid "4f8c5335-a214-42b2-a094-d4a6b92d7bf3")
 	)
 	(junction
-		(at 246.38 114.3)
+		(at 233.68 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "50ae794c-ee22-49a8-be4a-c20efe8a8301")
+		(uuid "5262b424-436f-477e-b175-7e76e620612d")
 	)
 	(junction
-		(at 256.54 72.39)
+		(at 243.84 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5730f718-ff8f-47d1-a99d-35f76b9eefb2")
+		(uuid "579d75e5-c6de-4bf7-9fa3-f5b823c9f9f2")
 	)
 	(junction
 		(at 208.28 114.3)
@@ -1512,22 +1089,10 @@
 		(uuid "5ff37e83-4938-4982-a07c-fc2c84ca659f")
 	)
 	(junction
-		(at 144.78 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "607bd89a-18d2-4df3-baf4-f20e7b23ebc6")
-	)
-	(junction
 		(at 154.94 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6116ca2a-b17c-40eb-a28f-e7c85930eac2")
-	)
-	(junction
-		(at 208.28 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61e29771-21e0-473a-af95-a1e5be57663f")
 	)
 	(junction
 		(at 243.84 83.82)
@@ -1554,12 +1119,6 @@
 		(uuid "6f7c14bb-e308-4b95-a288-1622905600f0")
 	)
 	(junction
-		(at 233.68 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ff3335a-eedb-4845-8e37-326e3bac706a")
-	)
-	(junction
 		(at 167.64 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1582,24 +1141,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79ab7761-c797-47f7-a159-b98c044cf9ce")
-	)
-	(junction
-		(at 246.38 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d621fa7-253d-4d7d-b6c0-e7097826bc73")
-	)
-	(junction
-		(at 256.54 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f1a22d3-25b2-4a0f-8cf2-5783064dcfa6")
-	)
-	(junction
-		(at 233.68 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85948881-87bb-4279-a5fc-63081a441637")
 	)
 	(junction
 		(at 116.84 95.25)
@@ -1650,12 +1191,6 @@
 		(uuid "928a7425-459b-4b04-a9f7-a5533dabec84")
 	)
 	(junction
-		(at 269.24 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93186c20-deaa-4b1f-8840-9e2cf4ea8a02")
-	)
-	(junction
 		(at 93.98 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1704,22 +1239,10 @@
 		(uuid "9f5c939e-3527-4812-8a82-0b83fc7bb795")
 	)
 	(junction
-		(at 195.58 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9fe89134-fe3f-4bc7-ab35-6969219d43cb")
-	)
-	(junction
 		(at 220.98 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a310a727-586a-4877-a01d-3801c6e9b155")
-	)
-	(junction
-		(at 132.08 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a611a33b-0570-4ad6-ba82-0e98e1f835a1")
 	)
 	(junction
 		(at 157.48 80.01)
@@ -1776,22 +1299,10 @@
 		(uuid "b756e066-c1ef-4ab7-9ac7-768c05184915")
 	)
 	(junction
-		(at 154.94 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8d5def1-f3fa-43e8-b5a3-3b18b37e961c")
-	)
-	(junction
 		(at 195.58 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba5cef76-181e-4bca-89ec-736654f49cb3")
-	)
-	(junction
-		(at 269.24 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc0606e0-3abd-469f-a9ce-8f1971854495")
 	)
 	(junction
 		(at 218.44 95.25)
@@ -1812,28 +1323,10 @@
 		(uuid "c0cd7db7-121d-41df-aed2-e548ac9e0bb2")
 	)
 	(junction
-		(at 231.14 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c123fe00-ab2a-4b54-86e1-00e93208eb18")
-	)
-	(junction
 		(at 218.44 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c35307c6-a151-4818-92ed-81be5a145206")
-	)
-	(junction
-		(at 246.38 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c72076c6-03bc-4061-aa9c-5a8e81e60ffb")
-	)
-	(junction
-		(at 269.24 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8b87cc0-0e1f-4afc-bc97-1ff58c70ac75")
 	)
 	(junction
 		(at 106.68 91.44)
@@ -1860,34 +1353,10 @@
 		(uuid "cd065cf1-8d81-4d8c-83b1-c791baa6c914")
 	)
 	(junction
-		(at 269.24 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce534e8f-fae5-4c8e-bbf2-78c7dd20509e")
-	)
-	(junction
-		(at 233.68 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cecb5dbd-4a8c-48c5-8889-00e8ff5c135a")
-	)
-	(junction
 		(at 218.44 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d38384ba-213c-47dd-8034-d1851f90f79c")
-	)
-	(junction
-		(at 170.18 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d69b82a2-ab38-44eb-b5a5-bba61dab00e7")
-	)
-	(junction
-		(at 129.54 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6c015f2-7556-434d-98fc-83af7b384185")
 	)
 	(junction
 		(at 93.98 68.58)
@@ -1908,12 +1377,6 @@
 		(uuid "dc48721f-e9f2-4cc9-8ea7-790f53e376e7")
 	)
 	(junction
-		(at 256.54 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de78dae9-98f1-4188-8a43-c223fc722590")
-	)
-	(junction
 		(at 243.84 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1932,46 +1395,16 @@
 		(uuid "e1a4fa5f-a094-473c-b25c-daac91072b87")
 	)
 	(junction
-		(at 269.24 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e253a504-b21a-4e6f-b19e-964e033aa95d")
-	)
-	(junction
 		(at 142.24 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3198628-6414-407f-a2e7-48f602fc95c0")
 	)
 	(junction
-		(at 180.34 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5ad8823-7dd3-4137-be23-fc89987ffbcc")
-	)
-	(junction
 		(at 104.14 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5ffcad5-c4da-4eb4-a55f-4b51b9cb33ca")
-	)
-	(junction
-		(at 256.54 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e64b232b-9a8f-48a5-96dc-93cb997ac40b")
-	)
-	(junction
-		(at 106.68 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8768c80-d2b8-46c8-92f9-3c175388d51e")
-	)
-	(junction
-		(at 246.38 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea9ab3b7-80ae-4be1-929b-9a1c424c0d2b")
 	)
 	(junction
 		(at 142.24 83.82)
@@ -1984,12 +1417,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eff8d4c6-2767-49d2-b7e1-852648a112f5")
-	)
-	(junction
-		(at 182.88 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f12d11fc-8f3e-45d7-84b4-bc4f09316c1e")
 	)
 	(junction
 		(at 106.68 80.01)
@@ -2010,22 +1437,10 @@
 		(uuid "f5b9fff1-b893-4ada-948f-3a047daafe65")
 	)
 	(junction
-		(at 142.24 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6ae24e2-33a8-472a-9c17-a62d3b83fb5c")
-	)
-	(junction
 		(at 157.48 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8fa6aef-b2be-4068-856f-0ce2f48e00b7")
-	)
-	(junction
-		(at 220.98 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fad2ebdb-d998-4943-8955-ffb87cb12889")
 	)
 	(wire
 		(pts
@@ -2069,7 +1484,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 45.974) (xy 193.04 49.53)
+			(xy 193.04 45.974) (xy 193.04 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2079,7 +1494,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 49.53) (xy 154.94 60.96)
+			(xy 154.94 45.974) (xy 154.94 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2096,6 +1511,16 @@
 			(type default)
 		)
 		(uuid "05087f50-62ae-4036-85d4-6a94dfd9d7ed")
+	)
+	(wire
+		(pts
+			(xy 243.84 49.53) (xy 243.84 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0573799b-f97c-420c-9d5a-13883fc92a5b")
 	)
 	(wire
 		(pts
@@ -2119,7 +1544,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 45.974) (xy 116.84 49.53)
+			(xy 116.84 45.974) (xy 116.84 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2139,16 +1564,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 49.53) (xy 269.24 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "101538ce-6d8a-4cd0-8a44-1d7681b19630")
-	)
-	(wire
-		(pts
 			(xy 132.08 80.01) (xy 144.78 80.01)
 		)
 		(stroke
@@ -2156,26 +1571,6 @@
 			(type default)
 		)
 		(uuid "1359cded-d748-421d-aeb9-457a85dcc5a2")
-	)
-	(wire
-		(pts
-			(xy 195.58 57.15) (xy 208.28 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14313c54-04da-419c-ae03-9e2daad97cd3")
-	)
-	(wire
-		(pts
-			(xy 93.98 57.15) (xy 106.68 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17833419-c933-43b0-9baa-5534ac434bc9")
 	)
 	(wire
 		(pts
@@ -2199,23 +1594,13 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 49.53) (xy 180.34 60.96)
+			(xy 180.34 45.974) (xy 180.34 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "20ef3cd2-b75d-4a2e-8531-0b39b54540c2")
-	)
-	(wire
-		(pts
-			(xy 132.08 57.15) (xy 144.78 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26d8cee4-56f6-468b-9f27-88a1c2540c8b")
 	)
 	(wire
 		(pts
@@ -2249,16 +1634,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 83.82) (xy 256.54 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dc92277-1e6f-49f5-9488-4a420dc198f1")
-	)
-	(wire
-		(pts
 			(xy 195.58 80.01) (xy 208.28 80.01)
 		)
 		(stroke
@@ -2279,16 +1654,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 80.01) (xy 259.08 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "353b5a5e-d2cf-497c-90c0-bef5f65fb71e")
-	)
-	(wire
-		(pts
 			(xy 92.71 102.87) (xy 93.98 102.87)
 		)
 		(stroke
@@ -2299,27 +1664,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 72.39) (xy 256.54 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "373ac3da-06d8-45fc-8b23-b642a3865239")
-	)
-	(wire
-		(pts
-			(xy 269.24 83.82) (xy 269.24 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a6a9888-6c39-4961-a5e9-cef0aef9e490")
-	)
-	(wire
-		(pts
-			(xy 129.54 45.974) (xy 129.54 49.53)
+			(xy 129.54 45.974) (xy 129.54 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2329,7 +1674,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 49.53) (xy 205.74 60.96)
+			(xy 205.74 45.974) (xy 205.74 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2369,16 +1714,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 91.44) (xy 259.08 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4807d394-a44f-41d6-9736-59ce33986f9f")
-	)
-	(wire
-		(pts
 			(xy 180.34 95.25) (xy 180.34 106.68)
 		)
 		(stroke
@@ -2399,13 +1734,13 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 45.974) (xy 205.74 49.53)
+			(xy 233.68 49.53) (xy 243.84 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51401e85-6af8-423b-a5f3-a6587f734274")
+		(uuid "5039ade8-f4fb-4103-b53a-78019f9858ae")
 	)
 	(wire
 		(pts
@@ -2479,26 +1814,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 95.25) (xy 269.24 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c922543-f3d5-4ff5-a23c-89bdf14a464a")
-	)
-	(wire
-		(pts
-			(xy 116.84 49.53) (xy 116.84 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d3dcb7e-810b-4e17-9e77-ec2b6aed7a02")
-	)
-	(wire
-		(pts
 			(xy 170.18 68.58) (xy 182.88 68.58)
 		)
 		(stroke
@@ -2519,16 +1834,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 68.58) (xy 246.38 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60a92014-0bf1-4f0b-957c-50bd82766138")
-	)
-	(wire
-		(pts
 			(xy 157.48 80.01) (xy 170.18 80.01)
 		)
 		(stroke
@@ -2536,16 +1841,6 @@
 			(type default)
 		)
 		(uuid "60ea2b38-d154-43d8-b4e4-e0efe6ed35f3")
-	)
-	(wire
-		(pts
-			(xy 218.44 49.53) (xy 218.44 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60faeff7-9239-43ad-9f39-dd3190f0e441")
 	)
 	(wire
 		(pts
@@ -2559,23 +1854,13 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 49.53) (xy 231.14 60.96)
+			(xy 231.14 45.974) (xy 231.14 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6557c6f0-37cf-444a-a5c6-7acdc5ddf34b")
-	)
-	(wire
-		(pts
-			(xy 231.14 45.974) (xy 231.14 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66c1ae16-ca20-4695-8302-1f21cc040242")
 	)
 	(wire
 		(pts
@@ -2589,27 +1874,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 72.39) (xy 269.24 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67761064-3788-423e-ab3e-121aa9de6c95")
-	)
-	(wire
-		(pts
-			(xy 233.68 91.44) (xy 246.38 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "689d91cd-0df9-4806-b644-94051ce90adf")
-	)
-	(wire
-		(pts
-			(xy 167.64 45.974) (xy 167.64 49.53)
+			(xy 167.64 45.974) (xy 167.64 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2626,16 +1891,6 @@
 			(type default)
 		)
 		(uuid "6b9dba4a-8f32-4f3d-a0b0-788403f5a6a1")
-	)
-	(wire
-		(pts
-			(xy 157.48 57.15) (xy 170.18 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6de4f25c-8238-42a4-8f85-3b2b5840ab14")
 	)
 	(wire
 		(pts
@@ -2659,7 +1914,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 57.15) (xy 259.08 57.15)
+			(xy 93.98 57.15) (xy 233.68 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2759,16 +2014,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 45.974) (xy 154.94 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84493998-5a6e-4085-b92a-07944b9c1150")
-	)
-	(wire
-		(pts
 			(xy 193.04 95.25) (xy 193.04 106.68)
 		)
 		(stroke
@@ -2799,16 +2044,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 57.15) (xy 132.08 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86e8c0aa-1618-4bb9-bed2-ec35f2a9b3a3")
-	)
-	(wire
-		(pts
 			(xy 93.98 91.44) (xy 106.68 91.44)
 		)
 		(stroke
@@ -2816,16 +2051,6 @@
 			(type default)
 		)
 		(uuid "871af83b-2c6c-4c9a-b69e-7edd8be87c57")
-	)
-	(wire
-		(pts
-			(xy 256.54 60.96) (xy 256.54 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "876fd465-6c6f-423d-aad4-c47d8783ef68")
 	)
 	(wire
 		(pts
@@ -2849,7 +2074,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 45.974) (xy 218.44 49.53)
+			(xy 218.44 45.974) (xy 218.44 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2869,17 +2094,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 68.58) (xy 259.08 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95a9ae4d-c3f4-4a6e-abe0-b6b1434a6379")
-	)
-	(wire
-		(pts
-			(xy 142.24 49.53) (xy 142.24 60.96)
+			(xy 142.24 45.974) (xy 142.24 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2896,16 +2111,6 @@
 			(type default)
 		)
 		(uuid "963ec205-40ec-4fe2-8f88-98f9ab44db73")
-	)
-	(wire
-		(pts
-			(xy 233.68 80.01) (xy 246.38 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96525dff-0da7-4896-92ca-986bbcf3b83e")
 	)
 	(wire
 		(pts
@@ -2939,16 +2144,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 45.974) (xy 269.24 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99cef913-d6b4-464c-809e-0137ac4dee7c")
-	)
-	(wire
-		(pts
 			(xy 218.44 60.96) (xy 218.44 72.39)
 		)
 		(stroke
@@ -2956,16 +2151,6 @@
 			(type default)
 		)
 		(uuid "9a61f986-f128-4a22-91fd-0e8be79dffc5")
-	)
-	(wire
-		(pts
-			(xy 167.64 49.53) (xy 167.64 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b8d92a8-9787-4887-a6a3-1421b0fc2860")
 	)
 	(wire
 		(pts
@@ -3039,16 +2224,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 45.974) (xy 243.84 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a348868a-ce91-4859-9206-3cd29fe86da5")
-	)
-	(wire
-		(pts
 			(xy 144.78 114.3) (xy 157.48 114.3)
 		)
 		(stroke
@@ -3056,16 +2231,6 @@
 			(type default)
 		)
 		(uuid "a630a890-57d4-494f-824f-7ef4c3d91b07")
-	)
-	(wire
-		(pts
-			(xy 182.88 57.15) (xy 195.58 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a66b6de5-d4da-4b30-a9dd-ed540b2166a4")
 	)
 	(wire
 		(pts
@@ -3099,16 +2264,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 114.3) (xy 246.38 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9a7673a-f047-4b29-8f6f-63ede50279a2")
-	)
-	(wire
-		(pts
 			(xy 154.94 83.82) (xy 154.94 95.25)
 		)
 		(stroke
@@ -3129,26 +2284,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 114.3) (xy 259.08 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad8ce51e-e3ac-46fc-9658-8dc53ae2c973")
-	)
-	(wire
-		(pts
-			(xy 170.18 57.15) (xy 182.88 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae5a3069-f6fb-4c04-9c7a-d888e43600e8")
-	)
-	(wire
-		(pts
 			(xy 167.64 60.96) (xy 167.64 72.39)
 		)
 		(stroke
@@ -3166,16 +2301,6 @@
 			(type default)
 		)
 		(uuid "af2ddff2-f454-450d-94ef-2ddba0aad7df")
-	)
-	(wire
-		(pts
-			(xy 142.24 45.974) (xy 142.24 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1bd3a10-9b66-48a1-a390-31fc5e49298d")
 	)
 	(wire
 		(pts
@@ -3209,16 +2334,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 57.15) (xy 157.48 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b831c580-6fc3-4904-839d-deeeb24291dd")
-	)
-	(wire
-		(pts
 			(xy 106.68 68.58) (xy 119.38 68.58)
 		)
 		(stroke
@@ -3239,16 +2354,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 57.15) (xy 220.98 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc7f4576-14c3-4854-80f7-8565d3291d01")
-	)
-	(wire
-		(pts
 			(xy 92.71 80.01) (xy 93.98 80.01)
 		)
 		(stroke
@@ -3259,16 +2364,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 49.53) (xy 129.54 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf664821-a8bd-4488-ba0a-c68a40a657b1")
-	)
-	(wire
-		(pts
 			(xy 92.71 114.3) (xy 93.98 114.3)
 		)
 		(stroke
@@ -3276,16 +2371,6 @@
 			(type default)
 		)
 		(uuid "c014f5ca-a9c5-4596-9d45-137be8549597")
-	)
-	(wire
-		(pts
-			(xy 180.34 45.974) (xy 180.34 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c10c554a-6899-4a37-bab8-60642a69238b")
 	)
 	(wire
 		(pts
@@ -3319,26 +2404,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 102.87) (xy 259.08 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc033c53-c9c6-4b72-bbbe-74d0f3daec21")
-	)
-	(wire
-		(pts
-			(xy 106.68 57.15) (xy 119.38 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc86d3d9-0425-44c3-aef3-6030e372d98f")
-	)
-	(wire
-		(pts
 			(xy 243.84 60.96) (xy 243.84 72.39)
 		)
 		(stroke
@@ -3356,16 +2421,6 @@
 			(type default)
 		)
 		(uuid "ccecb7ae-4871-4393-bedc-1342ad8fc5a7")
-	)
-	(wire
-		(pts
-			(xy 269.24 60.96) (xy 269.24 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdfda656-d19c-4cea-9062-34a5cfec7c41")
 	)
 	(wire
 		(pts
@@ -3399,16 +2454,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 102.87) (xy 246.38 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d159f92c-349c-4a8e-bca6-ebdb567df8eb")
-	)
-	(wire
-		(pts
 			(xy 180.34 83.82) (xy 180.34 95.25)
 		)
 		(stroke
@@ -3429,16 +2474,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 49.53) (xy 256.54 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4a16ae1-95b6-41f8-889a-ff02a7c7350c")
-	)
-	(wire
-		(pts
 			(xy 193.04 72.39) (xy 193.04 83.82)
 		)
 		(stroke
@@ -3456,16 +2491,6 @@
 			(type default)
 		)
 		(uuid "dad3ec71-310b-4edb-b6cc-8643a66ed478")
-	)
-	(wire
-		(pts
-			(xy 220.98 57.15) (xy 233.68 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dae224e5-9005-474b-837f-83eb9f671e36")
 	)
 	(wire
 		(pts
@@ -3549,16 +2574,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 49.53) (xy 193.04 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebe71c84-78f2-4926-9e86-cad6b973f80c")
-	)
-	(wire
-		(pts
 			(xy 157.48 68.58) (xy 170.18 68.58)
 		)
 		(stroke
@@ -3639,23 +2654,13 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 49.53) (xy 243.84 60.96)
+			(xy 243.84 45.974) (xy 243.84 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f8eebf2e-5f89-4a18-8360-9ec95d104f5e")
-	)
-	(wire
-		(pts
-			(xy 256.54 95.25) (xy 256.54 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb7f424b-ae8f-4f19-8104-e31eeca19d02")
 	)
 	(wire
 		(pts
@@ -3697,26 +2702,6 @@
 		)
 		(uuid "fe847ae9-e521-4759-abc8-f5146276fa79")
 	)
-	(wire
-		(pts
-			(xy 233.68 57.15) (xy 246.38 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff4c0cee-f93d-47f9-afaf-ecfa0d0d73be")
-	)
-	(wire
-		(pts
-			(xy 256.54 45.974) (xy 256.54 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffd03470-5000-4252-a061-389c555ee751")
-	)
 	(global_label "ROW3"
 		(shape input)
 		(at 92.71 91.44 180)
@@ -3741,7 +2726,7 @@
 	)
 	(global_label "COL0"
 		(shape input)
-		(at 36.83 57.15 180)
+		(at 39.37 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3751,7 +2736,7 @@
 		)
 		(uuid "145d8106-dc2d-4548-94b1-c08ae4f26e33")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.0067 57.15 0)
+			(at 31.5467 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3785,7 +2770,7 @@
 	)
 	(global_label "COL6"
 		(shape input)
-		(at 36.83 77.47 180)
+		(at 39.37 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3795,7 +2780,7 @@
 		)
 		(uuid "359a4281-6502-4f3c-95e5-a864078e3acc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.0067 77.47 0)
+			(at 31.5467 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3807,7 +2792,7 @@
 	)
 	(global_label "ROW4"
 		(shape input)
-		(at 67.31 102.87 0)
+		(at 69.85 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3817,7 +2802,7 @@
 		)
 		(uuid "384c5761-a9d8-42a6-9690-df99b615faf0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.1052 102.9494 0)
+			(at 78.6452 72.4694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3829,7 +2814,7 @@
 	)
 	(global_label "COL2"
 		(shape input)
-		(at 36.83 64.77 180)
+		(at 39.37 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3839,7 +2824,7 @@
 		)
 		(uuid "3d6d62a4-f40a-4e2c-9d1c-9af8b392e121")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.0067 64.77 0)
+			(at 31.5467 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3851,7 +2836,7 @@
 	)
 	(global_label "COL8"
 		(shape input)
-		(at 36.83 82.55 180)
+		(at 39.37 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3861,7 +2846,7 @@
 		)
 		(uuid "4b6bb559-76c7-42db-8495-7c6125cffda0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.0067 82.55 0)
+			(at 31.5467 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3895,29 +2880,29 @@
 	)
 	(global_label "COL11"
 		(shape input)
-		(at 36.83 92.71 180)
+		(at 69.85 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5782794d-0088-45e3-a857-f5db6caf7e64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.7972 92.71 0)
+			(at 78.8828 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "ROW1"
 		(shape input)
-		(at 67.31 92.71 0)
+		(at 69.85 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3927,7 +2912,7 @@
 		)
 		(uuid "599d9774-735e-4fed-8580-838008ab37b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.1052 92.6306 0)
+			(at 78.6452 79.9306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3961,7 +2946,7 @@
 	)
 	(global_label "COL9"
 		(shape input)
-		(at 36.83 85.09 180)
+		(at 39.37 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3971,7 +2956,7 @@
 		)
 		(uuid "6c2bba49-2ef4-4de5-83a3-40d5530835b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.0067 85.09 0)
+			(at 31.5467 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3983,7 +2968,7 @@
 	)
 	(global_label "COL1"
 		(shape input)
-		(at 36.83 59.69 180)
+		(at 39.37 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3993,7 +2978,7 @@
 		)
 		(uuid "7550eac2-db37-457e-b077-2f2e043f50ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.0067 59.69 0)
+			(at 31.5467 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4049,7 +3034,7 @@
 	)
 	(global_label "COL4"
 		(shape input)
-		(at 36.83 69.85 180)
+		(at 39.37 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4059,7 +3044,7 @@
 		)
 		(uuid "834617f8-1084-44bd-8e0b-c79350993618")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.0067 69.85 0)
+			(at 31.5467 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,53 +3098,9 @@
 			)
 		)
 	)
-	(global_label "COL12"
-		(shape input)
-		(at 36.83 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9f8e6f59-d060-45a4-9880-af94189494f2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.7972 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "COL10"
 		(shape input)
-		(at 36.83 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aeb4ee63-c60f-40c0-9db0-40aafe5244f5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.7972 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROW5"
-		(shape input)
-		(at 67.31 105.41 0)
+		(at 69.85 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4167,9 +3108,9 @@
 			)
 			(justify left)
 		)
-		(uuid "b05eff07-ff6b-42e0-b433-2aae6657916e")
+		(uuid "aeb4ee63-c60f-40c0-9db0-40aafe5244f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.1052 105.4894 0)
+			(at 78.8828 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4179,9 +3120,9 @@
 			)
 		)
 	)
-	(global_label "COL13"
+	(global_label "ROW5"
 		(shape input)
-		(at 269.24 45.974 90)
+		(at 69.85 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4189,9 +3130,9 @@
 			)
 			(justify left)
 		)
-		(uuid "b0814d5c-3505-46ce-8b1b-e1735dcd4bd5")
+		(uuid "b05eff07-ff6b-42e0-b433-2aae6657916e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.1606 37.6022 90)
+			(at 78.6452 69.9294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4247,7 +3188,7 @@
 	)
 	(global_label "ROW2"
 		(shape input)
-		(at 67.31 95.25 0)
+		(at 69.85 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4257,7 +3198,7 @@
 		)
 		(uuid "bce93a74-167d-4988-a151-bd1dbac109e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.1052 95.1706 0)
+			(at 78.6452 82.4706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,7 +3210,7 @@
 	)
 	(global_label "ROW0"
 		(shape input)
-		(at 67.31 90.17 0)
+		(at 69.85 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4279,7 +3220,7 @@
 		)
 		(uuid "c9048c19-c849-4d36-83bc-bb365c79e19a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.1052 90.0906 0)
+			(at 78.6452 77.3906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,7 +3232,7 @@
 	)
 	(global_label "COL3"
 		(shape input)
-		(at 36.83 67.31 180)
+		(at 39.37 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4301,7 +3242,7 @@
 		)
 		(uuid "d4276697-bfb3-44c5-af56-3922bbbcff3f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.0067 67.31 0)
+			(at 31.5467 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4357,7 +3298,7 @@
 	)
 	(global_label "COL5"
 		(shape input)
-		(at 36.83 72.39 180)
+		(at 39.37 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4367,7 +3308,7 @@
 		)
 		(uuid "dda33b8c-f8cc-4b40-8937-f423b1812530")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.0067 72.39 0)
+			(at 31.5467 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,28 +3362,6 @@
 			)
 		)
 	)
-	(global_label "COL12"
-		(shape input)
-		(at 256.54 45.974 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e585177b-3587-4f19-b1cf-c33a44d8c951")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.4606 37.6022 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ROW5"
 		(shape input)
 		(at 92.71 114.3 180)
@@ -4487,28 +3406,6 @@
 			)
 		)
 	)
-	(global_label "COL13"
-		(shape input)
-		(at 36.83 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f3ec0ac0-7889-45df-bbc5-76bbf01d9c6b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.7972 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "COL2"
 		(shape input)
 		(at 129.54 45.974 90)
@@ -4533,7 +3430,7 @@
 	)
 	(global_label "ROW3"
 		(shape input)
-		(at 67.31 97.79 0)
+		(at 69.85 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4543,7 +3440,7 @@
 		)
 		(uuid "f777208d-56d3-48d2-8823-2be9d366a863")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.1052 97.8694 0)
+			(at 78.6452 75.0094 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4577,7 +3474,7 @@
 	)
 	(global_label "COL7"
 		(shape input)
-		(at 36.83 80.01 180)
+		(at 39.37 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4587,81 +3484,13 @@
 		)
 		(uuid "faef3f8e-f505-4452-9a32-c06fc15649aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.0067 80.01 0)
+			(at 31.5467 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 251.46 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "001a281b-e23f-4f4b-afa4-e8ec786eee7a")
-		(property "Reference" "SW76"
-			(at 251.46 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Push"
-			(at 251.46 78.8924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
-			(at 251.46 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 251.46 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6c3a3f5-1de5-435f-97e3-6f25a3cb988d")
-		)
-		(pin "2"
-			(uuid "0057587f-36da-4bac-98a5-3ec84a8a4502")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "SW76")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -4730,74 +3559,6 @@
 			(project "keyboard"
 				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
 					(reference "D57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 175.26 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ca4acec-0e93-4504-925a-217382760916")
-		(property "Reference" "SW37"
-			(at 175.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Push"
-			(at 175.26 44.6024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
-			(at 175.26 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7e2eb00-e2c7-4f5d-9246-771d83c1352c")
-		)
-		(pin "2"
-			(uuid "9303909d-0b52-4b8b-a8a0-5f83fd8537b9")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "SW37")
 					(unit 1)
 				)
 			)
@@ -4969,7 +3730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 187.96 90.17 0)
 			(effects
 				(font
@@ -5037,7 +3798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 149.86 78.74 0)
 			(effects
 				(font
@@ -5105,7 +3866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 162.56 101.6 0)
 			(effects
 				(font
@@ -5243,7 +4004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 111.76 67.31 0)
 			(effects
 				(font
@@ -5280,74 +4041,6 @@
 			(project "keyboard"
 				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
 					(reference "SW9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 238.76 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "16b94214-18fb-4e43-8782-034348396f1a")
-		(property "Reference" "SW67"
-			(at 238.76 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Push"
-			(at 238.76 44.6024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
-			(at 238.76 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 238.76 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef7c71ac-be82-4c3b-b436-8818ca1044f8")
-		)
-		(pin "2"
-			(uuid "2753f9db-fe65-43e7-9e80-82ce9bcba3ac")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "SW67")
 					(unit 1)
 				)
 			)
@@ -5449,7 +4142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 238.76 101.6 0)
 			(effects
 				(font
@@ -5486,76 +4179,6 @@
 			(project "keyboard"
 				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
 					(reference "SW72")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N47xxA")
-		(at 246.38 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d585898-a98c-48b7-bd55-c238648712c7")
-		(property "Reference" "D75"
-			(at 248.92 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N47xxA"
-			(at 248.92 77.4699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 250.825 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 246.38 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9b7c7fe-ea04-4289-aac5-c1bbb8d4cda1")
-		)
-		(pin "2"
-			(uuid "1ae4cec8-116f-4db1-b944-76a7236b1cb2")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "D75")
 					(unit 1)
 				)
 			)
@@ -5657,7 +4280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 111.76 90.17 0)
 			(effects
 				(font
@@ -5725,7 +4348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 213.36 55.88 0)
 			(effects
 				(font
@@ -5793,7 +4416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 99.06 90.17 0)
 			(effects
 				(font
@@ -5931,7 +4554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 187.96 55.88 0)
 			(effects
 				(font
@@ -5999,7 +4622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 99.06 55.88 0)
 			(effects
 				(font
@@ -6182,146 +4805,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N47xxA")
-		(at 246.38 64.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "26bb8551-9598-4a1d-8104-d5e39ca8b09c")
-		(property "Reference" "D74"
-			(at 248.92 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N47xxA"
-			(at 248.92 66.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 250.825 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 246.38 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46fce8d1-1250-48b6-adca-b67dd718dc07")
-		)
-		(pin "2"
-			(uuid "55b41fc6-e413-4244-a313-d924459fba09")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "D74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N47xxA")
-		(at 246.38 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "28b9ad27-42c7-4c6d-b832-636255e191f3")
-		(property "Reference" "D76"
-			(at 248.92 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N47xxA"
-			(at 248.92 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 250.825 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 246.38 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b9c5796-d1f8-4f9c-a19e-9774d4211685")
-		)
-		(pin "2"
-			(uuid "0a5691a8-cfa6-4d39-8f55-9ba694971068")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "D76")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 226.06 72.39 0)
 		(unit 1)
@@ -6347,7 +4830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 226.06 67.31 0)
 			(effects
 				(font
@@ -6390,76 +4873,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N47xxA")
-		(at 132.08 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d774c73-148a-4a8e-a73c-e142035fd42e")
-		(property "Reference" "D19"
-			(at 134.62 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N47xxA"
-			(at 134.62 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 136.525 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 132.08 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b1283ea-4b29-4106-8f76-6093b968264d")
-		)
-		(pin "2"
-			(uuid "f6ced852-6b0e-45f0-b3f0-fe52e33b5c4d")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 226.06 95.25 0)
 		(unit 1)
@@ -6485,7 +4898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 226.06 90.17 0)
 			(effects
 				(font
@@ -6553,7 +4966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 111.76 78.74 0)
 			(effects
 				(font
@@ -6691,7 +5104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 137.16 55.88 0)
 			(effects
 				(font
@@ -6734,76 +5147,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N47xxA")
-		(at 170.18 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3248dea0-1783-4482-a2d8-4d17a5992abb")
-		(property "Reference" "D37"
-			(at 172.72 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N47xxA"
-			(at 172.72 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 174.625 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 170.18 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aecdcae3-b42e-4c57-9464-2a7d52b4ec54")
-		)
-		(pin "2"
-			(uuid "8f5097c2-bfad-465e-beee-b5b2b9436002")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "D37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 226.06 60.96 0)
 		(unit 1)
@@ -6829,7 +5172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 226.06 55.88 0)
 			(effects
 				(font
@@ -6866,265 +5209,6 @@
 			(project "keyboard"
 				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
 					(reference "SW62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 264.16 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "36c315b6-5234-43c4-a922-d11cd002eea0")
-		(property "Reference" "SW80"
-			(at 264.16 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Push"
-			(at 264.16 56.0324 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
-			(at 264.16 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 264.16 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 264.16 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dcea2bce-ae57-47ea-af0e-cf75c2a89849")
-		)
-		(pin "2"
-			(uuid "e4368df4-3be2-4948-9e78-411a2340f250")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "SW80")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:MCU_Raspberry_Pi_Pico")
-		(at 52.07 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "371dd7b6-dd0a-4303-a085-16073968be3f")
-		(property "Reference" "U1"
-			(at 52.07 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Raspberry_Pi_Pico"
-			(at 52.07 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_MCU:Raspberry_Pi_Pico"
-			(at 52.07 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "8064ba9a-b988-4391-8288-1d0ccd567e72")
-		)
-		(pin "32"
-			(uuid "6771fa29-8ba5-4d11-b25f-60ee5b6f83f5")
-		)
-		(pin "11"
-			(uuid "2107d6ba-e36b-4f82-91f6-ef1f841dc4b4")
-		)
-		(pin "13"
-			(uuid "b9e94e10-145b-4fa5-bf85-566ffb475e2a")
-		)
-		(pin "19"
-			(uuid "c0838625-d299-421f-963e-527e81f0f35e")
-		)
-		(pin "14"
-			(uuid "0b3a2043-8c75-43bd-98af-0a33ffee0375")
-		)
-		(pin "26"
-			(uuid "b0f5c94f-78df-4350-849f-2065aa91e914")
-		)
-		(pin "27"
-			(uuid "a1f21ba0-e66f-4aaf-835c-6257efba8736")
-		)
-		(pin "34"
-			(uuid "3efbc089-9531-4f9c-8856-2c2f53d91c62")
-		)
-		(pin "30"
-			(uuid "6e468989-4dda-4662-8166-8e07992a5e9e")
-		)
-		(pin "23"
-			(uuid "55295395-88b9-48d9-8ec7-1d1a52100da7")
-		)
-		(pin "43"
-			(uuid "fc30ea73-2772-4073-bde2-68f6470ae6ad")
-		)
-		(pin "5"
-			(uuid "429d6326-0ed6-4ef7-bc60-383a31560535")
-		)
-		(pin "39"
-			(uuid "f483660d-06e5-409e-a051-49494c2dad32")
-		)
-		(pin "8"
-			(uuid "fb89ff57-71d5-48e8-b819-45e1b4984115")
-		)
-		(pin "31"
-			(uuid "99422108-9840-4ba2-9b86-41e59e072149")
-		)
-		(pin "22"
-			(uuid "a3399197-631b-4584-9b03-167cd13c9f4e")
-		)
-		(pin "41"
-			(uuid "c298d837-ec63-4136-92e2-bb32fecdd854")
-		)
-		(pin "12"
-			(uuid "14dd4095-99d9-4a1f-ba58-dd53a597e6ab")
-		)
-		(pin "17"
-			(uuid "560b8037-af6e-437a-85ee-87ca8a90f19c")
-		)
-		(pin "20"
-			(uuid "131de3f9-8a2d-43b5-9ef1-716a082d353f")
-		)
-		(pin "6"
-			(uuid "0da81598-50d1-4dab-9913-0d3a5bb41f72")
-		)
-		(pin "21"
-			(uuid "a291dff5-23d4-4fe6-a834-3eb85442c71d")
-		)
-		(pin "24"
-			(uuid "8f025451-746c-426a-a6fd-3756682bb054")
-		)
-		(pin "4"
-			(uuid "30234db2-9f7c-4a10-9a68-edc82be1e9a9")
-		)
-		(pin "36"
-			(uuid "ff4394e8-7b91-4b59-b32f-97b22f064cdd")
-		)
-		(pin "18"
-			(uuid "d1b3ca47-b31d-4d76-90e4-b689a2da57d7")
-		)
-		(pin "29"
-			(uuid "b4128256-683c-427f-91d0-fac6eeaa1af4")
-		)
-		(pin "15"
-			(uuid "0ee5f23a-1a6e-4b48-8e4b-3da3023eb6cc")
-		)
-		(pin "9"
-			(uuid "75c73111-03aa-4919-9188-5adcd9c54c93")
-		)
-		(pin "25"
-			(uuid "5f840832-bf9e-4fe5-b140-cdfb1b8c6191")
-		)
-		(pin "38"
-			(uuid "92731d7b-ea5e-45e4-9d24-bdbb811e5f87")
-		)
-		(pin "1"
-			(uuid "fe03dbce-1061-47d0-8293-1152e4cda1e6")
-		)
-		(pin "16"
-			(uuid "50fda143-9a06-4094-8e54-8519706b2816")
-		)
-		(pin "37"
-			(uuid "78e709a1-374d-4dfb-9c77-1b25f353c727")
-		)
-		(pin "40"
-			(uuid "c1d75b94-790f-4b23-aa73-7ec68533207f")
-		)
-		(pin "3"
-			(uuid "9608aab1-6c13-42ef-a6ce-7142e542c75c")
-		)
-		(pin "2"
-			(uuid "50ec5601-fe38-402b-9ff2-50c9a2f26228")
-		)
-		(pin "28"
-			(uuid "1d1f4933-7bd7-4a80-b04d-40abf420cad5")
-		)
-		(pin "33"
-			(uuid "100530a1-908b-41be-bdb0-e87ce606975b")
-		)
-		(pin "35"
-			(uuid "873b1460-beb9-4326-9164-d6ed4401a321")
-		)
-		(pin "42"
-			(uuid "8e3fe690-47e8-4315-85b4-4b8e7ef6d8c1")
-		)
-		(pin "7"
-			(uuid "3ae6044c-0ea8-4b51-82f4-90d241c3da83")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -7226,7 +5310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 99.06 101.6 0)
 			(effects
 				(font
@@ -7294,7 +5378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 226.06 78.74 0)
 			(effects
 				(font
@@ -7362,7 +5446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 175.26 90.17 0)
 			(effects
 				(font
@@ -7406,7 +5490,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 264.16 49.53 0)
+		(at 238.76 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7414,7 +5498,7 @@
 		(dnp no)
 		(uuid "45118aa5-d1ce-4b39-a244-563be89d1b12")
 		(property "Reference" "SW79"
-			(at 264.16 52.07 0)
+			(at 238.76 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7422,7 +5506,7 @@
 			)
 		)
 		(property "Value" "Push"
-			(at 264.16 44.6024 0)
+			(at 238.76 44.6024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7430,8 +5514,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
-			(at 264.16 44.45 0)
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
+			(at 238.76 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7440,7 +5524,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 44.45 0)
+			(at 238.76 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7449,7 +5533,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.16 49.53 0)
+			(at 238.76 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7754,74 +5838,6 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 149.86 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "50ec7246-e282-4248-bb65-c66cd4eb0264")
-		(property "Reference" "SW25"
-			(at 149.86 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Push"
-			(at 149.86 44.6024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
-			(at 149.86 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0341bf0-664c-4b3c-9384-34f58a78fdea")
-		)
-		(pin "2"
-			(uuid "197fd3a6-3437-4631-b857-5f16386a782e")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "SW25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
 		(at 200.66 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7846,7 +5862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 200.66 67.31 0)
 			(effects
 				(font
@@ -8054,7 +6070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 213.36 67.31 0)
 			(effects
 				(font
@@ -8122,7 +6138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 124.46 90.17 0)
 			(effects
 				(font
@@ -8236,142 +6252,6 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 264.16 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "57e3477a-e1ef-4810-8d56-29dacf6589ed")
-		(property "Reference" "SW83"
-			(at 264.16 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Push"
-			(at 264.16 90.3224 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
-			(at 264.16 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 264.16 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 264.16 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f155ce0e-3e46-47be-a4f3-958dc063b104")
-		)
-		(pin "2"
-			(uuid "72c2d5b2-f3da-4a82-b222-27a5d1081836")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "SW83")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 264.16 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "582e9bde-66ba-48ed-b449-c6d44a3c828a")
-		(property "Reference" "SW84"
-			(at 264.16 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Push"
-			(at 264.16 101.7524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
-			(at 264.16 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 264.16 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 264.16 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4284d40e-ca8d-4e8c-831b-4e11c620f137")
-		)
-		(pin "2"
-			(uuid "3e2a0c2a-e182-4ebc-af75-e058041ebbaf")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "SW84")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
 		(at 99.06 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8396,7 +6276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 99.06 78.74 0)
 			(effects
 				(font
@@ -8464,7 +6344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 137.16 78.74 0)
 			(effects
 				(font
@@ -8602,7 +6482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 124.46 67.31 0)
 			(effects
 				(font
@@ -8670,7 +6550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 124.46 101.6 0)
 			(effects
 				(font
@@ -8707,144 +6587,6 @@
 			(project "keyboard"
 				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
 					(reference "SW18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 264.16 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6245a1e4-ac80-4d71-bafe-0b9c98695999")
-		(property "Reference" "SW81"
-			(at 264.16 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Push"
-			(at 264.16 67.4624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
-			(at 264.16 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 264.16 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 264.16 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba0d7224-98ae-40b7-bb0e-b6dfba5b72e7")
-		)
-		(pin "2"
-			(uuid "7fb39529-e07e-44c3-ac57-4df86c61148d")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "SW81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N47xxA")
-		(at 144.78 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "63b72f5a-cf6d-4e45-87ba-499da540d096")
-		(property "Reference" "D25"
-			(at 147.32 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N47xxA"
-			(at 147.32 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 149.225 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 144.78 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81d1f08e-2b42-43c7-843c-8ff5017f6434")
-		)
-		(pin "2"
-			(uuid "a5483ef8-f89d-40cc-b0b1-15cdcb91dc12")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -8922,74 +6664,6 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 137.16 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "69f8513c-055c-433d-ae68-0ee50b91aa06")
-		(property "Reference" "SW19"
-			(at 137.16 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Push"
-			(at 137.16 44.6024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
-			(at 137.16 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9632430a-0087-402a-aa94-3f28053c6b0f")
-		)
-		(pin "2"
-			(uuid "f143f4bd-1695-4200-b7d8-8bed393688dc")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "SW19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
 		(at 175.26 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9014,7 +6688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 175.26 101.6 0)
 			(effects
 				(font
@@ -9082,7 +6756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 111.76 101.6 0)
 			(effects
 				(font
@@ -9290,7 +6964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 137.16 67.31 0)
 			(effects
 				(font
@@ -9358,7 +7032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 200.66 78.74 0)
 			(effects
 				(font
@@ -9472,74 +7146,6 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 213.36 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "71b0becc-c99b-4e5f-ac19-853ba9b84960")
-		(property "Reference" "SW55"
-			(at 213.36 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Push"
-			(at 213.36 44.6024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
-			(at 213.36 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3769e238-5449-41d2-a205-1287d240ce41")
-		)
-		(pin "2"
-			(uuid "ff0b7e4e-e3de-4db3-ba3a-2a6212a3a9b7")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "SW55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
 		(at 175.26 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9564,7 +7170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 175.26 55.88 0)
 			(effects
 				(font
@@ -9632,7 +7238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 187.96 101.6 0)
 			(effects
 				(font
@@ -9700,7 +7306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 238.76 90.17 0)
 			(effects
 				(font
@@ -9744,7 +7350,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N47xxA")
-		(at 259.08 53.34 90)
+		(at 233.68 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9752,7 +7358,7 @@
 		(dnp no)
 		(uuid "7584f70e-2e0c-4ffd-9db4-24c14fb6b4a5")
 		(property "Reference" "D79"
-			(at 261.62 55.88 90)
+			(at 236.22 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9761,7 +7367,7 @@
 			)
 		)
 		(property "Value" "1N47xxA"
-			(at 261.62 54.6099 90)
+			(at 236.22 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9771,7 +7377,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 263.525 53.34 0)
+			(at 238.125 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9780,7 +7386,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 259.08 53.34 0)
+			(at 233.68 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9789,7 +7395,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 53.34 0)
+			(at 233.68 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9883,76 +7489,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N47xxA")
-		(at 259.08 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "75f1ad72-3d90-4978-a969-4949e8b23390")
-		(property "Reference" "D84"
-			(at 261.62 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N47xxA"
-			(at 261.62 111.7599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 263.525 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 259.08 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c26477cf-bec6-4373-88e4-1874a11019a3")
-		)
-		(pin "2"
-			(uuid "60c5dbbe-c80c-490c-95ee-26b9485f4e75")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "D84")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 175.26 83.82 0)
 		(unit 1)
@@ -9978,7 +7514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 175.26 78.74 0)
 			(effects
 				(font
@@ -10015,74 +7551,6 @@
 			(project "keyboard"
 				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
 					(reference "SW40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 187.96 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7adfea40-c133-4357-9fbe-5dd55c710f97")
-		(property "Reference" "SW43"
-			(at 187.96 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Push"
-			(at 187.96 44.6024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
-			(at 187.96 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 187.96 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91718c50-f689-4a04-8945-205084118e3f")
-		)
-		(pin "2"
-			(uuid "5b23dcd5-80fd-4a24-97dc-981ec2114351")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "SW43")
 					(unit 1)
 				)
 			)
@@ -10324,7 +7792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 175.26 67.31 0)
 			(effects
 				(font
@@ -10392,7 +7860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 200.66 101.6 0)
 			(effects
 				(font
@@ -10429,74 +7897,6 @@
 			(project "keyboard"
 				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
 					(reference "SW54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 251.46 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "843e4051-f77a-4ad9-a738-594abda7a246")
-		(property "Reference" "SW77"
-			(at 251.46 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Push"
-			(at 251.46 90.3224 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
-			(at 251.46 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 251.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa9dded1-5681-4351-8005-80db6f4599e2")
-		)
-		(pin "2"
-			(uuid "71da9d4a-ba5c-404b-a769-80ff79cb18cc")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "SW77")
 					(unit 1)
 				)
 			)
@@ -10567,74 +7967,6 @@
 			(project "keyboard"
 				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
 					(reference "D56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 251.46 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8a5271e5-25ee-4d5f-98c4-a2103377100c")
-		(property "Reference" "SW74"
-			(at 251.46 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Push"
-			(at 251.46 56.0324 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
-			(at 251.46 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 251.46 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f61ef867-0bf2-4292-864b-480a019cc222")
-		)
-		(pin "2"
-			(uuid "0e35a2a0-2ea1-4f52-85f9-3ea64c324108")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "SW74")
 					(unit 1)
 				)
 			)
@@ -10736,7 +8068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 200.66 55.88 0)
 			(effects
 				(font
@@ -10773,146 +8105,6 @@
 			(project "keyboard"
 				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
 					(reference "SW50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N47xxA")
-		(at 246.38 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c54d8c3-252f-4fb7-8cdb-37bacb83885d")
-		(property "Reference" "D73"
-			(at 248.92 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N47xxA"
-			(at 248.92 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 250.825 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 246.38 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fcd7dc51-9282-46ef-9604-6a159cd4f68c")
-		)
-		(pin "2"
-			(uuid "f07a77e9-7b36-4c56-981c-a65185498499")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "D73")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N47xxA")
-		(at 246.38 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c5a83ca-09c4-4bac-a360-3a55bfba997c")
-		(property "Reference" "D78"
-			(at 248.92 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N47xxA"
-			(at 248.92 111.7599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 250.825 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 246.38 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8164fca3-ac90-44b9-a527-611e6cff535e")
-		)
-		(pin "2"
-			(uuid "0aac4813-9242-4a0c-8a7f-dba41ffe7022")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "D78")
 					(unit 1)
 				)
 			)
@@ -11014,7 +8206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 213.36 78.74 0)
 			(effects
 				(font
@@ -11051,76 +8243,6 @@
 			(project "keyboard"
 				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
 					(reference "SW58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N47xxA")
-		(at 220.98 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "905b767b-b2a0-4726-9067-e26ba0bad7e7")
-		(property "Reference" "D61"
-			(at 223.52 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N47xxA"
-			(at 223.52 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 225.425 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 220.98 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 220.98 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55d66425-1ede-4d17-984f-009abaeb61da")
-		)
-		(pin "2"
-			(uuid "d7fe7dee-9dd9-4d53-82f5-a28f4bdd5e46")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "D61")
 					(unit 1)
 				)
 			)
@@ -11362,7 +8484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 238.76 55.88 0)
 			(effects
 				(font
@@ -11430,7 +8552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 162.56 55.88 0)
 			(effects
 				(font
@@ -11568,7 +8690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 111.76 55.88 0)
 			(effects
 				(font
@@ -11605,74 +8727,6 @@
 			(project "keyboard"
 				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
 					(reference "SW8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 200.66 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9aba9333-0670-4ea4-a720-f87594d23284")
-		(property "Reference" "SW49"
-			(at 200.66 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Push"
-			(at 200.66 44.6024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
-			(at 200.66 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 200.66 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4e9e00c-532b-47c3-832d-191269e655cd")
-		)
-		(pin "2"
-			(uuid "39fd1bf2-9227-4cf3-a55e-2960dfba13e2")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "SW49")
 					(unit 1)
 				)
 			)
@@ -11749,74 +8803,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 251.46 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9fbc3322-568a-47ce-bf3e-edeba730b181")
-		(property "Reference" "SW75"
-			(at 251.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Push"
-			(at 251.46 67.4624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
-			(at 251.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 251.46 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7158342b-d246-4946-b755-7778de015a80")
-		)
-		(pin "2"
-			(uuid "9cfb647a-1b66-4738-8513-506cf5f044b8")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "SW75")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N47xxA")
 		(at 132.08 76.2 90)
 		(unit 1)
@@ -11887,144 +8873,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N47xxA")
-		(at 246.38 99.06 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a1a0a3d4-2c33-43ed-921c-100eefbf57b5")
-		(property "Reference" "D77"
-			(at 248.92 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N47xxA"
-			(at 248.92 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 250.825 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 246.38 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dae41475-f087-4a00-9057-1abc132d5887")
-		)
-		(pin "2"
-			(uuid "e1a42e40-7aeb-4b95-a21d-80a9ebc9298f")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "D77")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 226.06 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a2e39865-a130-4951-a43b-c46701ebeaa4")
-		(property "Reference" "SW61"
-			(at 226.06 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Push"
-			(at 226.06 44.6024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
-			(at 226.06 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49a6f994-ee11-4503-9033-d63c15a63fac")
-		)
-		(pin "2"
-			(uuid "fb45526a-aa5e-494a-8f27-2db36817c0ae")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "SW61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 213.36 106.68 0)
 		(unit 1)
@@ -12050,7 +8898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 213.36 101.6 0)
 			(effects
 				(font
@@ -12087,74 +8935,6 @@
 			(project "keyboard"
 				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
 					(reference "SW60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 251.46 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a75c84d7-89c3-4242-8dd7-afcb606dc56c")
-		(property "Reference" "SW78"
-			(at 251.46 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Push"
-			(at 251.46 101.7524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
-			(at 251.46 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 251.46 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fbe941e-7ea1-4778-bbec-e73875c263bb")
-		)
-		(pin "2"
-			(uuid "31cf8fa9-423a-449b-a595-a8314b8426dd")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "SW78")
 					(unit 1)
 				)
 			)
@@ -12232,282 +9012,6 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 111.76 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab48eeb8-9749-4b69-8cb5-66a491bea346")
-		(property "Reference" "SW7"
-			(at 111.76 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Push"
-			(at 111.76 44.6024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
-			(at 111.76 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "398f36c3-381e-42f0-8b5f-31bdaa3dccdc")
-		)
-		(pin "2"
-			(uuid "a5226830-c466-40e5-8fcf-b2ca674be144")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "SW7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N47xxA")
-		(at 157.48 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab8e8215-2e4c-4761-9d69-25c653db5c32")
-		(property "Reference" "D31"
-			(at 160.02 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N47xxA"
-			(at 160.02 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 161.925 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 157.48 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d2054fb8-ca7f-4c33-a5aa-1473d187808c")
-		)
-		(pin "2"
-			(uuid "03c9e0d7-13e9-4ab9-b08f-fa3add88e011")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "D31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N47xxA")
-		(at 233.68 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ac27e33b-596d-4e5c-acba-31e9e5ea3826")
-		(property "Reference" "D67"
-			(at 236.22 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N47xxA"
-			(at 236.22 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 238.125 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 233.68 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8ef89e4-938b-4f9c-884f-25c1faa79935")
-		)
-		(pin "2"
-			(uuid "88f55008-adb3-49fe-9aa0-2a66ffd8f671")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "D67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 162.56 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ac308f83-bbcc-4748-b6c1-6e3d15160272")
-		(property "Reference" "SW31"
-			(at 162.56 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Push"
-			(at 162.56 44.6024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
-			(at 162.56 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 162.56 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b47bebfe-f421-47fb-bdcb-bcaebd2a169a")
-		)
-		(pin "2"
-			(uuid "8a94d27f-f116-4d8d-b3b9-56d7a5201909")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "SW31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
 		(at 137.16 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12532,7 +9036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 137.16 90.17 0)
 			(effects
 				(font
@@ -12670,7 +9174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 99.06 44.45 0)
 			(effects
 				(font
@@ -12738,7 +9242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 200.66 90.17 0)
 			(effects
 				(font
@@ -12876,7 +9380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 187.96 67.31 0)
 			(effects
 				(font
@@ -12913,76 +9417,6 @@
 			(project "keyboard"
 				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
 					(reference "SW45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N47xxA")
-		(at 119.38 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b5ad89e5-9ca5-41fe-b457-9b5266652964")
-		(property "Reference" "D13"
-			(at 121.92 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N47xxA"
-			(at 121.92 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 123.825 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 119.38 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f779fa17-323d-439c-9bf7-7093214ec878")
-		)
-		(pin "2"
-			(uuid "97315bd6-454d-4af8-bfdf-44e267d998b3")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -13200,76 +9634,6 @@
 	)
 	(symbol
 		(lib_id "Diode:1N47xxA")
-		(at 259.08 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bdb2e142-848e-4e04-83e1-d4aa3eb88245")
-		(property "Reference" "D82"
-			(at 261.62 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N47xxA"
-			(at 261.62 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 263.525 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 259.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f021006-43f0-45b9-bc15-d87880730e31")
-		)
-		(pin "2"
-			(uuid "ab7f7857-0245-4a88-b8db-17f9d7758834")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "D82")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N47xxA")
 		(at 93.98 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13364,7 +9728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 149.86 101.6 0)
 			(effects
 				(font
@@ -13478,146 +9842,6 @@
 	)
 	(symbol
 		(lib_id "Diode:1N47xxA")
-		(at 182.88 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c41a5e5b-57b2-49b4-b411-ca8a9fc594d1")
-		(property "Reference" "D43"
-			(at 185.42 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N47xxA"
-			(at 185.42 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 187.325 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 182.88 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 182.88 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9124d428-1fd2-47c2-80ca-d9a3b96a2c98")
-		)
-		(pin "2"
-			(uuid "71cc46d0-a203-4a1b-9d9e-fad9583c1ed0")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "D43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N47xxA")
-		(at 195.58 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c536a9b9-5b2d-4c61-b264-a028b16189ea")
-		(property "Reference" "D49"
-			(at 198.12 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N47xxA"
-			(at 198.12 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 200.025 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 195.58 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b4d0147e-2e79-42d8-b907-07a6f0367266")
-		)
-		(pin "2"
-			(uuid "a591e7ec-dfd2-4d0b-8708-57717c55c042")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "D49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N47xxA")
 		(at 182.88 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13681,74 +9905,6 @@
 			(project "keyboard"
 				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
 					(reference "D47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 264.16 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c7f8f40a-f774-4548-929d-3219d02d7332")
-		(property "Reference" "SW82"
-			(at 264.16 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Push"
-			(at 264.16 78.8924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
-			(at 264.16 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 264.16 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 264.16 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09f31ae3-5b8a-4840-8529-446c7a874d55")
-		)
-		(pin "2"
-			(uuid "f34499be-acb9-4f59-8c78-313016f8ac82")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "SW82")
 					(unit 1)
 				)
 			)
@@ -13819,76 +9975,6 @@
 			(project "keyboard"
 				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
 					(reference "D40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N47xxA")
-		(at 259.08 99.06 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca31d2c5-0482-43a4-a313-8e30a13a5229")
-		(property "Reference" "D83"
-			(at 261.62 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N47xxA"
-			(at 261.62 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 263.525 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 259.08 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "87590254-4857-47ee-a6b3-08ca40640dfe")
-		)
-		(pin "2"
-			(uuid "1417688c-755f-4319-adca-359d044100cd")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "D83")
 					(unit 1)
 				)
 			)
@@ -13990,7 +10076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 238.76 78.74 0)
 			(effects
 				(font
@@ -14104,76 +10190,6 @@
 	)
 	(symbol
 		(lib_id "Diode:1N47xxA")
-		(at 106.68 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d371c51f-ec07-4018-ae6d-79d275b8c1c3")
-		(property "Reference" "D7"
-			(at 109.22 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N47xxA"
-			(at 109.22 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 111.125 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 106.68 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d4e45cc-d27c-4efe-be12-eabb186046a4")
-		)
-		(pin "2"
-			(uuid "ab7b7d34-632c-4f7a-8967-4fa5ad4241e4")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N47xxA")
 		(at 195.58 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14244,74 +10260,6 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 251.46 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3a4c196-cfaf-4389-88a4-3aa814d04be7")
-		(property "Reference" "SW73"
-			(at 251.46 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Push"
-			(at 251.46 44.6024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
-			(at 251.46 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 251.46 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "820d6c54-bcf8-4fb3-8444-a77833f2787b")
-		)
-		(pin "2"
-			(uuid "d6df3e66-2ee4-4150-9e54-5ceee5f91e67")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "SW73")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
 		(at 162.56 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14336,7 +10284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 162.56 67.31 0)
 			(effects
 				(font
@@ -14404,7 +10352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 162.56 78.74 0)
 			(effects
 				(font
@@ -14472,7 +10420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 238.76 67.31 0)
 			(effects
 				(font
@@ -14515,6 +10463,140 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:MCU_Arduino_Pro_Micro")
+		(at 54.61 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbdb7c42-2808-4175-8cc1-5027f635773f")
+		(property "Reference" "U1"
+			(at 54.61 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "Arduino_Pro_Micro"
+			(at 54.61 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MCU:Arduino_Pro_Micro"
+			(at 54.61 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 137.16 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "9a16dbb8-9ded-4bbd-a0ca-3cd786a5daa5")
+		)
+		(pin "22"
+			(uuid "9ee2e471-f295-4c86-bdd7-e6585b83c36e")
+		)
+		(pin "4"
+			(uuid "26597b1c-c216-4e86-893a-44b59604aa03")
+		)
+		(pin "13"
+			(uuid "727982f0-df3b-499c-a0d5-569010d13b04")
+		)
+		(pin "14"
+			(uuid "e428d371-0219-49aa-bb15-5a02ddb30567")
+		)
+		(pin "15"
+			(uuid "eb0def84-a528-4e27-9424-dc75e7414682")
+		)
+		(pin "3"
+			(uuid "2b931729-3087-4db6-895b-a28bec2bc2f7")
+		)
+		(pin "20"
+			(uuid "e2f61d85-6eaf-4915-ad49-cfda2a7cf67c")
+		)
+		(pin "12"
+			(uuid "d3332be4-8e9b-4266-b6ae-a7e0129a3599")
+		)
+		(pin "7"
+			(uuid "c1832f16-083b-480a-81b9-eb083558c150")
+		)
+		(pin "16"
+			(uuid "4b9e7dfb-0bba-4807-8a7f-52ec91a20f29")
+		)
+		(pin "18"
+			(uuid "d896cae9-3433-4bb0-90dd-e027655e30a8")
+		)
+		(pin "2"
+			(uuid "4e2b4e00-0717-444e-bf28-5b1e6d19d393")
+		)
+		(pin "1"
+			(uuid "f0c53c49-1c3f-4773-abcf-79e748dc473c")
+		)
+		(pin "10"
+			(uuid "bf4fa402-cef5-4343-9a48-1fe0667539ce")
+		)
+		(pin "19"
+			(uuid "41a3845c-484c-4354-872c-3119bac1a3e7")
+		)
+		(pin "23"
+			(uuid "b2da8971-f353-49f2-a0fa-f0df18332251")
+		)
+		(pin "9"
+			(uuid "390e3716-69c0-4840-b626-533d2a53bc90")
+		)
+		(pin "24"
+			(uuid "a7cbcd1b-5ea1-4c39-a607-8cf88e5d735c")
+		)
+		(pin "21"
+			(uuid "d3d7dba4-a9eb-4f9f-851f-b94a69e90a80")
+		)
+		(pin "17"
+			(uuid "165dfe43-1e0f-4b3f-b19c-a9889de9acb9")
+		)
+		(pin "8"
+			(uuid "ee785d9c-215b-4517-8b5e-48b6f9d1808e")
+		)
+		(pin "5"
+			(uuid "9577bbbc-e4e9-47a4-a74f-1ac5c222a810")
+		)
+		(pin "11"
+			(uuid "81440a53-cd2b-4a8d-9ff2-c3fc2dac8c86")
+		)
+		(instances
+			(project ""
+				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 124.46 60.96 0)
 		(unit 1)
@@ -14540,7 +10622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 124.46 55.88 0)
 			(effects
 				(font
@@ -14678,7 +10760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 124.46 78.74 0)
 			(effects
 				(font
@@ -14886,7 +10968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 137.16 101.6 0)
 			(effects
 				(font
@@ -15024,7 +11106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 99.06 67.31 0)
 			(effects
 				(font
@@ -15092,7 +11174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 149.86 67.31 0)
 			(effects
 				(font
@@ -15136,74 +11218,6 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 124.46 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ec85d20e-3ab0-402a-a100-bd8ca54eb8e2")
-		(property "Reference" "SW13"
-			(at 124.46 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Push"
-			(at 124.46 44.6024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
-			(at 124.46 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc424e74-5051-4404-89fa-9f375cdf83b0")
-		)
-		(pin "2"
-			(uuid "852fba36-8bf2-40e6-a260-9649ee1e1c10")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "SW13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
 		(at 226.06 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15228,7 +11242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 226.06 101.6 0)
 			(effects
 				(font
@@ -15366,7 +11380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 149.86 55.88 0)
 			(effects
 				(font
@@ -15434,7 +11448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 162.56 90.17 0)
 			(effects
 				(font
@@ -15477,76 +11491,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N47xxA")
-		(at 259.08 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1b6a59c-23bb-4680-8666-3c9e2eb41552")
-		(property "Reference" "D81"
-			(at 261.62 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N47xxA"
-			(at 261.62 77.4699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 263.525 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 259.08 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "249aafba-c731-44d7-bfbc-53d9dcdf1571")
-		)
-		(pin "2"
-			(uuid "ec0466ef-256b-490e-abdb-5ad7e9825b23")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "D81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 149.86 95.25 0)
 		(unit 1)
@@ -15572,7 +11516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 149.86 90.17 0)
 			(effects
 				(font
@@ -15896,76 +11840,6 @@
 	)
 	(symbol
 		(lib_id "Diode:1N47xxA")
-		(at 259.08 64.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f60ce807-d316-4a0f-a48c-bf34eed69138")
-		(property "Reference" "D80"
-			(at 261.62 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N47xxA"
-			(at 261.62 66.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 263.525 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 259.08 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a5f7889-ece7-4435-8c7e-5e83ff03f807")
-		)
-		(pin "2"
-			(uuid "b4911032-b4aa-4d1b-889f-e9c8cc8dbd8b")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "D80")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N47xxA")
 		(at 144.78 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16035,76 +11909,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N47xxA")
-		(at 208.28 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f78076d8-aa40-46d7-a592-40076dcab473")
-		(property "Reference" "D55"
-			(at 210.82 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N47xxA"
-			(at 210.82 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 212.725 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 208.28 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df97a8ad-423d-4cda-bc73-f6b87ae5ea45")
-		)
-		(pin "2"
-			(uuid "6983ee27-d1b7-4203-b6f0-a5fe32475b4c")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "D55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 213.36 95.25 0)
 		(unit 1)
@@ -16130,7 +11934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 213.36 90.17 0)
 			(effects
 				(font
@@ -16268,7 +12072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 			(at 187.96 78.74 0)
 			(effects
 				(font
