@@ -395,7 +395,7 @@
 		(roundrect_rratio 0.1)
 		(uuid "a96a9d74-d3e4-4e84-a484-1dfa9fa00d1e")
 	)
-	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
+	(model "${KIPRJMOD}/ScottoKicad/3dmodels/ScottoKeebs_Hotswap.3dshapes/Hotswap_MX.step"
 		(offset
 			(xyz 0 0 0)
 		)

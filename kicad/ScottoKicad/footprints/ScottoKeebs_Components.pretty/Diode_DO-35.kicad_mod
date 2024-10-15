@@ -69,7 +69,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 8f76aad5-5fa6-4f02-856d-8331324fbc13))
   (pad "1" thru_hole rect (at 0 0) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 2e8bc9f9-3f92-49fd-a09f-519ed79542e8))
   (pad "2" thru_hole oval (at 7.62 0) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp ab137455-787e-40dc-8ccf-232f332bbbcb))
-  (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
+  (model "${KIPRJMOD}/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_DO-35.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

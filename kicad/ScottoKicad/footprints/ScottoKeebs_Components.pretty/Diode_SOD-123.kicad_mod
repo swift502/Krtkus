@@ -61,7 +61,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 81ae7d09-f629-4b81-ae25-dc4e09f453ff))
   (pad "1" smd roundrect (at -1.65 0) (size 0.9 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 96c568a0-d0c0-4b2a-b452-7dce0c66fdc7))
   (pad "2" smd roundrect (at 1.65 0) (size 0.9 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp aa0cdfce-155b-4298-ae2a-5262c9824e01))
-  (model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+  (model "${KIPRJMOD}/ScottoKicad/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
