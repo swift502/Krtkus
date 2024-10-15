@@ -3,4 +3,10 @@
 ## Libraries
 
 - [Scottokeebs extras](https://github.com/joe-scotto/scottokeebs/tree/main/Extras)
-- [MX_V2](https://github.com/ai03-2725/MX_V2)
+
+## Grid
+
+- Switch: 19,05
+- Switch 4: 4,7625
+- Switch 16: 1.190625
+- Switch 64: 0.29765625
