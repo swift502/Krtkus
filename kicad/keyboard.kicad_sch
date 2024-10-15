@@ -849,12 +849,6 @@
 		(uuid "12960b44-6d2f-468f-aa4e-29cf67ac1df8")
 	)
 	(junction
-		(at 157.48 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14585d86-dbf6-4afc-a3b2-3779c4e49382")
-	)
-	(junction
 		(at 119.38 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -969,12 +963,6 @@
 		(uuid "35bc3d8b-ba0f-4e49-8f59-400cf1ea1c44")
 	)
 	(junction
-		(at 167.64 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b0e573e-2e5d-488d-9cfb-691d58a44e67")
-	)
-	(junction
 		(at 167.64 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1041,7 +1029,7 @@
 		(uuid "4b4aba2d-a5a9-4faf-9a96-a2c41416a890")
 	)
 	(junction
-		(at 170.18 114.3)
+		(at 163.83 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f8c5335-a214-42b2-a094-d4a6b92d7bf3")
@@ -1419,12 +1407,6 @@
 		(uuid "f4b42fec-cd08-4b3e-84fc-24aa9fcfe9e0")
 	)
 	(junction
-		(at 167.64 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4fbf60a-31e8-4436-921f-ecce26841f3c")
-	)
-	(junction
 		(at 129.54 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1658,6 +1640,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 106.68) (xy 180.34 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b3ca95d-4f1b-40f3-90d4-3876773f6568")
+	)
+	(wire
+		(pts
 			(xy 129.54 45.974) (xy 129.54 60.96)
 		)
 		(stroke
@@ -1705,16 +1697,6 @@
 			(type default)
 		)
 		(uuid "41d74c38-38f2-4a30-82b5-009c000cef65")
-	)
-	(wire
-		(pts
-			(xy 180.34 95.25) (xy 180.34 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4949513d-d5e1-44db-8f51-3e21634258a1")
 	)
 	(wire
 		(pts
@@ -1785,16 +1767,6 @@
 			(type default)
 		)
 		(uuid "5a1ee34a-a8b0-423c-ba16-64de1aa03fb3")
-	)
-	(wire
-		(pts
-			(xy 157.48 114.3) (xy 170.18 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a8734b5-349c-4eae-9a3d-c02fff903618")
 	)
 	(wire
 		(pts
@@ -1988,13 +1960,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 106.68) (xy 167.64 106.934)
+			(xy 173.99 106.68) (xy 180.34 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82426124-0b95-4a4d-82bf-31c18a90781c")
+		(uuid "852ebaa5-f84e-4ac4-9e28-d74ecd6a495f")
 	)
 	(wire
 		(pts
@@ -2208,7 +2180,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 114.3) (xy 157.48 114.3)
+			(xy 144.78 114.3) (xy 163.83 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2228,7 +2200,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 114.3) (xy 182.88 114.3)
+			(xy 163.83 114.3) (xy 182.88 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2325,16 +2297,6 @@
 			(type default)
 		)
 		(uuid "bb58979a-a5a8-4e43-842c-b0e9c030e1ce")
-	)
-	(wire
-		(pts
-			(xy 167.64 95.25) (xy 167.64 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbb4b027-f6b4-4d37-9073-29ab5d6e7f74")
 	)
 	(wire
 		(pts
@@ -3819,74 +3781,6 @@
 			(project "keyboard"
 				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
 					(reference "SW28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 162.56 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12b70908-54eb-472e-a2d5-449609829c67")
-		(property "Reference" "SW36"
-			(at 162.56 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Push"
-			(at 162.56 101.7524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
-			(at 162.56 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 162.56 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "741e0938-ed31-45b8-9676-e62064757a88")
-		)
-		(pin "2"
-			(uuid "e9a746e6-e2ad-429a-8e9a-e8a5de422bcf")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "SW36")
 					(unit 1)
 				)
 			)
@@ -6578,7 +6472,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N47xxA")
-		(at 170.18 110.49 90)
+		(at 163.83 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6586,7 +6480,7 @@
 		(dnp no)
 		(uuid "683e78ce-e0d5-4583-91a8-ffb547e573d5")
 		(property "Reference" "D42"
-			(at 172.72 113.03 90)
+			(at 166.37 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6595,7 +6489,7 @@
 			)
 		)
 		(property "Value" "1N47xxA"
-			(at 172.72 111.7599 90)
+			(at 166.37 111.7599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6605,7 +6499,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 174.625 110.49 0)
+			(at 168.275 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6614,7 +6508,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 170.18 110.49 0)
+			(at 163.83 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6623,7 +6517,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 110.49 0)
+			(at 163.83 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6648,7 +6542,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 175.26 106.68 0)
+		(at 168.91 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6656,7 +6550,7 @@
 		(dnp no)
 		(uuid "6c51ffd4-cb8c-4153-97ab-73b3e4c76517")
 		(property "Reference" "SW42"
-			(at 175.26 109.22 0)
+			(at 168.91 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6664,7 +6558,7 @@
 			)
 		)
 		(property "Value" "Push"
-			(at 175.26 101.7524 0)
+			(at 168.91 101.7524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6673,7 +6567,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
-			(at 175.26 101.6 0)
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6682,7 +6576,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 101.6 0)
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6691,7 +6585,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 106.68 0)
+			(at 168.91 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11537,76 +11431,6 @@
 			(project "keyboard"
 				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
 					(reference "SW29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N47xxA")
-		(at 157.48 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f24c1c45-7bc2-4104-a929-88eb5715de0c")
-		(property "Reference" "D36"
-			(at 160.02 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N47xxA"
-			(at 160.02 111.7599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 161.925 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 157.48 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f533d09b-7fce-4594-8177-cbaa885d73bf")
-		)
-		(pin "2"
-			(uuid "5eac8bd9-c6af-4b7e-afb7-e5e25eb88625")
-		)
-		(instances
-			(project "keyboard"
-				(path "/4342f055-467b-4789-a8ed-b19f1b214d4d"
-					(reference "D36")
 					(unit 1)
 				)
 			)
