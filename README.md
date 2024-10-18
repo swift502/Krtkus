@@ -12,3 +12,9 @@ An extended 5x12 keyboard with 62 total keys. PCB is designed in Kicad, case in 
 - Switch 4: 4.7625
 - Switch 16: 1.190625
 - Switch 64: 0.29765625
+
+## Cost
+
+- PCB + Case: ~$30
+- Hot-swap sockets, switches, keycaps: ~$100-200
+- Shipping, JLC assembly: ~$100-200

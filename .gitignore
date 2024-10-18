@@ -1,3 +1,4 @@
 keyboard-backups
 ~*.lck
-production
+pcb/production/backups
+pcb/production/netlist.ipc
