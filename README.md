@@ -10,6 +10,11 @@ PCB is designed in Kicad, case in Blender.
 - 61 SMD diodes
 - Arduino Pro Micro
 
+Optional:
+
+- 90 degree micro USB adapter
+- Rubber feet
+
 My initial assembly cost turned out to be $380 total, half of which was shipping. But the PCB and case alone should be around $30 to manufacture.
 
 ## Kicad
