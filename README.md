@@ -26,3 +26,11 @@ My assembly cost turned out to be $380 total, half of which was shipping. The PC
 | Switch 4 | 4.7625 |
 | Switch 16 | 1.190625 |
 | Switch 64 | 0.29765625 |
+
+## QMK
+
+Compile:
+
+```
+qmk compile -kb krtkus -km default
+```
