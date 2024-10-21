@@ -29,6 +29,16 @@ My assembly cost turned out to be $380 total, half of which was shipping. The PC
 
 ## QMK
 
+Compiler: https://msys.qmk.fm
+
+Toolbox: https://qmk.fm/toolbox
+
+Setup:
+
+```
+qmk setup
+```
+
 Compile:
 
 ```
