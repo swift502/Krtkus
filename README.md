@@ -2,7 +2,7 @@
 
 An extended 5x12 keyboard with 2 extra keys. The design is intended for ortho layouts with an offset number row, allowing for the placement of the delete and tilde keys above their usual spots.
 
-PCB is designed in Kicad, case in Blender.
+PCB is designed in Kicad, case in Blender. Case has a fixed 7 degree tilt. Firmware is QMK/VIA compatible.
 
 ## Parts
 
@@ -29,9 +29,8 @@ My assembly cost turned out to be $380 total, half of which was shipping. The PC
 
 ## QMK
 
-Compiler: https://msys.qmk.fm
-
-Toolbox: https://qmk.fm/toolbox
+- Compiler: https://msys.qmk.fm
+- Toolbox: https://qmk.fm/toolbox
 
 Setup:
 
