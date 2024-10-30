@@ -2,9 +2,7 @@
 
 An extended 5x12 keyboard with 2 extra keys. The design is intended for ortho layouts with a shifted number row, allowing for the placement of the delete and tilde keys above their usual spots.
 
-PCB is designed in Kicad. Firmware is QMK/VIA compatible. Pre-compiled hex file for flashing can be found in the `qmk` folder. The design for via.app is in the `via` folder, and has to be uploaded in the design tab before connecting the keyboard.
-
-Case is designed in Blender, and has a fixed tilt of 7 degrees.
+PCB is designed in Kicad. Firmware is QMK/VIA compatible. The design for via.app is in the has to be uploaded in the design tab before connecting the keyboard. Case is designed in Blender, and has a fixed tilt of 7 degrees.
 
 ## Parts
 
