@@ -29,12 +29,10 @@ Case is designed in Blender, and has a fixed tilt of 7 degrees.
 
 ## QMK
 
-Instructions for Windows:
-
 - Compiler: https://msys.qmk.fm
 - Toolbox: https://qmk.fm/toolbox
 
-Create a "krtkus" folder in `qmk_firmware/keyboards` and copy the contents of the `qmk` folder inside of it. Then compile the firmware using the commands below.
+On Windows, create a "krtkus" folder in `qmk_firmware/keyboards` and copy the contents of the `qmk` folder inside of it. Then in MSYS compile the firmware using the commands below.
 
 Setup:
 
