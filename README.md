@@ -30,7 +30,7 @@ PCB is designed in Kicad. Firmware is QMK/VIA compatible. The design for via.app
 - Compiler: https://msys.qmk.fm
 - Toolbox: https://qmk.fm/toolbox
 
-On Windows, create a "krtkus" folder in `qmk_firmware/keyboards` and copy the contents of the `source/firmware` folder inside of it. Then in MSYS compile the firmware using the commands below.
+On Windows, create a "krtkus" folder in `qmk_firmware/keyboards` and copy the contents of the `source/krtkus_qmk` folder inside of it. Then in MSYS compile the firmware using the commands below.
 
 Setup:
 
