@@ -233,7 +233,7 @@
 		)
 		(path "/40accc38-b9ae-49b1-b0dd-293e5b3f7d96")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -528,7 +528,7 @@
 		)
 		(path "/fc324dc0-79b3-4479-8c15-17efb944ea35")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -823,7 +823,7 @@
 		)
 		(path "/6c51ffd4-cb8c-4153-97ab-73b3e4c76517")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -1118,7 +1118,7 @@
 		)
 		(path "/1e3cab8d-4300-49fc-9fc4-1caf78d592ff")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -1413,7 +1413,7 @@
 		)
 		(path "/44a8fd22-972c-4076-9a26-2547af323a2f")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -1708,7 +1708,7 @@
 		)
 		(path "/e78b9ab7-90fd-4c51-b5e0-32226eeee8b5")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -2003,7 +2003,7 @@
 		)
 		(path "/b2401088-4441-41a3-9bc2-f735e9682cc2")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -2298,7 +2298,7 @@
 		)
 		(path "/f973fea8-e7d7-4676-bbb9-f7402f5cc6a1")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -2593,7 +2593,7 @@
 		)
 		(path "/f1e81b32-675a-4941-a675-edb1d0b704b9")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -2888,7 +2888,7 @@
 		)
 		(path "/45118aa5-d1ce-4b39-a244-563be89d1b12")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -3183,7 +3183,7 @@
 		)
 		(path "/804f714b-ab12-4db7-91b9-4b0ccd44e7a9")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -3478,7 +3478,7 @@
 		)
 		(path "/52eb4c93-eeda-4e5f-8e14-47a267929e14")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -3773,7 +3773,7 @@
 		)
 		(path "/11e8bc8d-7ab5-4371-a045-296d5a316893")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -4068,7 +4068,7 @@
 		)
 		(path "/7e44bace-b332-48f8-899e-2d1d31a07501")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -4363,7 +4363,7 @@
 		)
 		(path "/7426207f-4fac-4b5e-bb1e-c09a6c5bff05")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -4658,7 +4658,7 @@
 		)
 		(path "/5a27411f-4944-4c5d-b845-ca275a6f23ba")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -4953,7 +4953,7 @@
 		)
 		(path "/31c73f7e-00eb-45b1-b32d-570ce5b5babc")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -5248,7 +5248,7 @@
 		)
 		(path "/8f0d61e4-f1d1-4e01-87c8-f0dbb1cf00a7")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -5543,7 +5543,7 @@
 		)
 		(path "/61d0d8b5-61e3-45fe-a89e-73c3b6abe69e")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -5838,7 +5838,7 @@
 		)
 		(path "/e50195e7-7dca-4738-bdf8-6ce895fe844c")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -6133,7 +6133,7 @@
 		)
 		(path "/ece1dc77-31ba-42e5-9902-e4105cbb488f")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -6428,7 +6428,7 @@
 		)
 		(path "/2f1f26d2-4662-4365-b9de-e594dac4ee41")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -6723,7 +6723,7 @@
 		)
 		(path "/12b35165-5cad-423f-aceb-2746ad839eea")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -7018,7 +7018,7 @@
 		)
 		(path "/96a4442f-cde9-47f2-86b9-38b5ad5d2bb1")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -7313,7 +7313,7 @@
 		)
 		(path "/5166c9f7-1613-407b-b235-85cfe17d071b")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -7608,7 +7608,7 @@
 		)
 		(path "/25a0558e-39fc-4ec2-838e-b45092902764")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -7903,7 +7903,7 @@
 		)
 		(path "/8c526b62-9b78-447e-9642-2df8c9afdf27")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -8198,7 +8198,7 @@
 		)
 		(path "/1415f6b0-9286-41fa-bc1d-ebc7b2fb04a2")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -8493,7 +8493,7 @@
 		)
 		(path "/6c579bf1-6d5a-4df4-bcc6-976f387f243d")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -8788,7 +8788,7 @@
 		)
 		(path "/aef46b26-beb7-4fa5-b300-b4680972e926")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -9083,7 +9083,7 @@
 		)
 		(path "/72473e97-8c25-4f76-81e5-7b62b8631ffc")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -9378,7 +9378,7 @@
 		)
 		(path "/b26fd5ec-852d-41d8-9e67-94f9a801a29d")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -9673,7 +9673,7 @@
 		)
 		(path "/38da2325-ccf6-476a-92a5-23b00e72d816")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -9968,7 +9968,7 @@
 		)
 		(path "/d55a4f64-daf0-402f-bfe7-84e646ccd6b4")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -10263,7 +10263,7 @@
 		)
 		(path "/77cf84ac-9633-4386-9f82-8fad8c93f7fe")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -10558,7 +10558,7 @@
 		)
 		(path "/6e0cf798-b085-403a-b2a7-097a17e0ea87")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -10853,7 +10853,7 @@
 		)
 		(path "/5b5d2e13-c8d8-4fbd-ae72-9090100c1d46")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -11148,7 +11148,7 @@
 		)
 		(path "/b487a37c-ec54-4a60-a138-d4abeaaee45a")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -11443,7 +11443,7 @@
 		)
 		(path "/96f7546f-0da0-47e3-bcbc-ca6e77aafafb")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -11737,7 +11737,7 @@
 		)
 		(path "/dbdb7c42-2808-4175-8cc1-5027f635773f")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 8.89 -17.78)
@@ -12936,7 +12936,7 @@
 		)
 		(path "/1e33ca48-e7f6-4edb-b371-e013f8006cf3")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -13231,7 +13231,7 @@
 		)
 		(path "/9868648b-4b67-4af0-843b-7fa655224cb1")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -13526,7 +13526,7 @@
 		)
 		(path "/ef087f5a-ed38-48db-ad53-5ce3b4249a7e")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -13821,7 +13821,7 @@
 		)
 		(path "/1ffb8f37-12d6-4108-8c3e-3ada0a6c0f70")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -14116,7 +14116,7 @@
 		)
 		(path "/dd752c20-9de9-425d-9f1b-04a84dc1c9bc")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -14411,7 +14411,7 @@
 		)
 		(path "/c04cfb90-7375-46d0-8b1d-c2708497b316")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -14706,7 +14706,7 @@
 		)
 		(path "/a4a11f20-46b7-4925-95b9-3c87978ff972")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -15001,7 +15001,7 @@
 		)
 		(path "/cc8e7c32-e8df-49a6-8e71-17cf2a91ee95")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -15296,7 +15296,7 @@
 		)
 		(path "/71f49e49-694a-4f83-96b7-3adcf552f2b8")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -15591,7 +15591,7 @@
 		)
 		(path "/f0250a96-a8ca-484c-8caf-e9d4329343e9")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -15886,7 +15886,7 @@
 		)
 		(path "/34b3a5ef-a99c-4a9b-8a3c-c67f32054396")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -16181,7 +16181,7 @@
 		)
 		(path "/ec5d0bcd-7f8d-4273-bfa9-f403b63ba05c")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -16476,7 +16476,7 @@
 		)
 		(path "/2ea59c51-a0a7-445f-a7c4-53f839807ade")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -16771,7 +16771,7 @@
 		)
 		(path "/6fed4943-8a27-44bc-a72e-1ace61199a18")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -17066,7 +17066,7 @@
 		)
 		(path "/2c96fec0-9f09-42d4-89fe-2599a43ff5e5")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -17361,7 +17361,7 @@
 		)
 		(path "/24839d89-7c88-4162-9b09-cfd5dd1cf2b8")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -17656,7 +17656,7 @@
 		)
 		(path "/dc753d55-4388-4fe8-bb00-53449225191c")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -17951,7 +17951,7 @@
 		)
 		(path "/d9df1be4-0976-47fb-99ed-8d73d024e6a9")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -18246,7 +18246,7 @@
 		)
 		(path "/d6c7a1cf-31fd-4c93-9b4a-852eb2063c93")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -18541,7 +18541,7 @@
 		)
 		(path "/555dbac6-59a9-4f6c-896e-2c1fad3e2550")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -18836,7 +18836,7 @@
 		)
 		(path "/1c82c494-2a8b-41f4-8b42-a946c524c779")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -19131,7 +19131,7 @@
 		)
 		(path "/60b96c30-fa1b-4c6a-8bcc-e954d57944ea")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9 -8.5)
@@ -19436,7 +19436,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/dc78887c-7aca-42cd-b288-f9d55fb2435e")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -19767,7 +19767,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/5e8578f5-115a-45f2-b879-072deff9539f")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -20098,7 +20098,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/714625d8-95fa-426c-9fe8-41d278e8ecbd")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -20429,7 +20429,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/9611cd3c-9c30-4e4a-bc0a-41d528e94213")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -20760,7 +20760,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/7b93e175-83c1-4e06-9604-886b51fb2ed5")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -21091,7 +21091,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/467c3311-4f17-4170-9a14-d0fa79d86206")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -21422,7 +21422,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/e13fb699-6585-42b7-bd29-f501bd63f5f2")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -21753,7 +21753,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/88e23a28-5310-4d14-94de-c4eb3d5930cd")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -22084,7 +22084,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/afd786bb-5615-485c-8b27-829ca4e26efd")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -22415,7 +22415,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/7584f70e-2e0c-4ffd-9db4-24c14fb6b4a5")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -22746,7 +22746,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/0e74815c-71f3-46ce-a304-bec7e084b7d1")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -23077,7 +23077,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/a096f37a-99a6-4885-a28c-b921e37cc338")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -23408,7 +23408,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/f6f02432-21bd-472d-b655-a73761ef85c9")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -23739,7 +23739,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/489b893d-b47c-42fe-bc82-b4289948f933")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -24070,7 +24070,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/37d136f6-dcc7-49bb-92e8-a27701cbd056")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -24401,7 +24401,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/c9b6a8fb-c7be-4dcf-8ffa-bd341fe471c6")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -24732,7 +24732,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/f5c0b2fa-75df-47ce-8229-edea4551387d")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -25063,7 +25063,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/d39abef0-8296-4a33-8ea8-8a2c97b428f5")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -25394,7 +25394,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/b3d68bdb-797c-491d-b9d9-dcd5d475ba8a")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -25725,7 +25725,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/c053e5af-afe5-4a12-9ef3-2bdb13379234")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -26056,7 +26056,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/262f0a42-e49e-4085-9097-565f5e9c4bb0")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -26387,7 +26387,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/91594acb-9b7f-4e3f-b76e-1c5dc3095cba")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -26718,7 +26718,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/7c38e797-55f5-4908-a75e-21936a1e5592")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -27049,7 +27049,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/562e3d51-5e0d-4c00-8aee-8eae47056f46")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -27380,7 +27380,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/941ac9e2-94d2-4dea-9534-2efd796c8c29")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -27711,7 +27711,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/268457b7-4f22-43f0-89b7-5d43562eec42")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -28042,7 +28042,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/be41e334-4e17-4fd1-9ac7-7678850fe3a3")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -28373,7 +28373,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/1887f0e1-cd14-43be-b112-888397952993")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -28704,7 +28704,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/20d21fd4-91f1-45c8-b017-8d9c22a7f6d4")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -29035,7 +29035,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/0ed72c56-2083-49c5-a81a-10819847c3e6")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -29366,7 +29366,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/75a49bb7-6a23-4cf7-ac8b-a89c091a0649")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -29697,7 +29697,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/e5e111bd-4857-4609-82db-1fd7dbc0e987")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -30028,7 +30028,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/974087d5-0ef5-43d9-8ebe-619b91b34d02")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -30359,7 +30359,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/683e78ce-e0d5-4583-91a8-ffb547e573d5")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -30690,7 +30690,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/6cddd0e5-4ce1-4645-8942-3e712467be55")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -31021,7 +31021,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/a835c5cd-735e-4f2c-ac8e-02145686a59b")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -31352,7 +31352,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/45d38dde-ab84-4ee5-a1a5-77d6eaab888b")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -31683,7 +31683,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/b961d0f0-3e27-451f-bc88-b583f57be0c3")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -32014,7 +32014,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/1dcc7cc3-1c0a-4a5f-bf66-d4b7a68ebd3e")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -32345,7 +32345,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/c6d949c4-12d4-4f2a-a79d-97691b69af63")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -32676,7 +32676,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/b71c544a-394b-495b-b288-df5016e737a9")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -33007,7 +33007,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/2f3df5e3-c7ff-47c2-b70b-04c96726d606")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -33338,7 +33338,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/13b1eb53-42e0-4271-af64-461c878a6071")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -33669,7 +33669,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/fb0bed0f-6cc2-4948-8a7b-aa4e34936206")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -34000,7 +34000,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/46ef397f-a8f6-4f21-a28e-c3effbb2abd3")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -34331,7 +34331,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/fd288574-8be8-4d13-8002-d90b440b83fe")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -34662,7 +34662,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/df5ec490-0e5f-4a75-b4ee-917b992054e0")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -34993,7 +34993,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/cd8b8ce1-1669-4386-895e-93b36852b990")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -35324,7 +35324,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/0a86990b-a078-4cfe-96c9-1e13c83e3c75")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -35655,7 +35655,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/edf35a53-4ecd-4824-8e29-2545ce22efb2")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -35986,7 +35986,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/8eb23d98-d1de-494c-a9ae-16ba33a300f1")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -36317,7 +36317,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/51b114a2-2322-47bd-804c-a3210cba585a")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -36648,7 +36648,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/6ceabb57-bcb0-4bf8-80ae-b1a1f607f65e")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -36979,7 +36979,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/f50de610-8872-49f8-9d71-a3730881c42f")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -37310,7 +37310,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/f3bea36c-371d-4d16-bf91-706e3b41f9df")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -37641,7 +37641,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/ba62e057-00a4-499a-947d-974edea5066b")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -37972,7 +37972,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/ca405eae-615c-4be3-8ffc-d06b7e71aefe")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -38303,7 +38303,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/9c5c4945-9c9e-40ce-996d-770a14309863")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -38634,7 +38634,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/8bf1fa4d-6ec4-48ab-82c6-94993bf8fbb1")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -38965,7 +38965,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/526e99d7-9688-4435-b92f-bb0efa249e94")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
@@ -39296,7 +39296,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/7cef5915-3d9e-4785-8cee-a15530d4c4e1")
 		(sheetname "Root")
-		(sheetfile "keyboard.kicad_sch")
+		(sheetfile "krtkus.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.35 -0.55)
