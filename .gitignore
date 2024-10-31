@@ -1,4 +1,3 @@
-keyboard-backups
+source/krtkus_kicad/keyboard-backups
+source/krtkus_kicad/production
 ~*.lck
-pcb/production/backups
-pcb/production/netlist.ipc
