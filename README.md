@@ -6,7 +6,7 @@ An extended 5x12 keyboard with 2 extra keys. The design is intended for ortho la
 - QMK/VIA compatible
 - Fixed 7 degree tilt
 
-The connect the keyboard to via.app, the [via design file](production/krtkus_via_design.json) has to be manually uploaded in the design tab.
+To connect the keyboard to via.app, the [via design file](production/krtkus_via_design.json) has to be manually uploaded in the design tab.
 
 ## Parts
 
