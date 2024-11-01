@@ -1,8 +1,12 @@
 # Krtkus
 
-An extended 5x12 keyboard with 2 extra keys. The design is intended for ortho layouts with a shifted number row, allowing for the placement of the delete and tilde keys above their usual spots.
+An extended 5x12 keyboard with 2 extra keys. The design is intended for ortho layouts with a shifted number row, allowing for the placement of the delete and tilde keys above their usual spots. PCB is designed in Kicad. Case is designed in Blender.
 
-PCB is designed in Kicad. Firmware is QMK/VIA compatible. The design for via.app is in the has to be uploaded in the design tab before connecting the keyboard. Case is designed in Blender, and has a fixed tilt of 7 degrees.
+- Low profile
+- QMK/VIA compatible
+- Fixed 7 degree tilt
+
+The connect the keyboard to via.app, the [via design file](production/krtkus_via_design.json) has to be manually uploaded in the design tab.
 
 ## Parts
 
