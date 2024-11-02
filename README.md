@@ -14,6 +14,8 @@ To connect the keyboard to via.app, the [via design file](production/krtkus_via_
 
 ## Parts
 
+- PCB found in `production/krtkus_pcb`
+- Case found in `production/krtkus_case.stl`
 - Arduino Pro Micro
 - 61 SMD diodes
 - 61 Choc V1 switches
