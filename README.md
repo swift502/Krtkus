@@ -1,3 +1,5 @@
+![](images/1.webp)
+
 # Krtkus
 
 An extended 5x12 keyboard with 2 extra keys. The design is intended for ortho layouts with a shifted number row, allowing for the placement of the delete and tilde keys above their usual spots. PCB is designed in Kicad. Case is designed in Blender.
@@ -8,11 +10,20 @@ An extended 5x12 keyboard with 2 extra keys. The design is intended for ortho la
 
 To connect the keyboard to via.app, the [via design file](production/krtkus_via_design.json) has to be manually uploaded in the design tab.
 
+
+
 ## Parts
 
 - Arduino Pro Micro
-- 61 Choc V1 switches
 - 61 SMD diodes
+- 61 Choc V1 switches
+- 61 Choc V1 keycaps
+
+Optional:
+
+- 90 degree mini-USB cable
+- Rubber feet
+
 
 ## Kicad
 
@@ -47,3 +58,10 @@ Compile:
 ```
 qmk compile -kb krtkus -km default
 ```
+
+## Showcase
+
+![](images/2.webp)
+![](images/3.webp)
+![](images/4.webp)
+<p align="center">Krtkus vs. Keychron K3 Pro</p>
