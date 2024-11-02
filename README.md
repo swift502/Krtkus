@@ -21,7 +21,7 @@ To connect the keyboard to via.app, the [via design file](production/krtkus_via_
 
 Optional:
 
-- 90 degree mini-USB cable
+- 90 degree Micro-USB cable
 - Rubber feet
 
 
