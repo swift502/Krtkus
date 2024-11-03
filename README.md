@@ -15,7 +15,7 @@ To connect the keyboard to [via.app](https://usevia.app), the via design file ([
 
 - One of the PCBs:
     - [Choc V1](production/choc_v1/choc_pcb)
-    - [KS-33](production/choc_v1/choc_pcb)
+    - [KS-33](production/gateron_ks33/gateron_pcb)
 - Case: 
     - [STL file](production/krtkus_case.stl)
 - Arduino Pro Micro
