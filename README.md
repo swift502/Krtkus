@@ -2,19 +2,18 @@
 
 # Krtkus
 
-An extended 5x12 keyboard with 2 extra keys. The design is intended for ortho layouts with a shifted number row, allowing for the placement of the delete and tilde keys above their usual spots. PCB is designed in Kicad. Case is designed in Blender.
+An extended 5x12 keyboard with 2 extra keys. The design is intended for ortho layouts with a shifted number row, allowing for the placement of the delete and tilde keys above their usual spots. PCBs are designed in Kicad, case in Blender.
 
 - Low profile
+- Available in Choc V1 or Gateron KS-27/KS-33 versions
 - QMK/VIA compatible
 - Fixed 7 degree tilt
 
-To connect the keyboard to via.app, the [via design file](production/krtkus_via_design.json) has to be manually uploaded in the design tab.
-
-
+To connect the keyboard to [via.app](https://usevia.app), the via design file ([Choc](production/choc_v1/choc_via_design.json), [KS-33](production/gateron_ks33/gateron_via_design.json)) has to be manually uploaded in the design tab.
 
 ## Parts
 
-- PCB production files
+- One of the PCBs:
     - [Choc V1](production/choc_v1/choc_pcb)
     - [KS-33](production/choc_v1/choc_pcb)
 - [Case .stl](production/krtkus_case.stl)
@@ -33,7 +32,9 @@ Optional:
 
 ### Libraries
 
-- [Scottokeebs extras](https://github.com/joe-scotto/scottokeebs/tree/main/Extras/ScottoKicad)
+- [Scotto Kicad](https://github.com/joe-scotto/scottokeebs/tree/main/Extras/ScottoKicad)
+- [MX V2](https://github.com/ai03-2725/MX_V2)
+- [Gateron 3D models](https://www.gateron.com/pages/3d)
 
 ### Switch grid
 
@@ -49,7 +50,7 @@ Optional:
 - Compiler: https://msys.qmk.fm
 - Toolbox: https://qmk.fm/toolbox
 
-On Windows, create a "krtkus" folder in `qmk_firmware/keyboards` and copy the contents of the `source/krtkus_qmk` folder inside of it. Then in MSYS compile the firmware using the commands below.
+On Windows, create a "krtkus" folder in `qmk_firmware/keyboards` and copy the contents of the corresponding firmware source folder inside of it. Then in MSYS compile the firmware using the commands below.
 
 Setup:
 
