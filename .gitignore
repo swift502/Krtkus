@@ -1,3 +1,3 @@
-source/krtkus_kicad/krtkus-backups
-source/krtkus_kicad/production
+source/**/*/krtkus-backups
+source/**/*/production
 ~*.lck
