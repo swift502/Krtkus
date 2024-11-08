@@ -11,6 +11,15 @@ An extended 5x12 keyboard with 2 extra keys. The design is intended for ortho la
 
 To connect the keyboard to [usevia.app](https://usevia.app), the [design file](production/krtkus_design.json) has to be manually uploaded in the design tab.
 
+## Room for improvement
+
+- Spacebar stabilizer
+- Hide the arduino
+- Switch pate
+- Unify the two firmwares
+- Get a better footprint for KS-33, the current one is very loose and hard to solder
+- RGB
+
 ## Parts
 
 - One of the PCBs:
