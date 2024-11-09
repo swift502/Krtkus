@@ -14,11 +14,8 @@ To connect the keyboard to [usevia.app](https://usevia.app), the [design file](p
 ## Room for improvement
 
 - Spacebar stabilizer
-- Hide the arduino
-- Switch pate
-- Unify the two firmwares
+- Hide MCU on the bottom side and use standard USB port orientation
 - Get a better footprint for KS-33, the current one is very loose and hard to solder
-- RGB
 
 ## Parts
 
@@ -59,7 +56,7 @@ Optional:
 - Compiler: https://msys.qmk.fm
 - Toolbox: https://qmk.fm/toolbox
 
-On Windows, create a "krtkus" folder in `qmk_firmware/keyboards` and copy the contents of the corresponding firmware folder ([Choc V1](production/firmware_choc_v1.hex), [KS-33](production/firmware_ks_33.hex)) inside of it. Then in MSYS compile the firmware using the commands below.
+On Windows, create a "krtkus" folder in `qmk_firmware/keyboards` and copy the contents of the [qmk folder](source/qmk) inside of it. Then in MSYS compile the firmware using the commands below.
 
 Setup:
 
