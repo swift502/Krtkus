@@ -6,7 +6,7 @@ An extended 5x12 keyboard with 2 extra keys. The design is intended for ortho la
 
 - Low profile
     - Kailh Choc V1
-    - Gateron KS-27/KS-33)
+    - Gateron KS-27/KS-33
 - QMK/VIA compatible
 - Tray mount
 - 3D printed case with a 7 degree tilt
