@@ -5,9 +5,11 @@
 An extended 5x12 keyboard with 2 extra keys. The design is intended for ortho layouts with a shifted number row, allowing for the placement of the delete and tilde keys above their usual spots. PCBs are designed in Kicad, case in Blender.
 
 - Low profile
-- PCB versions for Kailh Choc V1 and Gateron KS-27/KS-33
+    - Kailh Choc V1
+    - Gateron KS-27/KS-33)
 - QMK/VIA compatible
-- Fixed 7 degree tilt
+- Tray mount
+- 3D printed case with a 7 degree tilt
 
 To connect the keyboard to [usevia.app](https://usevia.app), the [design file](production/krtkus_design.json) has to be manually uploaded in the design tab.
 
