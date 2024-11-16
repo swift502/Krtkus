@@ -17,7 +17,7 @@ To connect the keyboard to [usevia.app](https://usevia.app), the [design file](p
 
 - Spacebar stabilizer
 - Hide MCU on the bottom side and use standard USB port orientation
-- Get a better footprint for KS-33, the current one is very loose and hard to solder
+- Switch plate
 
 ## Parts
 

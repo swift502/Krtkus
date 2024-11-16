@@ -3676,7 +3676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 187.96 90.17 0)
 			(effects
 				(font
@@ -3744,7 +3744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 149.86 78.74 0)
 			(effects
 				(font
@@ -3882,7 +3882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 111.76 67.31 0)
 			(effects
 				(font
@@ -4020,7 +4020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 238.76 101.6 0)
 			(effects
 				(font
@@ -4158,7 +4158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 111.76 90.17 0)
 			(effects
 				(font
@@ -4226,7 +4226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 213.36 55.88 0)
 			(effects
 				(font
@@ -4294,7 +4294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 99.06 90.17 0)
 			(effects
 				(font
@@ -4432,7 +4432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 187.96 55.88 0)
 			(effects
 				(font
@@ -4500,7 +4500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 99.06 55.88 0)
 			(effects
 				(font
@@ -4708,7 +4708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 226.06 67.31 0)
 			(effects
 				(font
@@ -4776,7 +4776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 226.06 90.17 0)
 			(effects
 				(font
@@ -4844,7 +4844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 111.76 78.74 0)
 			(effects
 				(font
@@ -4982,7 +4982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 137.16 55.88 0)
 			(effects
 				(font
@@ -5050,7 +5050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 226.06 55.88 0)
 			(effects
 				(font
@@ -5188,7 +5188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 99.06 101.6 0)
 			(effects
 				(font
@@ -5256,7 +5256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 226.06 78.74 0)
 			(effects
 				(font
@@ -5324,7 +5324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 175.26 90.17 0)
 			(effects
 				(font
@@ -5392,7 +5392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 238.76 44.45 0)
 			(effects
 				(font
@@ -5740,7 +5740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 200.66 67.31 0)
 			(effects
 				(font
@@ -5948,7 +5948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 213.36 67.31 0)
 			(effects
 				(font
@@ -6016,7 +6016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 124.46 90.17 0)
 			(effects
 				(font
@@ -6154,7 +6154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 99.06 78.74 0)
 			(effects
 				(font
@@ -6222,7 +6222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 137.16 78.74 0)
 			(effects
 				(font
@@ -6360,7 +6360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 124.46 67.31 0)
 			(effects
 				(font
@@ -6428,7 +6428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 124.46 101.6 0)
 			(effects
 				(font
@@ -6566,7 +6566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 168.91 101.6 0)
 			(effects
 				(font
@@ -6634,7 +6634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 111.76 101.6 0)
 			(effects
 				(font
@@ -6842,7 +6842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 137.16 67.31 0)
 			(effects
 				(font
@@ -6910,7 +6910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 200.66 78.74 0)
 			(effects
 				(font
@@ -7048,7 +7048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 175.26 55.88 0)
 			(effects
 				(font
@@ -7116,7 +7116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 187.96 101.6 0)
 			(effects
 				(font
@@ -7184,7 +7184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 238.76 90.17 0)
 			(effects
 				(font
@@ -7392,7 +7392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 175.26 78.74 0)
 			(effects
 				(font
@@ -7670,7 +7670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 175.26 67.31 0)
 			(effects
 				(font
@@ -7738,7 +7738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 200.66 101.6 0)
 			(effects
 				(font
@@ -7946,7 +7946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 200.66 55.88 0)
 			(effects
 				(font
@@ -8084,7 +8084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 213.36 78.74 0)
 			(effects
 				(font
@@ -8362,7 +8362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 238.76 55.88 0)
 			(effects
 				(font
@@ -8430,7 +8430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 162.56 55.88 0)
 			(effects
 				(font
@@ -8568,7 +8568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 111.76 55.88 0)
 			(effects
 				(font
@@ -8776,7 +8776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 213.36 101.6 0)
 			(effects
 				(font
@@ -8914,7 +8914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 137.16 90.17 0)
 			(effects
 				(font
@@ -9052,7 +9052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 99.06 44.45 0)
 			(effects
 				(font
@@ -9120,7 +9120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 200.66 90.17 0)
 			(effects
 				(font
@@ -9258,7 +9258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 187.96 67.31 0)
 			(effects
 				(font
@@ -9606,7 +9606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 149.86 101.6 0)
 			(effects
 				(font
@@ -9954,7 +9954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 238.76 78.74 0)
 			(effects
 				(font
@@ -10162,7 +10162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 162.56 67.31 0)
 			(effects
 				(font
@@ -10230,7 +10230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 162.56 78.74 0)
 			(effects
 				(font
@@ -10298,7 +10298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 238.76 67.31 0)
 			(effects
 				(font
@@ -10500,7 +10500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 124.46 55.88 0)
 			(effects
 				(font
@@ -10638,7 +10638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 124.46 78.74 0)
 			(effects
 				(font
@@ -10846,7 +10846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 137.16 101.6 0)
 			(effects
 				(font
@@ -10984,7 +10984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 99.06 67.31 0)
 			(effects
 				(font
@@ -11052,7 +11052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 149.86 67.31 0)
 			(effects
 				(font
@@ -11120,7 +11120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 226.06 101.6 0)
 			(effects
 				(font
@@ -11258,7 +11258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 149.86 55.88 0)
 			(effects
 				(font
@@ -11326,7 +11326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 162.56 90.17 0)
 			(effects
 				(font
@@ -11394,7 +11394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 149.86 90.17 0)
 			(effects
 				(font
@@ -11742,7 +11742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 213.36 90.17 0)
 			(effects
 				(font
@@ -11880,7 +11880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U"
+		(property "Footprint" "Gateron_KS33_Solderable:Gateron-KS33-Solderable-1U-Tight"
 			(at 187.96 78.74 0)
 			(effects
 				(font
