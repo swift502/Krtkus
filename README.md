@@ -30,6 +30,7 @@ To connect the keyboard to [usevia.app](https://usevia.app), the [design file](p
 - 61 SMD diodes
 - 61 switches
 - 61 keycaps
+- 5 M2 x 6mm screws
 
 Optional:
 
