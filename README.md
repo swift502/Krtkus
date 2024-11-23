@@ -1,5 +1,7 @@
 <p align="center">
     <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/1.webp"><img src="images/1.webp"></a>
+    <br>
+	<span>Left: Choc V1, Right: KS-33</span>
 </p>
 
 # Krtkus
