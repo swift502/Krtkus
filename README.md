@@ -1,4 +1,6 @@
-![](images/1.webp)
+<p align="center">
+    <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/1.webp"><img src="images/1.webp"></a>
+</p>
 
 # Krtkus
 
@@ -75,7 +77,9 @@ qmk compile -kb krtkus -km default
 
 ## Showcase
 
-![](images/2.webp)
-![](images/3.webp)
-![](images/4.webp)
-![](images/5.webp)
+<p align="center">
+    <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/2.webp"><img src="images/2.webp"></a>
+    <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/3.webp"><img src="images/3.webp"></a>
+    <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/4.webp"><img src="images/4.webp"></a>
+    <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/5.webp"><img src="images/5.webp"></a>
+</p>
