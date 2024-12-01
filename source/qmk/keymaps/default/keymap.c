@@ -4,14 +4,16 @@
 #include QMK_KEYBOARD_H
 
 enum keyboard_keycodes {
-    KRT_VOL = QK_KB_0,
+    KRT_VOL = QK_KB_0
 };
 
 bool process_record_kb(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
         case KRT_VOL:
             if (record->event.pressed) {
-                if (get_mods() & MOD_MASK_SHIFT) {
+                if (get_mods() & MOD_MASK_CTRL) {  // Check if Ctrl is held
+                    tap_code(KC_MUTE);
+                } else if (get_mods() & MOD_MASK_SHIFT) {  // Check if Shift is held
                     tap_code(KC_VOLU);
                 } else {
                     tap_code(KC_VOLD);
