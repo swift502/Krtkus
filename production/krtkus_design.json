@@ -6,6 +6,13 @@
     "rows": 6,
     "cols": 12
   },
+  "customKeycodes": [
+    {
+      "name": "Volume control",
+      "title": "Volume Down on press, Volume Up with Shift",
+      "shortName": "KrtVol"
+    }
+  ],
   "layouts": {
     "keymap": [
       [
