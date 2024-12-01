@@ -35,7 +35,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * ├───┼───┼───┼───┼───┼───┼───┼───┼───┼───┼───┼───┤
      * │Sft│ Z │ X │ C │ V │ B │ N │ M │ , │ . │ / │Ent│
      * ├───┼───┼───┼───┼───┼───┴───┼───┼───┼───┼───┼───┤
-     * │Ctl│GUI│F13│Alt│Lwr│ Space │Rse│ ← │ ↓ │ ↑ │ → │
+     * │Ctl│GUI│Vol│Alt│Lwr│ Space │Rse│ ← │ ↓ │ ↑ │ → │
      * └───┴───┴───┴───┴───┴───────┴───┴───┴───┴───┴───┘
      */
     [0] = LAYOUT_default(
