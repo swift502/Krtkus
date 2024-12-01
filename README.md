@@ -82,7 +82,7 @@ qmk compile -kb krtkus -km default
 	<span>Left: Choc V1, Right: KS-33</span>
     <br><br>
     <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/3.webp"><img src="images/3.webp"></a>
+    <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/4.webp"><img src="images/4.webp"></a>
     <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/5.webp"><img src="images/5.webp"></a>
-    <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/6.webp"><img src="images/6.webp"></a>
     <span>Krtkus vs. Keychron K3 Pro</span>
 </p>
