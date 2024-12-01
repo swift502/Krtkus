@@ -1,7 +1,5 @@
 <p align="center">
-    <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/1.webp"><img src="images/1.webp"></a>
-    <br>
-	<span>Left: Choc V1, Right: KS-33</span>
+    <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/2.webp"><img src="images/2.webp"></a>
 </p>
 
 # Krtkus
@@ -80,7 +78,9 @@ qmk compile -kb krtkus -km default
 ## Showcase
 
 <p align="center">
-    <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/2.webp"><img src="images/2.webp"></a>
+    <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/1.webp"><img src="images/1.webp"></a>
+	<span>Left: Choc V1, Right: KS-33</span>
+    <br><br>
     <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/3.webp"><img src="images/3.webp"></a>
     <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/4.webp"><img src="images/4.webp"></a>
     <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/5.webp"><img src="images/5.webp"></a>
