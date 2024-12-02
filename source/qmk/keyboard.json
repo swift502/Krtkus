@@ -2,7 +2,7 @@
     "manufacturer": "swift502",
     "keyboard_name": "Krtkus",
     "maintainer": "swift502",
-    "bootloader": "atmel-dfu",
+    "bootloader": "caterina",
     "diode_direction": "COL2ROW",
     "features": {
         "bootmagic": true,
