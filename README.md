@@ -58,6 +58,8 @@ Optional:
 
 ## QMK
 
+### Compiling
+
 - Compiler: https://msys.qmk.fm
 - Toolbox: https://qmk.fm/toolbox
 
