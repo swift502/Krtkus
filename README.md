@@ -80,7 +80,7 @@ qmk compile -kb krtkus -km default
 By default, holding the `Raise + Del` key combination enters the third layer, where you're able to enter bootloader or reset the keyboard.
 
 - **B** - Puts the keyboard into bootloader mode for flashing
-- **R** - Reinitializes the keyboard's EEPROM, reverting to the default keymap
+- **R** - Reinitializes the keyboard and reverts to the default keymap
 
 ## Showcase
 
