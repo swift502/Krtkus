@@ -79,10 +79,10 @@ qmk compile -kb krtkus -km default
 
 ### Resetting
 
-By default, holding the `Raise + Del` key combination enters the third layer, where you're able to enter bootloader or reset the keyboard.
+Once the firmware is flashed, it provides key combinations to enter bootloader or clear the keyboard's persistent storage.
 
-- **B** - Puts the keyboard into bootloader mode for flashing
-- **R** - Reinitializes the keyboard and reverts to the default keymap
+- `LShift + RShift + B` - Puts the keyboard into bootloader mode for flashing
+- `LShift + RShift + C` - Reinitializes the keyboard and reverts to the default keymap
 
 ## Showcase
 
