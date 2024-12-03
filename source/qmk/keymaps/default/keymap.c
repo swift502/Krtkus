@@ -11,7 +11,7 @@ enum keyboard_keycodes
 bool process_record_kb(uint16_t keycode, keyrecord_t *record)
 {
     uint8_t mods = get_mods();
-    bool both_shifts = (mods & MOD_MASK_SHIFT) == MOD_MASK_SHIFT;
+    bool double_shift = (mods & MOD_MASK_SHIFT) == MOD_MASK_SHIFT;
 
     switch (keycode)
     {
@@ -36,7 +36,7 @@ bool process_record_kb(uint16_t keycode, keyrecord_t *record)
             break;
 
         case KC_B:
-            if (record->event.pressed && both_shifts)
+            if (record->event.pressed && double_shift)
             {
                 reset_keyboard();
                 return false;
@@ -44,7 +44,7 @@ bool process_record_kb(uint16_t keycode, keyrecord_t *record)
             break;
 
         case KC_C:
-            if (record->event.pressed && both_shifts)
+            if (record->event.pressed && double_shift)
             {
                 eeconfig_init();
                 return false;
@@ -96,7 +96,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______, _______, _______, _______, _______,      _______,     _______, _______, _______, _______, _______
     ),
     [3] = LAYOUT_default(
-        _______, _______,
+        _______,                                                                                           _______,
         _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
         _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
         _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
