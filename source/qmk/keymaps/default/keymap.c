@@ -44,6 +44,7 @@ bool process_record_kb(uint16_t keycode, keyrecord_t *record)
             if (record->event.pressed && double_shift)
             {
                 eeconfig_init();
+                soft_reset_keyboard();
                 return false;
             }
             break;
