@@ -8,9 +8,9 @@
         "nkro": true,
         "via": true
     },
-    "manufacturer": "swift502",
     "keyboard_name": "Krtkus",
     "maintainer": "swift502",
+    "manufacturer": "swift502",
     "matrix_pins": {
         "cols": ["C6", "D4", "D0", "D1", "D2", "D3", "D7", "E6", "B5", "B4", "B2", "B6"],
         "rows": ["F7", "B1", "B3", "F6", "F5", "F4"]
