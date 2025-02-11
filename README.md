@@ -58,6 +58,8 @@ Optional:
 
 ## QMK
 
+`info.json` reference - https://docs.qmk.fm/reference_info_json
+
 ### Compiling
 
 - Compiler: https://msys.qmk.fm
