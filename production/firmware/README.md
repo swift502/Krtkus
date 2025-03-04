@@ -1,6 +1,6 @@
 # Firmware
 
-Here you can find pre-compiled atmega32u4 firmware files, tested on a Pro Micro controller.
+Here you can find pre-compiled atmega32u4 firmware files, intended for the Pro Micro controller.
 
 Most Pro Micros should run catarina, however if you encounter issues with bootloading, the atmel-dfu version might work better.
 
