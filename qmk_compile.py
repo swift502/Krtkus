@@ -4,17 +4,6 @@ import subprocess
 import argparse
 import json
 
-def get_arguments():
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "-bl", "--bootloader",
-        choices=["atmel-dfu", "lufa-dfu", "qmk-dfu", "halfkay", "caterina", "bootloadhid", "usbasploader"],
-        default="caterina"
-    )
-    args = parser.parse_args()
-
-    return args
-
 class KeyboardConfig:
 
     config_path = r"source\qmk\keyboard.json"
@@ -43,7 +32,18 @@ class KeyboardConfig:
     def restore(self):
         with open(KeyboardConfig.config_path, "w") as file:
             file.write(self.original_content)
-    
+
+def get_arguments():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "-bl", "--bootloader",
+        choices=["atmel-dfu", "lufa-dfu", "qmk-dfu", "halfkay", "caterina", "bootloadhid", "usbasploader"],
+        default="caterina"
+    )
+    args = parser.parse_args()
+
+    return args
+
 def copy_folder_to_qmk():
     # Paths
     qmk_source = os.path.join("source", "qmk")
