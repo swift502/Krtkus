@@ -58,25 +58,20 @@ Optional:
 
 ## QMK
 
+### Documentation
+
 `info.json` reference - https://docs.qmk.fm/reference_info_json
 
 ### Compiling
 
-- Compiler: https://msys.qmk.fm
+- MSYS: https://msys.qmk.fm
 - Toolbox: https://qmk.fm/toolbox
+- Python: https://www.python.org/
 
-On Windows, create a "krtkus" folder in `qmk_firmware/keyboards` and copy the contents of the [qmk folder](source/qmk) inside of it. Then in MSYS compile the firmware using the commands below.
+Run the compile script:
 
-Setup:
-
-```
-qmk setup
-```
-
-Compile:
-
-```
-qmk compile -kb krtkus -km default
+```py
+python compile.py krtkus_catarina.hex
 ```
 
 ### Resetting
