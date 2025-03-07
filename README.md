@@ -43,9 +43,11 @@ Optional:
 
 ### Libraries
 
-- [Scotto Kicad](https://github.com/joe-scotto/scottokeebs/tree/main/Extras/ScottoKicad)
-- [MX V2](https://github.com/ai03-2725/MX_V2)
-- [Gateron 3D models](https://www.gateron.com/pages/3d)
+Below is a list of used libraries. These libraries are NOT licensed under CC0. Please refer to individual libraries for license details.
+
+- Scotto Kicad - https://github.com/joe-scotto/scottokeebs/tree/main/Extras/ScottoKicad
+- MX V2 - https://github.com/ai03-2725/MX_V2
+- Gateron 3D models - https://www.gateron.com/pages/3d
 
 ### Switch grid
 
