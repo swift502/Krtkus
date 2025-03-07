@@ -89,11 +89,15 @@ def copy_hex_to_script_root(args):
     # Paths
     hex_source = os.path.join(os.environ.get("USERPROFILE"), "qmk_firmware", "krtkus_default.hex")
     hex_dist = os.path.join("production", "firmware", f"krtkus_{args.bootloader.replace("-", "_")}.hex")
+    qmk_dest = os.path.join(os.environ.get("USERPROFILE"), "qmk_firmware", "keyboards", "krtkus")
 
     # Run
     try:
         shutil.copy2(hex_source, hex_dist)
-        print(f"Copied '{hex_source}' to '{hex_dist}'.")
+        print(f"Moved '{hex_source}' to '{hex_dist}'.")
+
+        shutil.rmtree(qmk_dest)
+        print(f"Cleaned up '{qmk_dest}'.")
     except Exception as e:
         print(f"Error copying HEX file: {e}")
 
