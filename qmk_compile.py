@@ -25,6 +25,7 @@ class KeyboardConfig:
         with open(KeyboardConfig.config_path, "w") as file:
             json.dump(self.data, file, indent=4)
 
+        # Info
         for key, value in vars(args).items():
             print(f"\"{key}\" is set to \"{value}\"")
         print()
@@ -35,10 +36,8 @@ class KeyboardConfig:
 
 def get_arguments():
     parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "-bl", "--bootloader",
-        choices=["atmel-dfu", "lufa-dfu", "qmk-dfu", "halfkay", "caterina", "bootloadhid", "usbasploader"],
-        default="caterina"
+    parser.add_argument("-bl", "--bootloader", default = "caterina",
+        choices = ["atmel-dfu", "lufa-dfu", "qmk-dfu", "halfkay", "caterina", "bootloadhid", "usbasploader"]
     )
     args = parser.parse_args()
 
