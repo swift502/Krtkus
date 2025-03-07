@@ -30,7 +30,7 @@ def copy_folder_to_qmk():
     except Exception as e:
         print(f"Error copying folder: {e}")
 
-
+# https://docs.qmk.fm/other_vscode#msys2-setup
 def run_qmk_compile():
     # Commands
     msys = r"C:\QMK_MSYS\usr\bin\bash.exe"
