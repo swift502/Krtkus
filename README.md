@@ -70,10 +70,16 @@ Below is a list libraries included in the project. These libraries are not licen
 - Toolbox: https://qmk.fm/toolbox
 - Python: https://www.python.org/
 
-Run the compile script with an output file name parameter:
+Run the compile script:
 
 ```sh
-python qmk_compile.py krtkus_caterina.hex
+python qmk_compile.py
+```
+
+Optionally specify a different bootloader:
+
+```sh
+python qmk_compile.py -bl atmel-dfu
 ```
 
 ### Resetting

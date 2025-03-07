@@ -2,18 +2,48 @@ import os
 import shutil
 import subprocess
 import argparse
+import json
 
-def get_output_argument():
-    parser = argparse.ArgumentParser(description="Process some arguments.")
-    parser.add_argument("output", type=str, help="Output hex file name")
+def get_arguments():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "-bl", "--bootloader",
+        choices=["atmel-dfu", "lufa-dfu", "qmk-dfu", "halfkay", "caterina", "bootloadhid", "usbasploader"],
+        default="caterina"
+    )
     args = parser.parse_args()
 
-    if not args.output:
-        print("Error: No hex file name provided.")
-        exit()
+    return args
 
-    return args.output
+class KeyboardConfig:
 
+    config_path = r"source\qmk\keyboard.json"
+    original_content: str
+    data: dict
+
+    def __init__(self):
+        # Read the JSON file
+        with open(KeyboardConfig.config_path, "r") as file:
+            self.original_content = file.read()
+            self.data = json.loads(self.original_content)
+
+    def override(self, args):
+        # Set overrides
+        for key, value in vars(args).items():
+            self.data[key] = value
+
+        # Write overrides
+        with open(KeyboardConfig.config_path, "w") as file:
+            json.dump(self.data, file, indent=4)
+
+        for key, value in vars(args).items():
+            print(f"\"{key}\" is set to \"{value}\"")
+        print()
+
+    def restore(self):
+        with open(KeyboardConfig.config_path, "w") as file:
+            file.write(self.original_content)
+    
 def copy_folder_to_qmk():
     # Paths
     qmk_source = os.path.join("source", "qmk")
@@ -27,6 +57,7 @@ def copy_folder_to_qmk():
             
         shutil.copytree(qmk_source, qmk_dest)
         print(f"Copied '{qmk_source}' to '{qmk_dest}'.")
+        print()
     except Exception as e:
         print(f"Error copying folder: {e}")
 
@@ -55,10 +86,10 @@ def run_qmk_compile():
     except Exception as e:
         print(f"Error running QMK compile: {e}")
 
-def copy_hex_to_script_root(output_file):
+def copy_hex_to_script_root(args):
     # Paths
     hex_source = os.path.join(os.environ.get("USERPROFILE"), "qmk_firmware", "krtkus_default.hex")
-    hex_dist = os.path.join("production", "firmware", output_file)
+    hex_dist = os.path.join("production", "firmware", f"krtkus_{args.bootloader.replace("-", "_")}.hex")
 
     # Run
     try:
@@ -69,9 +100,16 @@ def copy_hex_to_script_root(output_file):
 
 if __name__ == "__main__":
     # Args
-    output_file = get_output_argument()
+    args = get_arguments()
     
-    # Run
+    # Copy folder to QMK
+    config = KeyboardConfig()
+    config.override(args)
     copy_folder_to_qmk()
+    config.restore()
+
+    # Compile
     run_qmk_compile()
-    copy_hex_to_script_root(output_file)
+
+    # Get HEX file
+    copy_hex_to_script_root(args)
