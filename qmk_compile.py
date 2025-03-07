@@ -95,11 +95,14 @@ def copy_hex_to_script_root(args):
     try:
         shutil.copy2(hex_source, hex_dist)
         print(f"Moved '{hex_source}' to '{hex_dist}'.")
+    except Exception as e:
+        print(f"Error moving hex file: {e}")
 
+    try:
         shutil.rmtree(qmk_dest)
         print(f"Cleaned up '{qmk_dest}'.")
     except Exception as e:
-        print(f"Error copying HEX file: {e}")
+        print(f"Error cleaning up: {e}")
 
 if __name__ == "__main__":
     # Args
