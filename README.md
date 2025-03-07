@@ -62,7 +62,7 @@ Optional:
 
 `info.json` reference - https://docs.qmk.fm/reference_info_json
 
-### Compiling
+### Compiling (Windows)
 
 - MSYS: https://msys.qmk.fm
 - Toolbox: https://qmk.fm/toolbox
