@@ -43,10 +43,15 @@ def run_qmk_compile():
 
     # Run
     try:
-        result = subprocess.run([msys] + args, env=env, shell=True, capture_output=True, text=True)
-        print(result.stdout)
-        if result.stderr:
-            print(result.stderr)
+        process = subprocess.Popen([msys] + args, env=env, stdout=subprocess.PIPE, text=True)
+
+        # Print output
+        for line in process.stdout:
+            print(line, end="")
+
+        process.wait()
+        print()
+
     except Exception as e:
         print(f"Error running QMK compile: {e}")
 
