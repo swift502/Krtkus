@@ -70,7 +70,7 @@ Optional:
 
 Run the compile script:
 
-```py
+```sh
 python compile.py krtkus_catarina.hex
 ```
 
