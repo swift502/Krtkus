@@ -68,10 +68,10 @@ Optional:
 - Toolbox: https://qmk.fm/toolbox
 - Python: https://www.python.org/
 
-Run the compile script:
+Run the compile script with an output file name parameter:
 
 ```sh
-python compile.py krtkus_catarina.hex
+python compile.py krtkus_caterina.hex
 ```
 
 ### Resetting
