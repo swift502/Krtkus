@@ -71,7 +71,7 @@ Optional:
 Run the compile script with an output file name parameter:
 
 ```sh
-python compile.py krtkus_caterina.hex
+python qmk_compile.py krtkus_caterina.hex
 ```
 
 ### Resetting
