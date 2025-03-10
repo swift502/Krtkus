@@ -22,6 +22,7 @@ class KeyboardConfig:
             if key in self.data:
                 self.data[key] = value
                 print(f"\"{key}\" is set to \"{value}\"")
+        print()
 
         # Legacy Ks-33 matrix pin layout
         if args.legacy:
@@ -33,8 +34,6 @@ class KeyboardConfig:
         # Write overrides
         with open(KeyboardConfig.config_path, "w") as file:
             json.dump(self.data, file, indent=4)
-
-        print()
 
     def restore(self):
         with open(KeyboardConfig.config_path, "w") as file:
