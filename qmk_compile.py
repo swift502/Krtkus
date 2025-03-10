@@ -17,17 +17,23 @@ class KeyboardConfig:
             self.data = json.loads(self.original_content)
 
     def override(self, args):
-        # Set overrides
+        # Set direct overrides
         for key, value in vars(args).items():
-            self.data[key] = value
+            if key in self.data:
+                self.data[key] = value
+                print(f"\"{key}\" is set to \"{value}\"")
+
+        # Legacy Ks-33 matrix pin layout
+        if args.legacy:
+            self.data["matrix_pins"] = {
+                "cols": ["D2", "D3", "F4", "F5", "F6", "F7", "B1", "B4", "B5", "B3", "B2", "B6"],
+                "rows": ["C6", "D7", "E6", "D4", "D0", "D1"]
+            }
 
         # Write overrides
         with open(KeyboardConfig.config_path, "w") as file:
             json.dump(self.data, file, indent=4)
 
-        # Info
-        for key, value in vars(args).items():
-            print(f"\"{key}\" is set to \"{value}\"")
         print()
 
     def restore(self):
@@ -48,6 +54,7 @@ def get_arguments():
             "usbasploader"
         ]
     )
+    parser.add_argument("-l", "--legacy", action = "store_true", default = False, help = "use legacy matrix pin layout")
     args = parser.parse_args()
 
     return args
@@ -95,9 +102,14 @@ def run_qmk_compile():
         print(f"Error running QMK compile: {e}")
 
 def obtain_hex_file(args):
+    # Name
+    bootloader = args.bootloader.replace("-", "_")
+    legacy = "_legacy" if args.legacy else ""
+    hex_name = f"krtkus_{bootloader}{legacy}.hex"
+
     # Paths
     hex_source = os.path.join(os.environ.get("USERPROFILE"), "qmk_firmware", "krtkus_default.hex")
-    hex_dist = os.path.join("production", "firmware", f"krtkus_{args.bootloader.replace("-", "_")}.hex")
+    hex_dist = os.path.join("production", "firmware", hex_name)
     qmk_dest = os.path.join(os.environ.get("USERPROFILE"), "qmk_firmware", "keyboards", "krtkus")
 
     # Run
