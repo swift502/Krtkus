@@ -24,7 +24,7 @@ class KeyboardConfig:
                 print(f"\"{key}\" is set to \"{value}\"")
         print()
 
-        # Legacy Ks-33 matrix pin layout
+        # Legacy ks-33 matrix pinout
         if args.legacy:
             self.data["matrix_pins"] = {
                 "cols": ["D2", "D3", "F4", "F5", "F6", "F7", "B1", "B4", "B5", "B3", "B2", "B6"],
@@ -53,7 +53,7 @@ def get_arguments():
             "usbasploader"
         ]
     )
-    parser.add_argument("-l", "--legacy", action = "store_true", default = False, help = "use legacy matrix pin layout")
+    parser.add_argument("-l", "--legacy", action = "store_true", default = False, help = "use legacy matrix pinout")
     args = parser.parse_args()
 
     return args
