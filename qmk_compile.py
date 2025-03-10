@@ -36,8 +36,17 @@ class KeyboardConfig:
 
 def get_arguments():
     parser = argparse.ArgumentParser()
+    # https://docs.qmk.fm/config_options#avr-mcu-options
     parser.add_argument("-bl", "--bootloader", default = "caterina",
-        choices = ["atmel-dfu", "lufa-dfu", "qmk-dfu", "halfkay", "caterina", "bootloadhid", "usbasploader"]
+        choices = [
+            "atmel-dfu",
+            "lufa-dfu",
+            "qmk-dfu",
+            "halfkay",
+            "caterina",
+            "bootloadhid",
+            "usbasploader"
+        ]
     )
     args = parser.parse_args()
 
