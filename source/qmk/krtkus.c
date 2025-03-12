@@ -13,16 +13,16 @@ bool process_record_kb(uint16_t keycode, keyrecord_t *record)
                 if (mods & MOD_MASK_CTRL)
                 {
                     tap_code(KC_MUTE);
-                    return false;
                 }
-
-                if (mods & MOD_MASK_SHIFT)
+                else if (mods & MOD_MASK_SHIFT)
                 {
                     tap_code(KC_VOLU);
-                    return false;
+                }
+                else
+                {
+                    tap_code(KC_VOLD);
                 }
 
-                tap_code(KC_VOLD);
                 return false;
             }
             break;
