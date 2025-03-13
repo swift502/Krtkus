@@ -77,8 +77,9 @@ def copy_folder_to_qmk():
 
 def run_qmk_compile():
     # Command
-    msys = r"C:\QMK_MSYS\usr\bin\bash.exe"
-    args = ["--login", "-c", "qmk compile -kb krtkus -km default"]
+    msys_exe = r"C:\QMK_MSYS\usr\bin\bash.exe"
+    qmk_command = "qmk compile -kb krtkus -km default"
+    args = [msys_exe, "--login", "-c", qmk_command]
 
     # Environment variables
     # https://docs.qmk.fm/other_vscode#msys2-setup
@@ -88,7 +89,7 @@ def run_qmk_compile():
 
     # Run
     try:
-        process = subprocess.Popen([msys] + args, env=env, stdout=subprocess.PIPE, text=True)
+        process = subprocess.Popen(args, env=env, stdout=subprocess.PIPE, text=True)
 
         # Print output
         for line in process.stdout:
