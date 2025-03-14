@@ -55,9 +55,8 @@ def get_arguments():
         ]
     )
     parser.add_argument("-l", "--legacy", action = "store_true", default = False, help = "use legacy matrix pinout")
-    args = parser.parse_args()
 
-    return args
+    return parser.parse_args()
 
 def copy_folder_to_qmk():
     # Paths
