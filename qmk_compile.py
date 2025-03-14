@@ -11,7 +11,7 @@ class KeyboardConfig:
     data: dict
 
     def __init__(self):
-        # Read the JSON file
+        # Load default keyboard json
         with open(KeyboardConfig.config_path, "r") as file:
             self.original_content = file.read()
             self.data = json.loads(self.original_content)
@@ -29,7 +29,8 @@ class KeyboardConfig:
             }
             print("Using legacy matrix pinout")
 
-        # Write overrides
+        # Write overrides into the json file so
+        # it can be copied into the qmk folder
         with open(KeyboardConfig.config_path, "w") as file:
             json.dump(self.data, file, indent=4)
 
@@ -110,30 +111,35 @@ def obtain_hex_file(args):
     # Paths
     hex_source = os.path.join(os.environ.get("USERPROFILE"), "qmk_firmware", "krtkus_default.hex")
     hex_dist = os.path.join("production", "firmware", hex_name)
-    qmk_dest = os.path.join(os.environ.get("USERPROFILE"), "qmk_firmware", "keyboards", "krtkus")
 
     # Run
     try:
         shutil.copy2(hex_source, hex_dist)
         print(f"Moved '{hex_source}' to '{hex_dist}'.")
-        
+    except Exception as e:
+        print(f"Error obtaining hex file: {e}")
+
+def clean_up():
+    # Paths
+    qmk_dest = os.path.join(os.environ.get("USERPROFILE"), "qmk_firmware", "keyboards", "krtkus")
+
+    # Run
+    try:
         shutil.rmtree(qmk_dest)
         print(f"Cleaned up '{qmk_dest}'.")
     except Exception as e:
-        print(f"Error getting hex file: {e}")
+        print(f"Error cleaning up: {e}")
 
 if __name__ == "__main__":
-    # Args
     args = get_arguments()
     
-    # Copy folder to QMK
+    # Modify config
     config = KeyboardConfig()
     config.override(args)
     copy_folder_to_qmk()
     config.restore()
 
-    # Compile
+    # Process
     run_qmk_compile()
-
-    # Get HEX file
     obtain_hex_file(args)
+    clean_up()
