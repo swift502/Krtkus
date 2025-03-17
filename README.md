@@ -104,9 +104,9 @@ Once the firmware is flashed, it provides key combinations to enter bootloader o
 
 ## Personal builds
 
-| No | Image | Keycaps | Switches | Case | Pinout | Bootloader |
+| No. | Image | Keycaps | Switches | Case | Pinout | Bootloader |
 | --- | --- | --- | --- | --- | --- | --- |
-| #1 | <img src="https://placehold.co/140x80"> | MBK Legend Ergo/Ortho | Choc Brown | Black Resin | Standard | Caterina |
+| #1 | <img src="https://placehold.co/140x80"> | MBK Legend<br>Ergo/Ortho | Choc Brown | Black Resin | Standard | Caterina |
 | #2 | <img src="https://placehold.co/140x80"> | Keychron LSA ABS | KS-33 Brown | JLC Black Resin | Legacy | Caterina |
 | #3 | <img src="https://placehold.co/140x80"> | Keychron LSA PBT | KS-33 Red | 9600 Resin | Legacy | Caterina |
 | #4 | <img src="https://placehold.co/140x80"> | Keychron LSA ABS | KS-33 Brown | Black Resin | Standard | Atmel DFU |
