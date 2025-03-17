@@ -89,12 +89,6 @@ Run the compile script:
 python qmk_compile.py
 ```
 
-Optionally specify a different bootloader:
-
-```sh
-python qmk_compile.py -bl atmel-dfu
-```
-
 ### Resetting
 
 Once the firmware is flashed, it provides key combinations to enter bootloader or clear the keyboard's persistent storage.
