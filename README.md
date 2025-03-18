@@ -14,13 +14,13 @@ An extended 5x12 keyboard with 2 extra keys. The design is intended for ortho la
 - 3D printed case with a 7 degree tilt
 - TODO: Dimensions
 
-To connect the keyboard to [usevia.app](https://usevia.app), the [design file](production/krtkus_design.json) has to be manually uploaded in the design tab.
+Connecting the keyboard to [usevia.app](https://usevia.app) requires manually uploading the [design file](production/krtkus_design.json) in the design tab.
 
 <p align="center">
     <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/2.webp"><img src="images/2.webp"></a>
 </p>
 
-## My builds
+## Example builds
 
 | No. | Image | Keycaps | Switches | Case | Pinout | Bootloader |
 | --- | --- | --- | --- | --- | --- | --- |
