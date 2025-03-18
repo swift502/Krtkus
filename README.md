@@ -49,7 +49,7 @@ Connecting the keyboard to [usevia.app](https://usevia.app) requires manually up
 - 61 keycaps
 - 5 M2 x 6mm screws
 
-Optional:
+_Optional:_
 
 - 90 degree Micro-USB cable
 - Rubber feet
