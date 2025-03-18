@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/2.webp"><img src="images/2.webp"></a>
+    <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/1.webp"><img src="images/1.webp"></a>
 </p>
 
 # Krtkus
@@ -12,21 +12,22 @@ An extended 5x12 keyboard with 2 extra keys. The design is intended for ortho la
 - QMK/VIA compatible
 - Tray mount
 - 3D printed case with a 7 degree tilt
+- TODO: Dimensions
 
 To connect the keyboard to [usevia.app](https://usevia.app), the [design file](production/krtkus_design.json) has to be manually uploaded in the design tab.
 
-## Showcase
-
 <p align="center">
-    <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/1.webp"><img src="images/1.webp"></a>
-	<span>Left: Choc V1, Right: KS-33</span>
-    <br><br>
-    <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/3.webp"><img src="images/3.webp"></a>
-    <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/4.webp"><img src="images/4.webp"></a>
-    <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/5.webp"><img src="images/5.webp"></a>
-    <span>Krtkus vs. Keychron K3 Pro</span>
+    <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/2.webp"><img src="images/2.webp"></a>
 </p>
 
+## My builds
+
+| No. | Image | Keycaps | Switches | Case | Pinout | Bootloader |
+| --- | --- | --- | --- | --- | --- | --- |
+| #1 | <img src="https://placehold.co/150x90"> | MBK Legend Ergo/Ortho | Choc V1 Brown | Black Resin | Standard | Caterina |
+| #2 | <img src="https://placehold.co/150x90"> | Keychron LSA ABS | KS-33 Brown | JLC Black Resin | Legacy | Caterina |
+| #3 | <img src="https://placehold.co/150x90"> | Keychron LSA PBT | KS-33 Red | 9600 Resin | Legacy | Caterina |
+| #4 | <img src="https://placehold.co/150x90"> | Keychron LSA ABS | KS-33 Brown | Black Resin | Standard | Atmel DFU |
 
 ## Room for improvement
 
@@ -95,12 +96,3 @@ Once the firmware is flashed, it provides key combinations to enter bootloader o
 
 - `LShift + RShift + B` - Puts the keyboard into bootloader mode for flashing
 - `LShift + RShift + C` - Reinitializes the keyboard and reverts to the default keymap
-
-## Personal builds
-
-| No. | Image | Keycaps | Switches | Case | Pinout | Bootloader |
-| --- | --- | --- | --- | --- | --- | --- |
-| #1 | <img src="https://placehold.co/140x80"> | MBK Legend Ergo/Ortho | Choc V1 Brown | Black Resin | Standard | Caterina |
-| #2 | <img src="https://placehold.co/140x80"> | Keychron LSA ABS | KS-33 Brown | JLC Black Resin | Legacy | Caterina |
-| #3 | <img src="https://placehold.co/140x80"> | Keychron LSA PBT | KS-33 Red | 9600 Resin | Legacy | Caterina |
-| #4 | <img src="https://placehold.co/140x80"> | Keychron LSA ABS | KS-33 Brown | Black Resin | Standard | Atmel DFU |
