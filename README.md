@@ -54,25 +54,6 @@ Optional:
 - 90 degree Micro-USB cable
 - Rubber feet
 
-## Kicad
-
-### Libraries
-
-Below is a list libraries included in the project. These libraries are not licensed under CC0. Please refer to each specific library for licensing details.
-
-- [Scotto Kicad](https://github.com/joe-scotto/scottokeebs/tree/main/Extras/ScottoKicad)
-- [MX V2](https://github.com/ai03-2725/MX_V2)
-- [Gateron 3D models](https://www.gateron.com/pages/3d)
-
-### Switch grid
-
-| Unit | Offset |
-| --- | --- |
-| Switch | 19.05 |
-| Switch 4 | 4.7625 |
-| Switch 16 | 1.190625 |
-| Switch 64 | 0.29765625 |
-
 ## QMK
 
 ### Documentation
@@ -97,3 +78,23 @@ Once the firmware is flashed, it provides key combinations to enter bootloader o
 
 - `LShift + RShift + B` - Puts the keyboard into bootloader mode for flashing
 - `LShift + RShift + C` - Reinitializes the keyboard and reverts to the default keymap
+
+
+## Kicad
+
+### Libraries
+
+Below is a list libraries included in the project. These libraries are not licensed under CC0. Please refer to each specific library for licensing details.
+
+- [Scotto Kicad](https://github.com/joe-scotto/scottokeebs/tree/main/Extras/ScottoKicad)
+- [MX V2](https://github.com/ai03-2725/MX_V2)
+- [Gateron 3D models](https://www.gateron.com/pages/3d)
+
+### Switch grid
+
+| Unit | Offset |
+| --- | --- |
+| Switch | 19.05 |
+| Switch 4 | 4.7625 |
+| Switch 16 | 1.190625 |
+| Switch 64 | 0.29765625 |
