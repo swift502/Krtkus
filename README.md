@@ -12,7 +12,7 @@ An extended 5x12 keyboard with 2 extra keys. The design is intended for ortho la
 - QMK/VIA compatible
 - Tray mount
 - 3D printed case with a 7 degree tilt
-- TODO: Dimensions
+- 236mm × 122mm × 30mm
 
 Connecting the keyboard to [usevia.app](https://usevia.app) requires manually uploading the [design file](production/krtkus_design.json) in the design tab.
 
@@ -31,8 +31,9 @@ Connecting the keyboard to [usevia.app](https://usevia.app) requires manually up
 
 ## Room for improvement
 
-- Missing spacebar stabilizer
-- Hide MCU on the bottom side and use standard USB port orientation
+- Spacebar stabilizer
+- Hotswap version
+- Standard USB port orientation
 - Switch plate
 
 ## Parts
