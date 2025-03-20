@@ -22,7 +22,7 @@ Connecting the keyboard to [usevia.app](https://usevia.app) requires manually up
 
 ## My builds
 
-| Image | Keycaps | Switches | Case | Pinout | Bootloader |
+| Board | Keycaps | Switches | Case | Pinout | Bootloader |
 | --- | --- | --- | --- | --- | --- |
 | <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/build_1.webp"><img src="images/build_1.webp" width="200px"></a> | MBK Legend Ergo/Ortho | Choc V1 Brown | Black Resin | Standard | Caterina |
 | <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/build_2.webp"><img src="images/build_2.webp" width="200px"></a> | Keychron LSA ABS | KS-33 Brown | JLC Black Resin | Legacy | Caterina |
