@@ -85,7 +85,6 @@ def run_qmk_compile():
     # https://docs.qmk.fm/other_vscode#msys2-setup
     env = os.environ.copy()
     env["MSYSTEM"] = "MINGW64"
-    env["CHERE_INVOKING"] = "1"
 
     # Run
     try:
