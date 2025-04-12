@@ -2,6 +2,7 @@ import json
 import os
 import shutil
 import subprocess
+import sys
 from types import SimpleNamespace
 
 import questionary
@@ -50,6 +51,9 @@ def get_arguments():
         default="standard"
     ).ask()
 
+    if args.pinout == None:
+        sys.exit()
+
     # https://docs.qmk.fm/config_options#avr-mcu-options
     args.bootloader = questionary.select(
         "Select bootloader:",
@@ -64,6 +68,9 @@ def get_arguments():
         ],
         default="caterina"
     ).ask()
+
+    if args.bootloader == None:
+        sys.exit()
 
     print()
 
