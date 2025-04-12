@@ -62,9 +62,15 @@ _Optional:_
 
 ### Compiling (Windows)
 
+- Python: https://www.python.org/
 - MSYS: https://msys.qmk.fm
 - Toolbox: https://qmk.fm/toolbox
-- Python: https://www.python.org/
+
+Install requirements:
+
+```sh
+pip install -r requirements.txt
+```
 
 Run the compile script:
 

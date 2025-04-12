@@ -1,8 +1,10 @@
+import json
 import os
 import shutil
 import subprocess
-import argparse
-import json
+from types import SimpleNamespace
+
+import questionary
 
 class KeyboardConfig:
 
@@ -19,44 +21,53 @@ class KeyboardConfig:
     def override(self, args):
         # Bootloader
         self.data["bootloader"] = args.bootloader
-        print(f"Bootloader is set to \"{args.bootloader}\"")
 
         # Legacy ks-33 matrix pinout
-        if args.legacy:
+        if args.pinout == "legacy":
             self.data["matrix_pins"] = {
                 "cols": ["D2", "D3", "F4", "F5", "F6", "F7", "B1", "B4", "B5", "B3", "B2", "B6"],
                 "rows": ["C6", "D7", "E6", "D4", "D0", "D1"]
             }
-            print("Using legacy matrix pinout")
 
         # Write overrides into the json file so
         # it can be copied into the qmk folder
         with open(KeyboardConfig.config_path, "w") as file:
             json.dump(self.data, file, indent=4)
 
-        print()
-
     def restore(self):
         with open(KeyboardConfig.config_path, "w") as file:
             file.write(self.original_content)
 
 def get_arguments():
-    parser = argparse.ArgumentParser()
+    args = SimpleNamespace()
+
+    args.pinout = questionary.select(
+        "Select pinout:",
+        choices=[
+            "standard",
+            "legacy"
+        ],
+        default="standard"
+    ).ask()
+
     # https://docs.qmk.fm/config_options#avr-mcu-options
-    parser.add_argument("-bl", "--bootloader", default = "caterina",
-        choices = [
+    args.bootloader = questionary.select(
+        "Select bootloader:",
+        choices=[
             "atmel-dfu",
+            "bootloadhid",
+            "caterina",
+            "halfkay",
             "lufa-dfu",
             "qmk-dfu",
-            "halfkay",
-            "caterina",
-            "bootloadhid",
             "usbasploader"
-        ]
-    )
-    parser.add_argument("-l", "--legacy", action = "store_true", default = False, help = "use legacy matrix pinout")
+        ],
+        default="caterina"
+    ).ask()
 
-    return parser.parse_args()
+    print()
+
+    return args
 
 def copy_folder_to_qmk():
     # Paths
@@ -103,7 +114,7 @@ def run_qmk_compile():
 def obtain_hex_file(args):
     # Name
     bootloader = args.bootloader.replace("-", "_")
-    legacy = "_legacy" if args.legacy else ""
+    legacy = "_legacy" if args.pinout == "legacy" else ""
     hex_name = f"krtkus_{bootloader}{legacy}.hex"
 
     # Paths
