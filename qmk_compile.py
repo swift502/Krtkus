@@ -39,6 +39,9 @@ class KeyboardConfig:
         with open(KeyboardConfig.config_path, "w") as file:
             file.write(self.original_content)
 
+def print_error(message):
+    print(f"\033[91m{message}\033[0m")
+
 def get_arguments():
     args = SimpleNamespace()
 
@@ -51,7 +54,7 @@ def get_arguments():
         default="standard"
     ).ask()
 
-    if args.pinout == None:
+    if args.pinout is None:
         sys.exit()
 
     # https://docs.qmk.fm/config_options#avr-mcu-options
@@ -69,7 +72,7 @@ def get_arguments():
         default="caterina"
     ).ask()
 
-    if args.bootloader == None:
+    if args.bootloader is None:
         sys.exit()
 
     print()
@@ -91,13 +94,13 @@ def copy_folder_to_qmk():
         print(f"Copied '{qmk_source}' to '{qmk_dest}'.")
         print()
     except Exception as e:
-        print(f"Error copying folder: {e}")
+        print_error(f"Error copying folder: {e}")
+        sys.exit(1)
 
 def run_qmk_compile():
     # Command
     msys_exe = r"C:\QMK_MSYS\usr\bin\bash.exe"
-    qmk_command = "qmk compile -kb krtkus -km default"
-    args = [msys_exe, "--login", "-c", qmk_command]
+    args = [msys_exe, "-l", "-c", "qmk compile -kb krtkus -km default"]
 
     # Environment variables
     # https://docs.qmk.fm/other_vscode#msys2-setup
@@ -116,24 +119,26 @@ def run_qmk_compile():
         print()
 
     except Exception as e:
-        print(f"Error running QMK compile: {e}")
+        print_error(f"Error running QMK compile: {e}")
+        sys.exit(1)
 
 def obtain_hex_file(args):
     # Name
-    bootloader = args.bootloader.replace("-", "_")
-    legacy = "_legacy" if args.pinout == "legacy" else ""
-    hex_name = f"krtkus_{bootloader}{legacy}.hex"
+    name_parts = ["krtkus"]
+    name_parts += [args.bootloader.replace("-", "_")]
+    if args.pinout == "legacy": name_parts += ["legacy"]
 
     # Paths
     hex_source = os.path.join(os.environ.get("USERPROFILE"), "qmk_firmware", "krtkus_default.hex")
-    hex_dist = os.path.join("production", "firmware", hex_name)
+    hex_dest = os.path.join("production", "firmware", "_".join(name_parts) + ".hex")
 
     # Run
     try:
-        shutil.copy2(hex_source, hex_dist)
-        print(f"Moved '{hex_source}' to '{hex_dist}'.")
+        shutil.copy2(hex_source, hex_dest)
+        print(f"Moved '{hex_source}' to '{hex_dest}'.")
     except Exception as e:
-        print(f"Error obtaining hex file: {e}")
+        print_error(f"Error obtaining hex file: {e}")
+        sys.exit(1)
 
 def clean_up():
     # Paths
@@ -144,7 +149,8 @@ def clean_up():
         shutil.rmtree(qmk_dest)
         print(f"Cleaned up '{qmk_dest}'.")
     except Exception as e:
-        print(f"Error cleaning up: {e}")
+        print_error(f"Error cleaning up: {e}")
+        sys.exit(1)
 
 if __name__ == "__main__":
     args = get_arguments()
