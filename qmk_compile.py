@@ -3,8 +3,8 @@ import os
 import shutil
 import subprocess
 import sys
-from types import SimpleNamespace
 import questionary
+from types import SimpleNamespace
 
 # Local
 firmware_local = os.path.join("production", "firmware")
@@ -13,8 +13,8 @@ qmk_local = os.path.join("source", "qmk")
 # Remote
 firmware_remote = os.path.join(os.environ.get("USERPROFILE"), "qmk_firmware")
 qmk_remote = os.path.join(firmware_remote, "keyboards", "krtkus")
-qmk_config = os.path.join(qmk_remote, "keyboard.json")
 hex_remote = os.path.join(firmware_remote, "krtkus_default.hex")
+qmk_config = os.path.join(qmk_remote, "keyboard.json")
 msys_exe = r"C:\QMK_MSYS\usr\bin\bash.exe"
 
 def get_arguments():
