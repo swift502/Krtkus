@@ -6,14 +6,24 @@ import sys
 from types import SimpleNamespace
 import questionary
 
+# Local
+firmware_local = os.path.join("production", "firmware")
+qmk_local = os.path.join("source", "qmk")
+qmk_config = os.path.join(qmk_local, "keyboard.json")
+
+# Remote
+firmware_remote = os.path.join(os.environ.get("USERPROFILE"), "qmk_firmware")
+qmk_remote = os.path.join(firmware_remote, "keyboards", "krtkus")
+hex_remote = os.path.join(firmware_remote, "krtkus_default.hex")
+msys_exe = r"C:\QMK_MSYS\usr\bin\bash.exe"
+
 class KeyboardConfig:
-    config_path = r"source\qmk\keyboard.json"
     original_content: str
     data: dict
 
     def __init__(self):
         # Load default keyboard json
-        with open(KeyboardConfig.config_path, "r") as file:
+        with open(qmk_config, "r") as file:
             self.original_content = file.read()
             self.data = json.loads(self.original_content)
 
@@ -30,11 +40,11 @@ class KeyboardConfig:
 
         # Write overrides into the json file so
         # it can be copied into the qmk folder
-        with open(KeyboardConfig.config_path, "w") as file:
+        with open(qmk_config, "w") as file:
             json.dump(self.data, file, indent=4)
 
     def restore(self):
-        with open(KeyboardConfig.config_path, "w") as file:
+        with open(qmk_config, "w") as file:
             file.write(self.original_content)
 
 def get_arguments():
@@ -75,57 +85,49 @@ def get_arguments():
     return args
 
 def copy_folder_to_qmk():
-    # Paths
-    qmk_source = os.path.join("source", "qmk")
-    qmk_dest = os.path.join(os.environ.get("USERPROFILE"), "qmk_firmware", "keyboards", "krtkus")
+    if os.path.exists(qmk_remote):
+        shutil.rmtree(qmk_remote)
+        print(f"Removed existing folder '{qmk_remote}'.")
 
-    # Run
-    if os.path.exists(qmk_dest):
-        shutil.rmtree(qmk_dest)
-        print(f"Removed existing folder '{qmk_dest}'.")
+    shutil.copytree(qmk_local, qmk_remote)
+    print(f"Copied '{qmk_local}' to '{qmk_remote}'.")
 
-    shutil.copytree(qmk_source, qmk_dest)
-    print(f"Copied '{qmk_source}' to '{qmk_dest}'.")
     print()
 
 def run_qmk_compile():
-    # Command
-    msys_exe = r"C:\QMK_MSYS\usr\bin\bash.exe"
-    args = [msys_exe, "-l", "-c", "qmk compile -kb krtkus -km default"]
-
     # Environment
     # https://docs.qmk.fm/other_vscode#msys2-setup
     env = os.environ.copy()
     env["MSYSTEM"] = "MINGW64"
 
     # Run
-    process = subprocess.Popen(args, env=env, stdout=subprocess.PIPE, text=True)
+    process = subprocess.Popen(
+        [msys_exe, "-l", "-c", "qmk compile -kb krtkus -km default"],
+        env=env,
+        stdout=subprocess.PIPE,
+        text=True
+    )
+
     for line in process.stdout:
         print(line, end="")
     process.wait()
+
     print()
 
 def obtain_hex_file(args):
-    # Name
+    # Hex file name
     name_parts = ["krtkus"]
     name_parts += [args.bootloader.replace("-", "_")]
     if args.pinout == "legacy": name_parts += ["legacy"]
-
-    # Paths
-    hex_source = os.path.join(os.environ.get("USERPROFILE"), "qmk_firmware", "krtkus_default.hex")
-    hex_dest = os.path.join("production", "firmware", "_".join(name_parts) + ".hex")
+    hex_local = os.path.join(firmware_local, "_".join(name_parts) + ".hex")
 
     # Run
-    shutil.copy2(hex_source, hex_dest)
-    print(f"Moved '{hex_source}' to '{hex_dest}'.")
+    shutil.copy2(hex_remote, hex_local)
+    print(f"Moved '{hex_remote}' to '{hex_local}'.")
 
 def clean_up():
-    # Paths
-    qmk_dest = os.path.join(os.environ.get("USERPROFILE"), "qmk_firmware", "keyboards", "krtkus")
-
-    # Run
-    shutil.rmtree(qmk_dest)
-    print(f"Cleaned up '{qmk_dest}'.")
+    shutil.rmtree(qmk_remote)
+    print(f"Cleaned up '{qmk_remote}'.")
 
 if __name__ == "__main__":
     args = get_arguments()
