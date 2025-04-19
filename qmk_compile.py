@@ -7,7 +7,6 @@ from types import SimpleNamespace
 import questionary
 
 class KeyboardConfig:
-
     config_path = r"source\qmk\keyboard.json"
     original_content: str
     data: dict
