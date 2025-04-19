@@ -4,7 +4,6 @@ import shutil
 import subprocess
 import sys
 from types import SimpleNamespace
-
 import questionary
 
 class KeyboardConfig:
