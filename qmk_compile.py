@@ -9,43 +9,13 @@ import questionary
 # Local
 firmware_local = os.path.join("production", "firmware")
 qmk_local = os.path.join("source", "qmk")
-qmk_config = os.path.join(qmk_local, "keyboard.json")
 
 # Remote
 firmware_remote = os.path.join(os.environ.get("USERPROFILE"), "qmk_firmware")
 qmk_remote = os.path.join(firmware_remote, "keyboards", "krtkus")
+qmk_config = os.path.join(qmk_remote, "keyboard.json")
 hex_remote = os.path.join(firmware_remote, "krtkus_default.hex")
 msys_exe = r"C:\QMK_MSYS\usr\bin\bash.exe"
-
-class KeyboardConfig:
-    original_content: str
-    data: dict
-
-    def __init__(self):
-        # Load default keyboard json
-        with open(qmk_config, "r") as file:
-            self.original_content = file.read()
-            self.data = json.loads(self.original_content)
-
-    def override(self, args):
-        # Bootloader
-        self.data["bootloader"] = args.bootloader
-
-        # Legacy ks-33 matrix pinout
-        if args.pinout == "legacy":
-            self.data["matrix_pins"] = {
-                "cols": ["D2", "D3", "F4", "F5", "F6", "F7", "B1", "B4", "B5", "B3", "B2", "B6"],
-                "rows": ["C6", "D7", "E6", "D4", "D0", "D1"]
-            }
-
-        # Write overrides into the json file so
-        # it can be copied into the qmk folder
-        with open(qmk_config, "w") as file:
-            json.dump(self.data, file, indent=4)
-
-    def restore(self):
-        with open(qmk_config, "w") as file:
-            file.write(self.original_content)
 
 def get_arguments():
     args = SimpleNamespace()
@@ -85,14 +55,35 @@ def get_arguments():
     return args
 
 def copy_folder_to_qmk():
+    # Remove existing
     if os.path.exists(qmk_remote):
         shutil.rmtree(qmk_remote)
         print(f"Removed existing folder '{qmk_remote}'.")
 
+    # Move qmk source
     shutil.copytree(qmk_local, qmk_remote)
     print(f"Copied '{qmk_local}' to '{qmk_remote}'.")
 
     print()
+
+def override_config(args):
+    # Read
+    with open(qmk_config, "r") as file:
+        data = json.loads(file.read())
+
+    # Bootloader
+    data["bootloader"] = args.bootloader
+
+    # Legacy ks-33 matrix pinout
+    if args.pinout == "legacy":
+        data["matrix_pins"] = {
+            "cols": ["D2", "D3", "F4", "F5", "F6", "F7", "B1", "B4", "B5", "B3", "B2", "B6"],
+            "rows": ["C6", "D7", "E6", "D4", "D0", "D1"]
+        }
+
+    # Write
+    with open(qmk_config, "w") as file:
+        json.dump(data, file)
 
 def run_qmk_compile():
     # Environment
@@ -119,6 +110,7 @@ def obtain_hex_file(args):
     name_parts = ["krtkus"]
     name_parts += [args.bootloader.replace("-", "_")]
     if args.pinout == "legacy": name_parts += ["legacy"]
+
     hex_local = os.path.join(firmware_local, "_".join(name_parts) + ".hex")
 
     # Run
@@ -132,11 +124,9 @@ def clean_up():
 if __name__ == "__main__":
     args = get_arguments()
 
-    # Modify config
-    config = KeyboardConfig()
-    config.override(args)
+    # Setup
     copy_folder_to_qmk()
-    config.restore()
+    override_config(args)
 
     # Process
     run_qmk_compile()
