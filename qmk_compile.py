@@ -108,8 +108,8 @@ def run_qmk_compile():
 def obtain_hex_file(args):
     # Hex file name
     name_parts = ["krtkus"]
-    name_parts += [args.bootloader.replace("-", "_")]
-    if args.pinout == "legacy": name_parts += ["legacy"]
+    name_parts.append(args.bootloader.replace("-", "_"))
+    if args.pinout == "legacy": name_parts.append("legacy")
 
     # Run
     hex_local = os.path.join(firmware_local, "_".join(name_parts) + ".hex")
