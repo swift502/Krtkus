@@ -39,9 +39,6 @@ class KeyboardConfig:
         with open(KeyboardConfig.config_path, "w") as file:
             file.write(self.original_content)
 
-def print_error(message):
-    print(f"\033[91m{message}\033[0m")
-
 def get_arguments():
     args = SimpleNamespace()
 
@@ -85,42 +82,30 @@ def copy_folder_to_qmk():
     qmk_dest = os.path.join(os.environ.get("USERPROFILE"), "qmk_firmware", "keyboards", "krtkus")
 
     # Run
-    try:
-        if os.path.exists(qmk_dest):
-            shutil.rmtree(qmk_dest)
-            print(f"Removed existing folder '{qmk_dest}'.")
-            
-        shutil.copytree(qmk_source, qmk_dest)
-        print(f"Copied '{qmk_source}' to '{qmk_dest}'.")
-        print()
-    except Exception as e:
-        print_error(f"Error copying folder: {e}")
-        sys.exit(1)
+    if os.path.exists(qmk_dest):
+        shutil.rmtree(qmk_dest)
+        print(f"Removed existing folder '{qmk_dest}'.")
+
+    shutil.copytree(qmk_source, qmk_dest)
+    print(f"Copied '{qmk_source}' to '{qmk_dest}'.")
+    print()
 
 def run_qmk_compile():
     # Command
     msys_exe = r"C:\QMK_MSYS\usr\bin\bash.exe"
     args = [msys_exe, "-l", "-c", "qmk compile -kb krtkus -km default"]
 
-    # Environment variables
+    # Environment
     # https://docs.qmk.fm/other_vscode#msys2-setup
     env = os.environ.copy()
     env["MSYSTEM"] = "MINGW64"
 
     # Run
-    try:
-        process = subprocess.Popen(args, env=env, stdout=subprocess.PIPE, text=True)
-
-        # Print output
-        for line in process.stdout:
-            print(line, end="")
-
-        process.wait()
-        print()
-
-    except Exception as e:
-        print_error(f"Error running QMK compile: {e}")
-        sys.exit(1)
+    process = subprocess.Popen(args, env=env, stdout=subprocess.PIPE, text=True)
+    for line in process.stdout:
+        print(line, end="")
+    process.wait()
+    print()
 
 def obtain_hex_file(args):
     # Name
@@ -133,28 +118,20 @@ def obtain_hex_file(args):
     hex_dest = os.path.join("production", "firmware", "_".join(name_parts) + ".hex")
 
     # Run
-    try:
-        shutil.copy2(hex_source, hex_dest)
-        print(f"Moved '{hex_source}' to '{hex_dest}'.")
-    except Exception as e:
-        print_error(f"Error obtaining hex file: {e}")
-        sys.exit(1)
+    shutil.copy2(hex_source, hex_dest)
+    print(f"Moved '{hex_source}' to '{hex_dest}'.")
 
 def clean_up():
     # Paths
     qmk_dest = os.path.join(os.environ.get("USERPROFILE"), "qmk_firmware", "keyboards", "krtkus")
 
     # Run
-    try:
-        shutil.rmtree(qmk_dest)
-        print(f"Cleaned up '{qmk_dest}'.")
-    except Exception as e:
-        print_error(f"Error cleaning up: {e}")
-        sys.exit(1)
+    shutil.rmtree(qmk_dest)
+    print(f"Cleaned up '{qmk_dest}'.")
 
 if __name__ == "__main__":
     args = get_arguments()
-    
+
     # Modify config
     config = KeyboardConfig()
     config.override(args)
