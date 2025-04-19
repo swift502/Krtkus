@@ -101,8 +101,8 @@ def run_qmk_compile():
 
     for line in process.stdout:
         print(line, end="")
-    process.wait()
 
+    process.wait()
     print()
 
 def obtain_hex_file(args):
@@ -111,9 +111,8 @@ def obtain_hex_file(args):
     name_parts += [args.bootloader.replace("-", "_")]
     if args.pinout == "legacy": name_parts += ["legacy"]
 
-    hex_local = os.path.join(firmware_local, "_".join(name_parts) + ".hex")
-
     # Run
+    hex_local = os.path.join(firmware_local, "_".join(name_parts) + ".hex")
     shutil.copy2(hex_remote, hex_local)
     print(f"Moved '{hex_remote}' to '{hex_local}'.")
 
