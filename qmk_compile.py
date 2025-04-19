@@ -54,13 +54,13 @@ def get_arguments():
 
     return args
 
-def copy_folder_to_qmk():
+def copy_qmk_folder():
     # Remove existing
     if os.path.exists(qmk_remote):
         shutil.rmtree(qmk_remote)
         print(f"Removed existing folder '{qmk_remote}'.")
 
-    # Move qmk source
+    # Create qmk firmware keyboard folder
     shutil.copytree(qmk_local, qmk_remote)
     print(f"Copied '{qmk_local}' to '{qmk_remote}'.")
 
@@ -124,7 +124,7 @@ if __name__ == "__main__":
     args = get_arguments()
 
     # Setup
-    copy_folder_to_qmk()
+    copy_qmk_folder()
     override_config(args)
 
     # Process
