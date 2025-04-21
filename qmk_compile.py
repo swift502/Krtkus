@@ -3,41 +3,24 @@ import os
 import shutil
 import subprocess
 import sys
+import questionary
+from enum import Enum
 from types import SimpleNamespace
 
-import questionary
+# Local
+firmware_local = os.path.join("production", "firmware")
+qmk_local = os.path.join("source", "qmk")
 
-class KeyboardConfig:
+# Remote
+firmware_remote = os.path.join(os.environ.get("USERPROFILE"), "qmk_firmware")
+qmk_remote = os.path.join(firmware_remote, "keyboards", "krtkus")
+hex_remote = os.path.join(firmware_remote, "krtkus_default.hex")
+qmk_config = os.path.join(qmk_remote, "keyboard.json")
+msys_exe = r"C:\QMK_MSYS\usr\bin\bash.exe"
 
-    config_path = r"source\qmk\keyboard.json"
-    original_content: str
-    data: dict
-
-    def __init__(self):
-        # Load default keyboard json
-        with open(KeyboardConfig.config_path, "r") as file:
-            self.original_content = file.read()
-            self.data = json.loads(self.original_content)
-
-    def override(self, args):
-        # Bootloader
-        self.data["bootloader"] = args.bootloader
-
-        # Legacy ks-33 matrix pinout
-        if args.pinout == "legacy":
-            self.data["matrix_pins"] = {
-                "cols": ["D2", "D3", "F4", "F5", "F6", "F7", "B1", "B4", "B5", "B3", "B2", "B6"],
-                "rows": ["C6", "D7", "E6", "D4", "D0", "D1"]
-            }
-
-        # Write overrides into the json file so
-        # it can be copied into the qmk folder
-        with open(KeyboardConfig.config_path, "w") as file:
-            json.dump(self.data, file, indent=4)
-
-    def restore(self):
-        with open(KeyboardConfig.config_path, "w") as file:
-            file.write(self.original_content)
+class Pinout(Enum):
+    STANDARD = "standard"
+    LEGACY = "legacy"
 
 def get_arguments():
     args = SimpleNamespace()
@@ -45,13 +28,12 @@ def get_arguments():
     args.pinout = questionary.select(
         "Select pinout:",
         choices=[
-            "standard",
-            "legacy"
+            questionary.Choice(p.value, p) for p in Pinout
         ],
-        default="standard"
+        default=Pinout.STANDARD
     ).ask()
 
-    if args.pinout == None:
+    if args.pinout is None:
         sys.exit()
 
     # https://docs.qmk.fm/config_options#avr-mcu-options
@@ -64,96 +46,94 @@ def get_arguments():
             "halfkay",
             "lufa-dfu",
             "qmk-dfu",
+            "qmk-hid",
             "usbasploader"
         ],
         default="caterina"
     ).ask()
 
-    if args.bootloader == None:
+    if args.bootloader is None:
         sys.exit()
 
     print()
 
     return args
 
-def copy_folder_to_qmk():
-    # Paths
-    qmk_source = os.path.join("source", "qmk")
-    qmk_dest = os.path.join(os.environ.get("USERPROFILE"), "qmk_firmware", "keyboards", "krtkus")
+def copy_qmk_folder():
+    # Remove existing
+    if os.path.exists(qmk_remote):
+        shutil.rmtree(qmk_remote)
+        print(f"Removed existing folder '{qmk_remote}'.")
 
-    # Run
-    try:
-        if os.path.exists(qmk_dest):
-            shutil.rmtree(qmk_dest)
-            print(f"Removed existing folder '{qmk_dest}'.")
-            
-        shutil.copytree(qmk_source, qmk_dest)
-        print(f"Copied '{qmk_source}' to '{qmk_dest}'.")
-        print()
-    except Exception as e:
-        print(f"Error copying folder: {e}")
+    # Create qmk firmware keyboard folder
+    shutil.copytree(qmk_local, qmk_remote)
+    print(f"Copied '{qmk_local}' to '{qmk_remote}'.")
+
+def modify_config(args):
+    # Read
+    with open(qmk_config, "r") as file:
+        data = json.loads(file.read())
+
+    # Bootloader
+    data["bootloader"] = args.bootloader
+
+    # Legacy ks-33 matrix pinout
+    if args.pinout == Pinout.LEGACY:
+        data["matrix_pins"] = {
+            "cols": ["D2", "D3", "F4", "F5", "F6", "F7", "B1", "B4", "B5", "B3", "B2", "B6"],
+            "rows": ["C6", "D7", "E6", "D4", "D0", "D1"]
+        }
+
+    # Write
+    with open(qmk_config, "w") as file:
+        json.dump(data, file)
+
+    print(f"Modified '{qmk_config}'.")
+    print()
 
 def run_qmk_compile():
-    # Command
-    msys_exe = r"C:\QMK_MSYS\usr\bin\bash.exe"
-    qmk_command = "qmk compile -kb krtkus -km default"
-    args = [msys_exe, "--login", "-c", qmk_command]
-
-    # Environment variables
+    # Environment
     # https://docs.qmk.fm/other_vscode#msys2-setup
     env = os.environ.copy()
     env["MSYSTEM"] = "MINGW64"
 
     # Run
-    try:
-        process = subprocess.Popen(args, env=env, stdout=subprocess.PIPE, text=True)
+    process = subprocess.Popen(
+        [msys_exe, "-l", "-c", "qmk compile -kb krtkus -km default"],
+        env=env,
+        stdout=subprocess.PIPE,
+        text=True
+    )
 
-        # Print output
-        for line in process.stdout:
-            print(line, end="")
+    for line in process.stdout:
+        print(line, end="")
 
-        process.wait()
-        print()
-
-    except Exception as e:
-        print(f"Error running QMK compile: {e}")
+    process.wait()
+    print()
 
 def obtain_hex_file(args):
-    # Name
-    bootloader = args.bootloader.replace("-", "_")
-    legacy = "_legacy" if args.pinout == "legacy" else ""
-    hex_name = f"krtkus_{bootloader}{legacy}.hex"
-
-    # Paths
-    hex_source = os.path.join(os.environ.get("USERPROFILE"), "qmk_firmware", "krtkus_default.hex")
-    hex_dist = os.path.join("production", "firmware", hex_name)
+    # Hex file name
+    name_parts = ["krtkus"]
+    name_parts.append(args.bootloader.replace("-", "_"))
+    if args.pinout == Pinout.LEGACY:
+        name_parts.append(Pinout.LEGACY.value)
 
     # Run
-    try:
-        shutil.copy2(hex_source, hex_dist)
-        print(f"Moved '{hex_source}' to '{hex_dist}'.")
-    except Exception as e:
-        print(f"Error obtaining hex file: {e}")
+    hex_local = os.path.join(firmware_local, "_".join(name_parts) + ".hex")
+    shutil.copy2(hex_remote, hex_local)
+    print(f"Moved '{hex_remote}' to '{hex_local}'.")
 
 def clean_up():
-    # Paths
-    qmk_dest = os.path.join(os.environ.get("USERPROFILE"), "qmk_firmware", "keyboards", "krtkus")
-
-    # Run
-    try:
-        shutil.rmtree(qmk_dest)
-        print(f"Cleaned up '{qmk_dest}'.")
-    except Exception as e:
-        print(f"Error cleaning up: {e}")
+    shutil.rmtree(qmk_remote)
+    print(f"Cleaned up '{qmk_remote}'.")
 
 if __name__ == "__main__":
+    # Args
     args = get_arguments()
-    
-    # Modify config
-    config = KeyboardConfig()
-    config.override(args)
-    copy_folder_to_qmk()
-    config.restore()
+
+    # Setup
+    copy_qmk_folder()
+    modify_config(args)
 
     # Process
     run_qmk_compile()
