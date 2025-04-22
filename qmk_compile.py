@@ -7,14 +7,14 @@ import questionary
 from enum import Enum
 from types import SimpleNamespace
 
-# MSYS
+# Exec
 msys_exe = r"C:\QMK_MSYS\usr\bin\bash.exe"
 
-# Local folders
+# Local
 firmware_local = os.path.join("production", "firmware")
 qmk_local = os.path.join("source", "qmk")
 
-# Remote folders
+# Remote
 firmware_remote = os.path.join(os.environ.get("USERPROFILE"), "qmk_firmware")
 qmk_remote = os.path.join(firmware_remote, "keyboards", "krtkus")
 hex_remote = os.path.join(firmware_remote, "krtkus_default.hex")
