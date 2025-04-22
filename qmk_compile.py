@@ -7,16 +7,18 @@ import questionary
 from enum import Enum
 from types import SimpleNamespace
 
-# Local
+# MSYS
+msys_exe = r"C:\QMK_MSYS\usr\bin\bash.exe"
+
+# Local folders
 firmware_local = os.path.join("production", "firmware")
 qmk_local = os.path.join("source", "qmk")
 
-# Remote
+# Remote folders
 firmware_remote = os.path.join(os.environ.get("USERPROFILE"), "qmk_firmware")
 qmk_remote = os.path.join(firmware_remote, "keyboards", "krtkus")
 hex_remote = os.path.join(firmware_remote, "krtkus_default.hex")
 qmk_config = os.path.join(qmk_remote, "keyboard.json")
-msys_exe = r"C:\QMK_MSYS\usr\bin\bash.exe"
 
 class Pinout(Enum):
     STANDARD = "standard"
