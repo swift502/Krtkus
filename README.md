@@ -66,12 +66,6 @@ _Optional:_
 - MSYS: https://msys.qmk.fm
 - Toolbox: https://qmk.fm/toolbox
 
-Install requirements:
-
-```sh
-pip install -r requirements.txt
-```
-
 Run the compile script:
 
 ```sh
