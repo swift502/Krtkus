@@ -2,10 +2,7 @@ import json
 import os
 import shutil
 import subprocess
-import sys
-import questionary
-from enum import Enum
-from types import SimpleNamespace
+import argparse
 
 # Exec
 msys_exe = r"C:\QMK_MSYS\usr\bin\bash.exe"
@@ -20,46 +17,12 @@ qmk_remote = os.path.join(firmware_remote, "keyboards", "krtkus")
 hex_remote = os.path.join(firmware_remote, "krtkus_default.hex")
 qmk_config = os.path.join(qmk_remote, "keyboard.json")
 
-class Pinout(Enum):
-    STANDARD = "standard"
-    LEGACY = "legacy"
-
 def get_arguments():
-    args = SimpleNamespace()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-bl", "--bootloader")
+    parser.add_argument("-l", "--legacy", action = "store_true", default = False)
 
-    args.pinout = questionary.select(
-        "Select pinout:",
-        choices=[
-            questionary.Choice(p.value, p) for p in Pinout
-        ],
-        default=Pinout.STANDARD
-    ).ask()
-
-    if args.pinout is None:
-        sys.exit()
-
-    # https://docs.qmk.fm/config_options#avr-mcu-options
-    args.bootloader = questionary.select(
-        "Select bootloader:",
-        choices=[
-            "atmel-dfu",
-            "bootloadhid",
-            "caterina",
-            "halfkay",
-            "lufa-dfu",
-            "qmk-dfu",
-            "qmk-hid",
-            "usbasploader"
-        ],
-        default="caterina"
-    ).ask()
-
-    if args.bootloader is None:
-        sys.exit()
-
-    print()
-
-    return args
+    return parser.parse_args()
 
 def copy_qmk_folder():
     # Remove existing
@@ -71,16 +34,18 @@ def copy_qmk_folder():
     shutil.copytree(qmk_local, qmk_remote)
     print(f"Copied '{qmk_local}' to '{qmk_remote}'.")
 
-def modify_config(args):
+def override_config(args):
     # Read
     with open(qmk_config, "r") as file:
         data = json.loads(file.read())
 
     # Bootloader
-    data["bootloader"] = args.bootloader
+    # https://docs.qmk.fm/config_options#avr-mcu-options
+    if args.bootloader is not None:
+        data["bootloader"] = args.bootloader
 
     # Legacy ks-33 matrix pinout
-    if args.pinout == Pinout.LEGACY:
+    if args.legacy:
         data["matrix_pins"] = {
             "cols": ["D2", "D3", "F4", "F5", "F6", "F7", "B1", "B4", "B5", "B3", "B2", "B6"],
             "rows": ["C6", "D7", "E6", "D4", "D0", "D1"]
@@ -91,7 +56,8 @@ def modify_config(args):
         json.dump(data, file)
 
     print(f"Modified '{qmk_config}'.")
-    print()
+
+    return data
 
 def run_qmk_compile():
     # Environment
@@ -107,18 +73,18 @@ def run_qmk_compile():
         text=True
     )
 
+    print()
     for line in process.stdout:
         print(line, end="")
 
     process.wait()
     print()
 
-def obtain_hex_file(args):
+def obtain_hex_file(args, config):
     # Hex file name
     name_parts = ["krtkus"]
-    name_parts.append(args.bootloader.replace("-", "_"))
-    if args.pinout == Pinout.LEGACY:
-        name_parts.append(Pinout.LEGACY.value)
+    name_parts.append(config["bootloader"].replace("-", "_"))
+    if args.legacy: name_parts.append("legacy")
 
     # Run
     hex_local = os.path.join(firmware_local, "_".join(name_parts) + ".hex")
@@ -130,14 +96,12 @@ def clean_up():
     print(f"Cleaned up '{qmk_remote}'.")
 
 if __name__ == "__main__":
-    # Args
-    args = get_arguments()
-
     # Setup
+    args = get_arguments()
     copy_qmk_folder()
-    modify_config(args)
+    config = override_config(args)
 
     # Process
     run_qmk_compile()
-    obtain_hex_file(args)
+    obtain_hex_file(args, config)
     clean_up()
