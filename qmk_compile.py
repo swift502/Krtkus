@@ -76,9 +76,9 @@ def run_qmk_compile():
     print()
     for line in process.stdout:
         print(line, end="")
+    print()
 
     process.wait()
-    print()
 
 def obtain_hex_file(args, config):
     # Hex file name
