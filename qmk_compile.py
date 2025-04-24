@@ -1,8 +1,8 @@
+import argparse
 import json
 import os
 import shutil
 import subprocess
-import argparse
 
 # Exec
 msys_exe = r"C:\QMK_MSYS\usr\bin\bash.exe"
