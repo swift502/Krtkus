@@ -68,8 +68,8 @@ def run_qmk_compile():
     # Run
     process = subprocess.Popen(
         [msys_exe, "-l", "-c", "qmk compile -kb krtkus -km default"],
-        env=env,
         stdout=subprocess.PIPE,
+        env=env,
         text=True
     )
 
