@@ -41,7 +41,7 @@ def override_config(args):
 
     # Bootloader
     # https://docs.qmk.fm/config_options#avr-mcu-options
-    if args.bootloader is not None:
+    if args.bootloader:
         data["bootloader"] = args.bootloader
 
     # Legacy ks-33 matrix pinout
