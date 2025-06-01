@@ -19,6 +19,9 @@
     "tapping": {
         "hold_on_other_key_press": true
     },
+    "qmk": {
+        "tap_keycode_delay": 40
+    },
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x1616",
