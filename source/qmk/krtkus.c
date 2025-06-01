@@ -1,5 +1,17 @@
 #include "krtkus.h"
 
+void press_code(keyrecord_t *record, uint16_t keycode)
+{
+    if (record->event.pressed)
+    {
+        register_code(keycode);
+    }
+    else
+    {
+        unregister_code(keycode);
+    }
+}
+
 bool process_record_kb(uint16_t keycode, keyrecord_t *record)
 {
     uint8_t mods = get_mods();
@@ -8,24 +20,19 @@ bool process_record_kb(uint16_t keycode, keyrecord_t *record)
     switch (keycode)
     {
         case KRT_VOL:
-            if (record->event.pressed)
+            if (mods & MOD_MASK_CTRL)
             {
-                if (mods & MOD_MASK_CTRL)
-                {
-                    tap_code(KC_MUTE);
-                }
-                else if (mods & MOD_MASK_SHIFT)
-                {
-                    tap_code(KC_VOLU);
-                }
-                else
-                {
-                    tap_code(KC_VOLD);
-                }
-
-                return false;
+                press_code(record, KC_MUTE);
             }
-            break;
+            else if (mods & MOD_MASK_SHIFT)
+            {
+                press_code(record, KC_VOLU);
+            }
+            else
+            {
+                press_code(record, KC_VOLD);
+            }
+            return false;
 
         case KC_B:
             if (record->event.pressed && double_shift)
