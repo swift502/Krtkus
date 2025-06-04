@@ -24,11 +24,11 @@ Connecting the keyboard to [usevia.app](https://usevia.app) requires manually up
 
 | Board | Keycaps | Switches | Case | Pinout | Bootloader |
 | --- | --- | --- | --- | --- | --- |
-| <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/build_1.webp"><img src="images/build_1.webp" width="200px"></a> | MBK Legend Ergo/Ortho | Choc V1 Brown | Black Resin | Standard | Caterina |
+| <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/build_1.webp"><img src="images/build_1.webp" width="200px"></a> | MBK Legend<br>Ergo/Ortho | Choc V1 Brown | Black Resin | Standard | Caterina |
 | <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/build_2.webp"><img src="images/build_2.webp" width="200px"></a> | Keychron LSA ABS | KS-33 Brown | JLC Black Resin | Legacy | Caterina |
 | <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/build_3.webp"><img src="images/build_3.webp" width="200px"></a> | Keychron LSA PBT | KS-33 Red | 9600 Resin | Legacy | Caterina |
 | <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/build_4.webp"><img src="images/build_4.webp" width="200px"></a> | Keychron LSA ABS | KS-33 Brown | Black Resin | Standard | Atmel DFU |
-| <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/build_5.webp"><img src="images/build_5.webp" width="200px"></a> | Logitech MX Mechanical Mini | KS-33 Brown | Black Resin | Standard | Caterina |
+| <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/build_5.webp"><img src="images/build_5.webp" width="200px"></a> | Logitech MX<br>Mechanical Mini | KS-33 Brown | Black Resin | Standard | Caterina |
 
 ## Room for improvement
 
