@@ -35,7 +35,6 @@ Connecting the keyboard to [usevia.app](https://usevia.app) requires manually up
 - Spacebar stabilizer
 - Hotswap version
 - Standard USB port orientation
-- Switch plate
 
 ## Parts
 
