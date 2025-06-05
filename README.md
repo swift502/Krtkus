@@ -59,6 +59,7 @@ _Optional:_
 ### Documentation
 
 - `info.json` reference: https://docs.qmk.fm/reference_info_json
+- Default keymap: https://docs.qmk.fm/configurator_default_keymaps
 
 ### Compiling (Windows)
 
