@@ -39,7 +39,7 @@ def copy_qmk_folder():
 def override_config(args):
     # Read
     with open(config_remote, "r") as file:
-        data = json.loads(file.read())
+        data = json.load(file)
 
     # Bootloader
     # https://docs.qmk.fm/config_options#avr-mcu-options
@@ -67,30 +67,24 @@ def run_qmk_compile():
     env = os.environ.copy()
     env["MSYSTEM"] = "MINGW64"
 
+    # Args
+    command = "qmk compile -kb krtkus -km default"
+    args = [msys_exe, "--login", "-c", command]
+
     # Run
-    process = subprocess.Popen(
-        [msys_exe, "-l", "-c", "qmk compile -kb krtkus -km default"],
-        stdout=subprocess.PIPE,
-        env=env,
-        text=True
-    )
-
     print()
-    for line in process.stdout:
-        print(line, end="")
+    subprocess.run(args, env=env, check=True)
     print()
-
-    process.wait()
 
 def obtain_hex_file(args, config):
     # Hex file name
-    name_parts = ["krtkus"]
-    name_parts.append(config["bootloader"].replace("-", "_"))
-    if args.legacy: name_parts.append("legacy")
+    name_parts = ["krtkus", config["bootloader"].replace("-", "_")]
+    if args.legacy:
+        name_parts.append("legacy")
 
     # Run
     hex_local = firmware_local / f"{"_".join(name_parts)}.hex"
-    shutil.copy2(hex_remote, hex_local)
+    shutil.move(hex_remote, hex_local)
     print(f"Moved '{hex_remote}' to '{hex_local}'.")
 
 def clean_up():
