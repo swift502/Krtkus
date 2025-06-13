@@ -2,7 +2,6 @@
     "bootloader": "caterina",
     "diode_direction": "COL2ROW",
     "features": {
-        "bootmagic": true,
         "extrakey": true,
         "nkro": true,
         "via": true
