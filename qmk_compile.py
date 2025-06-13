@@ -3,19 +3,21 @@ import json
 import os
 import shutil
 import subprocess
+from pathlib import Path
 
 # Exec
 msys_exe = r"C:\QMK_MSYS\usr\bin\bash.exe"
 
 # Local
-firmware_local = os.path.join("production", "firmware")
-qmk_local = os.path.join("source", "qmk")
+local_dir = Path(__file__).parent.resolve()
+firmware_local = local_dir / "production" / "firmware"
+qmk_local = local_dir / "source" / "qmk"
 
 # Remote
-firmware_remote = os.path.join(os.environ.get("USERPROFILE"), "qmk_firmware")
-qmk_remote = os.path.join(firmware_remote, "keyboards", "krtkus")
-hex_remote = os.path.join(firmware_remote, "krtkus_default.hex")
-config_remote = os.path.join(qmk_remote, "keyboard.json")
+firmware_remote = Path.home() / "qmk_firmware"
+hex_remote = firmware_remote / "krtkus_default.hex"
+qmk_remote = firmware_remote / "keyboards" / "krtkus"
+config_remote = qmk_remote / "keyboard.json"
 
 def get_arguments():
     parser = argparse.ArgumentParser()
@@ -26,7 +28,7 @@ def get_arguments():
 
 def copy_qmk_folder():
     # Remove existing
-    if os.path.exists(qmk_remote):
+    if qmk_remote.exists():
         shutil.rmtree(qmk_remote)
         print(f"Removed existing folder '{qmk_remote}'.")
 
@@ -87,7 +89,7 @@ def obtain_hex_file(args, config):
     if args.legacy: name_parts.append("legacy")
 
     # Run
-    hex_local = os.path.join(firmware_local, "_".join(name_parts) + ".hex")
+    hex_local = firmware_local / f"{"_".join(name_parts)}.hex"
     shutil.copy2(hex_remote, hex_local)
     print(f"Moved '{hex_remote}' to '{hex_local}'.")
 
