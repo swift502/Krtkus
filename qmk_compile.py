@@ -36,10 +36,10 @@ def copy_qmk_folder():
     shutil.copytree(qmk_local, qmk_remote)
     print(f"Copied '{qmk_local}' to '{qmk_remote}'.")
 
-def override_config(args):
+def override_config(args: argparse.Namespace):
     # Read
     with open(config_remote, "r") as file:
-        data = json.load(file)
+        data: dict = json.load(file)
 
     # Bootloader
     # https://docs.qmk.fm/config_options#avr-mcu-options
@@ -76,14 +76,16 @@ def run_qmk_compile():
     subprocess.run(args, env=env, check=True)
     print()
 
-def obtain_hex_file(args, config):
+def obtain_hex_file(args: argparse.Namespace, config: dict):
     # Hex file name
-    name_parts = ["krtkus", config["bootloader"].replace("-", "_")]
+    bootloader = config["bootloader"].replace("-", "_")
+    name_parts = ["krtkus", bootloader]
     if args.legacy:
         name_parts.append("legacy")
 
     # Run
-    hex_local = firmware_local / f"{"_".join(name_parts)}.hex"
+    hex_name = "_".join(name_parts) + ".hex"
+    hex_local = firmware_local / hex_name
     shutil.move(hex_remote, hex_local)
     print(f"Moved '{hex_remote}' to '{hex_local}'.")
 
@@ -91,7 +93,7 @@ def clean_up():
     shutil.rmtree(qmk_remote)
     print(f"Cleaned up '{qmk_remote}'.")
 
-if __name__ == "__main__":
+def main():
     # Setup
     args = get_arguments()
     copy_qmk_folder()
@@ -101,3 +103,6 @@ if __name__ == "__main__":
     run_qmk_compile()
     obtain_hex_file(args, config)
     clean_up()
+
+if __name__ == "__main__":
+    main()
