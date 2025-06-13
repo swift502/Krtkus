@@ -12,15 +12,15 @@ bool process_record_kb(uint16_t keycode, keyrecord_t *record)
             {
                 if (mods & MOD_MASK_CTRL)
                 {
-                    register_code(KC_MUTE);
+                    host_consumer_send(AUDIO_MUTE);
                 }
                 else if (mods & MOD_MASK_SHIFT)
                 {
-                    register_code(KC_VOLU);
+                    host_consumer_send(AUDIO_VOL_UP);
                 }
                 else
                 {
-                    register_code(KC_VOLD);
+                    host_consumer_send(AUDIO_VOL_DOWN);
                 }
             }
             else
