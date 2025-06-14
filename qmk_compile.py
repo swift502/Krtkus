@@ -5,8 +5,8 @@ import shutil
 import subprocess
 from pathlib import Path
 
-# Exec
-msys_exe = r"C:\QMK_MSYS\usr\bin\bash.exe"
+# Exe
+wsl_exe = Path.home() / "AppData" / "Roaming" / "QMK_WSL" / "QMK.exe"
 
 # Local
 local_dir = Path(__file__).parent.resolve()
@@ -14,7 +14,7 @@ firmware_local = local_dir / "production" / "firmware"
 qmk_local = local_dir / "source" / "qmk"
 
 # Remote
-firmware_remote = Path.home() / "qmk_firmware"
+firmware_remote = Path(r"\\wsl.localhost") / "QMK" / "home" / "qmk" / "qmk_firmware"
 hex_remote = firmware_remote / "krtkus_default.hex"
 qmk_remote = firmware_remote / "keyboards" / "krtkus"
 config_remote = qmk_remote / "keyboard.json"
@@ -61,19 +61,10 @@ def override_config(args: argparse.Namespace):
 
     return data
 
-def run_qmk_compile():
-    # Environment
-    # https://docs.qmk.fm/other_vscode#msys2-setup
-    env = os.environ.copy()
-    env["MSYSTEM"] = "MINGW64"
-
-    # Args
-    command = "qmk compile -kb krtkus -km default"
-    args = [msys_exe, "--login", "-c", command]
-
-    # Run
+def run_qmk_compile(args: argparse.Namespace):
+    args = [wsl_exe, "run", "qmk", "compile", "-kb", "krtkus", "-km", "default"]
     print()
-    subprocess.run(args, env=env, check=True)
+    subprocess.run(args, check=True)
     print()
 
 def obtain_hex_file(args: argparse.Namespace, config: dict):
@@ -100,7 +91,7 @@ def main():
     config = override_config(args)
 
     # Process
-    run_qmk_compile()
+    run_qmk_compile(args)
     obtain_hex_file(args, config)
     clean_up()
 
