@@ -61,7 +61,7 @@ def override_config(args: argparse.Namespace):
 
     return data
 
-def run_qmk_compile(args: argparse.Namespace):
+def run_qmk_compile():
     args = [wsl_exe, "run", "qmk", "compile", "-kb", "krtkus", "-km", "default"]
     print()
     subprocess.run(args, check=True)
@@ -91,7 +91,7 @@ def main():
     config = override_config(args)
 
     # Process
-    run_qmk_compile(args)
+    run_qmk_compile()
     obtain_hex_file(args, config)
     clean_up()
 
