@@ -61,7 +61,7 @@ _Optional:_
 - `info.json` reference: https://docs.qmk.fm/reference_info_json
 - Core functions: https://docs.qmk.fm/ref_functions
 - Default keymaps: https://docs.qmk.fm/configurator_default_keymaps
-- HID docs: https://www.usb.org/sites/default/files/hut1_6.pdf
+- Keycodes: https://docs.qmk.fm/keycodes
 
 ### Compiling (Windows)
 
