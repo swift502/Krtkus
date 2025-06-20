@@ -82,9 +82,9 @@ def obtain_hex_file(args: argparse.Namespace, config: dict):
     name_parts = ["krtkus", bootloader]
     if args.legacy:
         name_parts.append("legacy")
+    hex_name = "_".join(name_parts) + ".hex"
 
     # Run
-    hex_name = "_".join(name_parts) + ".hex"
     hex_local = firmware_local / hex_name
     shutil.move(hex_remote, hex_local)
     print(f"Moved '{hex_remote}' to '{hex_local}'.")
