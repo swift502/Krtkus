@@ -40,7 +40,7 @@ bool process_record_kb(uint16_t keycode, keyrecord_t *record)
         case KC_C:
             if (record->event.pressed && double_shift)
             {
-                eeconfig_init();
+                eeconfig_disable();
                 soft_reset_keyboard();
                 return false;
             }
