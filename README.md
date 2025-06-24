@@ -83,7 +83,7 @@ Once the firmware is flashed, it provides key combinations to enter bootloader o
 - <kbd>LShift</kbd> + <kbd>RShift</kbd> + <kbd>C</kbd> - Clears EEPROM and reverts to the default keymap
 
 
-## Kicad
+## Kicad 8
 
 ### Libraries
 
