@@ -2,7 +2,7 @@
     "bootloader": "caterina",
     "diode_direction": "COL2ROW",
     "dynamic_keymap": {
-        "layer_count": 5
+        "layer_count": 6
     },
     "features": {
         "extrakey": true,
