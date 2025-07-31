@@ -1,6 +1,9 @@
 {
     "bootloader": "caterina",
     "diode_direction": "COL2ROW",
+    "dynamic_keymap": {
+        "layer_count": 5
+    },
     "features": {
         "extrakey": true,
         "nkro": true,
