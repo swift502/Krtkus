@@ -9,15 +9,15 @@ from pathlib import Path
 msys_exe = r"C:\QMK_MSYS\usr\bin\bash.exe"
 
 # Local
-local_dir = Path(__file__).parent.resolve()
-firmware_local = local_dir / "production" / "firmware"
-qmk_local = local_dir / "source" / "qmk"
+local = Path(__file__).parent.resolve()
+firmware_local = local / "production" / "firmware"
+kb_local = local / "source" / "qmk"
 
 # Remote
-firmware_remote = Path.home() / "qmk_firmware"
-hex_remote = firmware_remote / "krtkus_default.hex"
-qmk_remote = firmware_remote / "keyboards" / "krtkus"
-config_remote = qmk_remote / "keyboard.json"
+qmk_remote = Path.home() / "qmk_firmware"
+hex_remote = qmk_remote / "krtkus_default.hex"
+kb_remote = qmk_remote / "keyboards" / "krtkus"
+kb_config = kb_remote / "keyboard.json"
 
 def get_arguments():
     parser = argparse.ArgumentParser()
@@ -28,17 +28,17 @@ def get_arguments():
 
 def copy_qmk_folder():
     # Remove existing
-    if qmk_remote.exists():
-        shutil.rmtree(qmk_remote)
-        print(f"Removed existing folder '{qmk_remote}'.")
+    if kb_remote.exists():
+        shutil.rmtree(kb_remote)
+        print(f"Removed existing folder '{kb_remote}'.")
 
-    # Create qmk firmware keyboard folder
-    shutil.copytree(qmk_local, qmk_remote)
-    print(f"Copied '{qmk_local}' to '{qmk_remote}'.")
+    # Setup qmk keyboard folder
+    shutil.copytree(kb_local, kb_remote)
+    print(f"Copied '{kb_local}' to '{kb_remote}'.")
 
 def override_config(args: argparse.Namespace):
     # Read
-    with open(config_remote, "r") as file:
+    with open(kb_config, "r") as file:
         data: dict = json.load(file)
 
     # Bootloader
@@ -54,10 +54,10 @@ def override_config(args: argparse.Namespace):
         }
 
     # Write
-    with open(config_remote, "w") as file:
+    with open(kb_config, "w") as file:
         json.dump(data, file)
 
-    print(f"Modified '{config_remote}'.")
+    print(f"Modified '{kb_config}'.")
 
     return data
 
@@ -90,8 +90,8 @@ def obtain_hex_file(args: argparse.Namespace, config: dict):
     print(f"Moved '{hex_remote}' to '{hex_local}'.")
 
 def clean_up():
-    shutil.rmtree(qmk_remote)
-    print(f"Cleaned up '{qmk_remote}'.")
+    shutil.rmtree(kb_remote)
+    print(f"Cleaned up '{kb_remote}'.")
 
 def main():
     # Setup
