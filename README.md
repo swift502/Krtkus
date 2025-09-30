@@ -48,11 +48,12 @@ Connecting the keyboard to [usevia.app](https://usevia.app) requires manually up
 - 61 switches
 - 61 keycaps
 - 5 M2 x 6mm screws
+- Rubber feet
 
-_Optional:_
+#### Optional:
 
 - 90 degree Micro-USB cable
-- Rubber feet
+
 
 ## QMK
 
