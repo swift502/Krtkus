@@ -48,7 +48,7 @@ Connecting the keyboard to [usevia.app](https://usevia.app) requires manually up
 - 61 SMD diodes
 - 61 switches
 - 61 keycaps
-- 5 M2 x 6mm screws
+- 5 M2x6mm screws
 
 #### Optional:
 
