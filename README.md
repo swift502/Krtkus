@@ -55,7 +55,6 @@ Connecting the keyboard to [usevia.app](https://usevia.app) requires manually up
 - 90 degree Micro-USB cable
 - Rubber feet
 
-
 ## QMK
 
 ### Documentation
@@ -81,7 +80,6 @@ Once the firmware is flashed, it provides key combinations to enter bootloader o
 
 - <kbd>LShift</kbd> + <kbd>RShift</kbd> + <kbd>B</kbd> - Puts the keyboard into bootloader mode for flashing
 - <kbd>LShift</kbd> + <kbd>RShift</kbd> + <kbd>C</kbd> - Clears EEPROM and reverts to the default keymap
-
 
 ## Kicad 8
 
