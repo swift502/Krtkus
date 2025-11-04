@@ -57,6 +57,8 @@ Connecting the keyboard to [usevia.app](https://usevia.app) requires manually up
 
 ## QMK
 
+Standard QMK setup except for `"tap_keycode_delay": 40`, which fixes ignored taps in some games where input scanning is tied to frame rate. To best of my knowledge, keeping this value above 33ms (30fps) should cover all edge cases.
+
 ### Documentation
 
 - `info.json` reference: https://docs.qmk.fm/reference_info_json
