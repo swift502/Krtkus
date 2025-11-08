@@ -1,6 +1,4 @@
-<p align="center">
-    <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/1.webp"><img src="images/1.webp"></a>
-</p>
+![](images/1.webp)
 
 # Krtkus
 
@@ -16,9 +14,7 @@ An extended 5x12 keyboard with 2 extra keys. The design is intended for ortho la
 
 Connecting the keyboard to [usevia.app](https://usevia.app) requires manually uploading the [design file](production/krtkus_via.json) in the design tab.
 
-<p align="center">
-    <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/2.webp"><img src="images/2.webp"></a>
-</p>
+![](images/2.webp)
 
 ## My builds
 
