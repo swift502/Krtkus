@@ -1,7 +1,7 @@
 #include QMK_KEYBOARD_H
 
-#define SE_RGHT MT(MOD_RSFT, KC_ENT)
 #define SE_LEFT MT(MOD_LSFT, KC_ENT)
+#define SE_RGHT MT(MOD_RSFT, KC_ENT)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*
