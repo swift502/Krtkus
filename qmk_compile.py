@@ -9,14 +9,14 @@ from pathlib import Path
 msys_exe = r"C:\QMK_MSYS\usr\bin\bash.exe"
 
 # Local
-local = Path(__file__).parent.resolve()
-firmware_local = local / "production" / "firmware"
-kb_local = local / "source" / "qmk"
+root_local = Path(__file__).parent.resolve()
+firmware_local = root_local / "production" / "firmware"
+kb_local = root_local / "source" / "qmk"
 
 # Remote
-qmk_remote = Path.home() / "qmk_firmware"
-hex_remote = qmk_remote / "krtkus_default.hex"
-kb_remote = qmk_remote / "keyboards" / "krtkus"
+root_remote = Path.home() / "qmk_firmware"
+hex_remote = root_remote / "krtkus_default.hex"
+kb_remote = root_remote / "keyboards" / "krtkus"
 kb_config = kb_remote / "keyboard.json"
 
 def get_arguments():
