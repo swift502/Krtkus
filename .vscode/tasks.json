@@ -1,37 +1,42 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-      {
-        "label": "qmk: atmel-dfu",
-        "type": "shell",
-        "command": "python qmk_compile.py -bl atmel-dfu",
-        "hide": true
-      },
-      {
-        "label": "qmk: caterina",
-        "type": "shell",
-        "command": "python qmk_compile.py -bl caterina",
-        "hide": true
-      },
-      {
-        "label": "qmk: caterina (legacy)",
-        "type": "shell",
-        "command": "python qmk_compile.py -bl caterina -l",
-        "hide": true
-      },
-      {
-        "label": "QMK: Compile All",
-        "dependsOn": [
-          "qmk: atmel-dfu",
-          "qmk: caterina",
-          "qmk: caterina (legacy)"
-        ],
-        "dependsOrder": "sequence",
-        "group": {
-          "kind": "build",
-          "isDefault": true
-        }
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "QMK: Compile Default",
+      "type": "shell",
+      "command": "python qmk_compile.py",
+      "problemMatcher": []
+    },
+    {
+      "label": "QMK: Compile All",
+      "dependsOn": [
+        "QMK: atmel-dfu",
+        "QMK: caterina",
+        "QMK: caterina (legacy)"
+      ],
+      "dependsOrder": "sequence",
+      "group": {
+        "kind": "build",
+        "isDefault": true
       }
-    ]
-  }
-  
+    },
+    {
+      "label": "QMK: atmel-dfu",
+      "type": "shell",
+      "command": "python qmk_compile.py -bl atmel-dfu",
+      "hide": true
+    },
+    {
+      "label": "QMK: caterina",
+      "type": "shell",
+      "command": "python qmk_compile.py -bl caterina",
+      "hide": true
+    },
+    {
+      "label": "QMK: caterina (legacy)",
+      "type": "shell",
+      "command": "python qmk_compile.py -bl caterina -l",
+      "hide": true
+    }
+  ]
+}
