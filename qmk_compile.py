@@ -17,7 +17,7 @@ kb_local = root_local / "source" / "qmk"
 root_remote = Path.home() / "qmk_firmware"
 hex_remote = root_remote / "krtkus_default.hex"
 kb_remote = root_remote / "keyboards" / "krtkus"
-kb_config = kb_remote / "keyboard.json"
+cfg_remote = kb_remote / "keyboard.json"
 
 def get_arguments():
     parser = argparse.ArgumentParser()
@@ -38,7 +38,7 @@ def copy_qmk_folder():
 
 def override_config(args: argparse.Namespace):
     # Read
-    with open(kb_config, "r") as file:
+    with open(cfg_remote, "r") as file:
         data: dict = json.load(file)
 
     # Bootloader
@@ -54,10 +54,10 @@ def override_config(args: argparse.Namespace):
         }
 
     # Write
-    with open(kb_config, "w") as file:
+    with open(cfg_remote, "w") as file:
         json.dump(data, file)
 
-    print(f"Modified '{kb_config}'.")
+    print(f"Modified '{cfg_remote}'.")
 
     return data
 
