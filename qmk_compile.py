@@ -10,14 +10,14 @@ msys_exe = r"C:\QMK_MSYS\usr\bin\bash.exe"
 
 # Local
 root_local = Path(__file__).parent.resolve()
-firmware_local = root_local / "production" / "firmware"
 kb_local = root_local / "source" / "qmk"
+firmware_local = root_local / "production" / "firmware"
 
 # Remote
 root_remote = Path.home() / "qmk_firmware"
-hex_remote = root_remote / "krtkus_default.hex"
 kb_remote = root_remote / "keyboards" / "krtkus"
 cfg_remote = kb_remote / "keyboard.json"
+hex_remote = root_remote / "krtkus_default.hex"
 
 def get_arguments():
     parser = argparse.ArgumentParser()
@@ -93,16 +93,12 @@ def clean_up():
     shutil.rmtree(kb_remote)
     print(f"Cleaned up '{kb_remote}'.")
 
-def main():
-    # Setup
-    args = get_arguments()
-    copy_qmk_folder()
-    config = override_config(args)
+# Setup
+args = get_arguments()
+copy_qmk_folder()
+config = override_config(args)
 
-    # Process
-    run_qmk_compile()
-    obtain_hex_file(args, config)
-    clean_up()
-
-if __name__ == "__main__":
-    main()
+# Process
+run_qmk_compile()
+obtain_hex_file(args, config)
+clean_up()
