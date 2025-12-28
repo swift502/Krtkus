@@ -18,7 +18,7 @@ Connecting the keyboard to [usevia.app](https://usevia.app) requires manually up
 
 ## Parts
 
-> [!NOTE]
+> [!WARNING]
 > Before building, please don't expect this board to be the highest quality. It's my first design, mainly built to test the layout. There's no spacebar stabilizer, LED indicators or any consideration for sound profile / typing feel. I plan to address most of these things for a V2, if I ever come around designing it.
 
 - One of the PCBs:
