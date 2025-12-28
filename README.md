@@ -18,9 +18,6 @@ Connecting the keyboard to [usevia.app](https://usevia.app) requires manually up
 
 ## Parts
 
-> [!WARNING]
-> Before building, please don't expect this board to be the highest quality. It's my first design mainly intended for testing the layout. There's no spacebar stabilizer, LED indicators or any consideration for sound profile / typing feel. I plan to address most of these things for a V2, if I ever come around designing it.
-
 - One of the PCBs:
     - [Choc V1](production/pcb_choc_v1)
     - [KS-33](production/pcb_ks_33)
@@ -38,6 +35,12 @@ Connecting the keyboard to [usevia.app](https://usevia.app) requires manually up
 - Rubber feet
 
 ![](images/3.webp)
+
+## Room for improvement
+
+- Spacebar stabilizer
+- Hotswap version
+- Standard USB port orientation
 
 ## My builds
 
