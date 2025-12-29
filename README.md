@@ -1,4 +1,4 @@
-![](images/1.webp)
+![](images/3.webp)
 
 # Krtkus
 
@@ -33,8 +33,6 @@ Connecting the keyboard to [usevia.app](https://usevia.app) requires manually up
 
 - 90 degree Micro-USB cable
 - Rubber feet
-
-![](images/3.webp)
 
 ## Room for improvement
 
