@@ -45,10 +45,9 @@ Connecting the keyboard to [usevia.app](https://usevia.app) requires manually up
 | Board | Keycaps | Switches | Case | Firmware |
 | --- | --- | --- | --- | --- |
 | <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/build_1.webp"><img src="images/build_1.webp" width="200px"></a> | MBK Legend Ergo/Ortho | Choc V1 Brown | Black Resin | Caterina |
-| <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/build_2.webp"><img src="images/build_2.webp" width="200px"></a> | Keychron LSA PBT | KS-33 Red | 9600 Resin | Caterina (Legacy) |
 | <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/build_3.webp"><img src="images/build_3.webp" width="200px"></a> | Keychron LSA ABS | KS-33 Brown | Black Resin | Caterina |
-| <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/build_4.webp"><img src="images/build_4.webp" width="200px"></a> | Keychron LSA ABS | KS-33 Brown | Black Resin | Atmel DFU |
-| <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/build_5.webp"><img src="images/build_5.webp" width="200px"></a> | Dell AT101W | KS-33 Banana | [Krtkus Retro](https://github.com/swift502/KrtkusRetro) | Caterina |
+| <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/build_2.webp"><img src="images/build_2.webp" width="200px"></a> | Keychron LSA ABS | KS-33 Red | 9600 Resin | Caterina (Legacy) |
+| <a href="https://raw.githubusercontent.com/swift502/Krtkus/refs/heads/main/images/build_5.webp"><img src="images/build_4.webp" width="200px"></a> | Dell AT101W | KS-33 Banana | [Krtkus Retro](https://github.com/swift502/KrtkusRetro) | Caterina |
 
 ## QMK
 
