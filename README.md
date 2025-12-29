@@ -1,4 +1,4 @@
-![](images/3.webp)
+![](images/1.webp)
 
 # Krtkus
 
