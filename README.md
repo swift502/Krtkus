@@ -37,6 +37,8 @@ Connecting the keyboard to [usevia.app](https://usevia.app) requires manually up
 ## Room for improvement
 
 - Spacebar stabilizer
+- Num/Caps indicators
+- LED matrix
 - Hotswap version
 - Standard USB port orientation
 
