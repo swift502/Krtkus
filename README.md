@@ -2,8 +2,10 @@
 
 # Krtkus
 
+<!--
 > [!NOTE]
 > Krtkus has been succeeded by [Krteq](https://github.com/swift502/Krteq), a much more complete design that's also easier to build. I recommend you check it out instead!
+-->
 
 An extended 5x12 keyboard with 2 extra keys. The design is intended for ortho layouts with a shifted number row, allowing for the placement of the delete and tilde keys above their usual spots. PCBs are designed in Kicad, case in Blender.
 
