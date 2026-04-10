@@ -2,10 +2,8 @@
 
 # Krtkus
 
-<!--
-> [!NOTE]
+> [!WARNING]
 > Krtkus has been succeeded by [Krteq](https://github.com/swift502/Krteq), a much more complete design that's also easier to build. I recommend you check it out instead!
--->
 
 An extended 5x12 keyboard with 2 extra keys. The design is intended for ortho layouts with a shifted number row, allowing for the placement of the delete and tilde keys above their usual spots. PCBs are designed in Kicad, case in Blender.
 
@@ -46,6 +44,9 @@ Connecting the keyboard to [usevia.app](https://usevia.app) requires manually up
 - LED matrix
 - Hotswap version
 - Standard USB port orientation
+- Protect the MCU against dust
+
+All of the above have been addressed by the successor [Krteq](https://github.com/swift502/Krteq).
 
 ## My builds
 
